@@ -28,12 +28,13 @@
     Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://torrid-fire-4635.firebaseio.com/Valle2"];
     [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
         GMSMarker *camion = [[GMSMarker alloc] init];
-        camion.position = CLLocationCoordinate2DMake(22.291, -158.821);
-        camion.title = @"Hawaii";
+        double latitud,longitud;
+        latitud = [snapshot.value[@"Latitud"] doubleValue];
+        longitud = [snapshot.value[@"Longitud"] doubleValue];
+        camion.position = CLLocationCoordinate2DMake(latitud, longitud);
+        camion.title = @"Camion";
         camion.map = mapView_;
-        double * latitud = [[snapshot.value[@"Latitud"] doubleValue];
-        NSLog(@"1 value: %@", self.latitud);
-        NSLog(@"1 value: %@", self.longitud);
+
     }];
 
     if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
