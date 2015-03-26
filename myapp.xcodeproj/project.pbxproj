@@ -14,6 +14,9 @@
 		FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8D1ABBA9D600407AD1 /* Images.xcassets */; };
 		FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8F1ABBA9D600407AD1 /* LaunchScreen.xib */; };
 		FD315F9D1ABBA9D600407AD1 /* myappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F9C1ABBA9D600407AD1 /* myappTests.m */; };
+		FD68CB161AC332DB009FCD93 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB151AC332DB009FCD93 /* Firebase.framework */; };
+		FD68CB181AC3330A009FCD93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB171AC3330A009FCD93 /* CFNetwork.framework */; };
+		FD68CB1A1AC33314009FCD93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB191AC33314009FCD93 /* Security.framework */; };
 		FDFF752C1AC08D7800A59196 /* valle1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFF752B1AC08D7800A59196 /* valle1ViewController.m */; };
 		FDFF752E1AC08E3100A59196 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFF752D1AC08E3100A59196 /* GoogleMaps.framework */; };
 		FDFF75301AC08E4F00A59196 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDFF752F1AC08E4F00A59196 /* GoogleMaps.bundle */; };
@@ -55,6 +58,9 @@
 		FD315F961ABBA9D600407AD1 /* myappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F9B1ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD315F9C1ABBA9D600407AD1 /* myappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myappTests.m; sourceTree = "<group>"; };
+		FD68CB151AC332DB009FCD93 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		FD68CB171AC3330A009FCD93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FD68CB191AC33314009FCD93 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FDFF752A1AC08D7800A59196 /* valle1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = valle1ViewController.h; sourceTree = "<group>"; };
 		FDFF752B1AC08D7800A59196 /* valle1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = valle1ViewController.m; sourceTree = "<group>"; };
 		FDFF752D1AC08E3100A59196 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
@@ -78,9 +84,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD68CB1A1AC33314009FCD93 /* Security.framework in Frameworks */,
+				FD68CB181AC3330A009FCD93 /* CFNetwork.framework in Frameworks */,
 				FDFF75481AC08F0000A59196 /* SystemConfiguration.framework in Frameworks */,
 				FDFF75461AC08EF500A59196 /* QuartzCore.framework in Frameworks */,
 				FDFF75441AC08EEB00A59196 /* OpenGLES.framework in Frameworks */,
+				FD68CB161AC332DB009FCD93 /* Firebase.framework in Frameworks */,
 				FDFF75421AC08EE200A59196 /* libz.dylib in Frameworks */,
 				FDFF75401AC08ED600A59196 /* libicucore.dylib in Frameworks */,
 				FDFF753E1AC08EC700A59196 /* libc++.dylib in Frameworks */,
@@ -107,12 +116,15 @@
 		FD315F741ABBA9D600407AD1 = {
 			isa = PBXGroup;
 			children = (
+				FD68CB191AC33314009FCD93 /* Security.framework */,
+				FD68CB171AC3330A009FCD93 /* CFNetwork.framework */,
 				FDFF75471AC08F0000A59196 /* SystemConfiguration.framework */,
 				FDFF75451AC08EF500A59196 /* QuartzCore.framework */,
 				FDFF75431AC08EEB00A59196 /* OpenGLES.framework */,
 				FDFF75411AC08EE200A59196 /* libz.dylib */,
 				FDFF753F1AC08ED600A59196 /* libicucore.dylib */,
 				FDFF753D1AC08EC700A59196 /* libc++.dylib */,
+				FD68CB151AC332DB009FCD93 /* Firebase.framework */,
 				FDFF753B1AC08EB900A59196 /* ImageIO.framework */,
 				FDFF75391AC08EAF00A59196 /* GLKit.framework */,
 				FDFF75371AC08EA100A59196 /* CoreText.framework */,
@@ -409,6 +421,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/myapp",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = myapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -423,6 +436,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/myapp",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = myapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

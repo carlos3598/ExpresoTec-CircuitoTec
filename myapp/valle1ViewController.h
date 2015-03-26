@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface valle1ViewController : UIViewController
-
+@property(nonatomic,retain) CLLocationManager *locationManager;
 @end
