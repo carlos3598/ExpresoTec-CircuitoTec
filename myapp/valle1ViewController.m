@@ -25,9 +25,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    GMSMarker *camion = [[GMSMarker alloc] init];
     Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://torrid-fire-4635.firebaseio.com/Valle2"];
     [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-        GMSMarker *camion = [[GMSMarker alloc] init];
         double latitud,longitud;
         latitud = [snapshot.value[@"Latitud"] doubleValue];
         longitud = [snapshot.value[@"Longitud"] doubleValue];
