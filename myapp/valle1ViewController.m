@@ -9,6 +9,8 @@
 #import "valle1ViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
 #import <Firebase/Firebase.h>
+#import <MapKit/MapKit.h>
+
 @import CoreLocation;
 
 
@@ -48,34 +50,74 @@
     mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView_.myLocationEnabled = YES;
     self.view = mapView_;
-    
-    // Creates a marker in the center of the map.
-    GMSMarker *marker = [[GMSMarker alloc] init];
-    marker.position = CLLocationCoordinate2DMake(-33.86, 151.20);
-    marker.title = @"Sydney";
-    marker.snippet = @"Australia";
-    marker.map = mapView_;
     mapView_.settings.myLocationButton = YES;
-    
+
+    // Creates a marker in the center of the map.
+
     GMSMutablePath *path = [GMSMutablePath path];
-    [path addLatitude:-33.866 longitude:151.195]; // Sydney
-    GMSMarker *fiji = [[GMSMarker alloc] init];
-    fiji.position = CLLocationCoordinate2DMake(-18.142, 178.431);
-    fiji.title = @"Fiji";
-    fiji.map = mapView_;
-    [path addLatitude:-18.142 longitude:178.431]; // Fiji
     
-    GMSMarker *hawaii = [[GMSMarker alloc] init];
-    hawaii.position = CLLocationCoordinate2DMake(22.291, -158.821);
-    hawaii.title = @"Hawaii";
-    hawaii.map = mapView_;
-    [path addLatitude:21.291 longitude:-157.821]; // Hawaii
+    // Parque
+    GMSMarker *Parque = [[GMSMarker alloc] init];
+    Parque.position = CLLocationCoordinate2DMake(25.65291946689985, -100.3884086046549);
+    Parque.title = @"Parque";
+    Parque.map = mapView_;
+    [path addLatitude:25.65291946689985 longitude:-100.3884086046549];
     
-    GMSMarker *MontaunView = [[GMSMarker alloc] init];
-    MontaunView.position = CLLocationCoordinate2DMake(37.423, -122.091);
-    MontaunView.title = @"Montaun View";
-    MontaunView.map = mapView_;
-    [path addLatitude:37.423 longitude:-122.091]; // Mountain View
+    // Rio Sena
+    GMSMarker *rioSena = [[GMSMarker alloc] init];
+    rioSena.position = CLLocationCoordinate2DMake(25.65634079068095, -100.3841459511093);
+    rioSena.title = @"Río Sena";
+    rioSena.map = mapView_;
+    [path addLatitude:25.65634079068095 longitude:-100.3841459511093];
+    
+    // Rio Mississipi
+    GMSMarker *rioMississipi = [[GMSMarker alloc] init];
+    rioMississipi.position = CLLocationCoordinate2DMake(25.66292821423032,-100.3807370841317);
+    rioMississipi.title = @"Río Mississipi";
+    rioMississipi.map = mapView_;
+    [path addLatitude:25.66292821423032 longitude:-100.3807370841317];
+    
+    // Río Amazonas (Farmacias del Ahorro)
+    GMSMarker *rioAmazonasFA = [[GMSMarker alloc] init];
+    rioAmazonasFA.position = CLLocationCoordinate2DMake(25.66558460797741,-100.3797229080173);
+    rioAmazonasFA.title = @"Río Amazonas (Farmacias del Ahorro)";
+    rioAmazonasFA.map = mapView_;
+    [path addLatitude:25.66558460797741 longitude:-100.3797229080173];
+    
+    // Río Amazonas (Farmcia Benavides)
+    GMSMarker *rioAmazonasFB = [[GMSMarker alloc] init];
+    rioAmazonasFB.position = CLLocationCoordinate2DMake(25.65862424651492,-100.3558750331652);
+    rioAmazonasFB.title = @"Río Amazonas (Farmcia Benavides)";
+    rioAmazonasFB.map = mapView_;
+    [path addLatitude:25.65862424651492 longitude:-100.3558750331652];
+    
+    // Av. Vasconcelos (Sierra Madre)
+    GMSMarker *vasconcelos = [[GMSMarker alloc] init];
+    vasconcelos.position = CLLocationCoordinate2DMake(25.65302540011142,-100.3563172021508);
+    vasconcelos.title = @"Av. Vasconcelos (Sierra Madre)";
+    vasconcelos.map = mapView_;
+    [path addLatitude:25.65302540011142 longitude:-100.3563172021508];
+    
+    // Pantepec y Tamuin
+    GMSMarker *pantepecTamuin = [[GMSMarker alloc] init];
+    pantepecTamuin.position = CLLocationCoordinate2DMake(25.65826615049697,-100.3459325328107);
+    pantepecTamuin.title = @"Pantepec y Tamuin";
+    pantepecTamuin.map = mapView_;
+    [path addLatitude:25.65826615049697 longitude:-100.3459325328107];
+    
+    // EGAP / EGADE
+    GMSMarker *egapEgade = [[GMSMarker alloc] init];
+    egapEgade.position = CLLocationCoordinate2DMake(25.64440236620213,-100.3250357857649);
+    egapEgade.title = @"EGAP / EGADE";
+    egapEgade.map = mapView_;
+    [path addLatitude:25.64440236620213 longitude:-100.3250357857649];
+    
+    // Tecnológico de Monterrey, Campus Monterrey
+    GMSMarker *tec = [[GMSMarker alloc] init];
+    tec.position = CLLocationCoordinate2DMake(25.65299133272366,-100.2879344522716);
+    tec.title = @"Tecnológico de Monterrey, Campus Monterrey";
+    tec.map = mapView_;
+    [path addLatitude:25.65299133272366 longitude:-100.2879344522716];
     
     GMSPolyline *polyline = [GMSPolyline polylineWithPath:path];
     polyline.strokeColor = [UIColor blueColor];
@@ -83,6 +125,9 @@
     polyline.map = mapView_;
     NSLog(@"User's location: %@", mapView_.myLocation);
     self.view = mapView_;
+    
+    MKDirectionsRequest *location = [[MKDirections alloc]init];
+    
 }
 
 

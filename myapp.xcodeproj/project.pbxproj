@@ -17,6 +17,7 @@
 		FD68CB161AC332DB009FCD93 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB151AC332DB009FCD93 /* Firebase.framework */; };
 		FD68CB181AC3330A009FCD93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB171AC3330A009FCD93 /* CFNetwork.framework */; };
 		FD68CB1A1AC33314009FCD93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB191AC33314009FCD93 /* Security.framework */; };
+		FD94F2FB1AD3004F001A5D90 /* valle2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD94F2FA1AD3004F001A5D90 /* valle2ViewController.m */; };
 		FDFF752C1AC08D7800A59196 /* valle1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFF752B1AC08D7800A59196 /* valle1ViewController.m */; };
 		FDFF752E1AC08E3100A59196 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFF752D1AC08E3100A59196 /* GoogleMaps.framework */; };
 		FDFF75301AC08E4F00A59196 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDFF752F1AC08E4F00A59196 /* GoogleMaps.bundle */; };
@@ -61,6 +62,8 @@
 		FD68CB151AC332DB009FCD93 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		FD68CB171AC3330A009FCD93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FD68CB191AC33314009FCD93 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FD94F2F91AD3004F001A5D90 /* valle2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = valle2ViewController.h; sourceTree = "<group>"; };
+		FD94F2FA1AD3004F001A5D90 /* valle2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = valle2ViewController.m; sourceTree = "<group>"; };
 		FDFF752A1AC08D7800A59196 /* valle1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = valle1ViewController.h; sourceTree = "<group>"; };
 		FDFF752B1AC08D7800A59196 /* valle1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = valle1ViewController.m; sourceTree = "<group>"; };
 		FDFF752D1AC08E3100A59196 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				FD315F871ABBA9D600407AD1 /* ViewController.h */,
 				FD315F881ABBA9D600407AD1 /* ViewController.m */,
 				FD315F8A1ABBA9D600407AD1 /* Main.storyboard */,
+				FD94F2F91AD3004F001A5D90 /* valle2ViewController.h */,
+				FD94F2FA1AD3004F001A5D90 /* valle2ViewController.m */,
 				FDFF752A1AC08D7800A59196 /* valle1ViewController.h */,
 				FDFF752B1AC08D7800A59196 /* valle1ViewController.m */,
 				FD315F8D1ABBA9D600407AD1 /* Images.xcassets */,
@@ -293,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD315F891ABBA9D600407AD1 /* ViewController.m in Sources */,
+				FD94F2FB1AD3004F001A5D90 /* valle2ViewController.m in Sources */,
 				FDFF752C1AC08D7800A59196 /* valle1ViewController.m in Sources */,
 				FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */,
 				FD315F831ABBA9D600407AD1 /* main.m in Sources */,
