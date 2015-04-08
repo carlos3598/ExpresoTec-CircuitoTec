@@ -17,6 +17,12 @@
 		FD68CB161AC332DB009FCD93 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB151AC332DB009FCD93 /* Firebase.framework */; };
 		FD68CB181AC3330A009FCD93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB171AC3330A009FCD93 /* CFNetwork.framework */; };
 		FD68CB1A1AC33314009FCD93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB191AC33314009FCD93 /* Security.framework */; };
+		FD742EA41AD5C5A30044C6AB /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FD742EA31AD5C5A30044C6AB /* KMLParser.m */; };
+		FD742EA61AD5C6690044C6AB /* sannicolas.kml in Resources */ = {isa = PBXBuildFile; fileRef = FD742EA51AD5C6690044C6AB /* sannicolas.kml */; };
+		FD742EA81AD5C7120044C6AB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD742EA71AD5C7120044C6AB /* MapKit.framework */; };
+		FD742EAA1AD5C71E0044C6AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD742EA91AD5C71E0044C6AB /* UIKit.framework */; };
+		FD742EAC1AD5C7270044C6AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD742EAB1AD5C7270044C6AB /* CoreGraphics.framework */; };
+		FD742EAE1AD5C7830044C6AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD742EAD1AD5C7830044C6AB /* Foundation.framework */; };
 		FD8C3B981AD59E5600C47A02 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */; };
 		FD94F2FB1AD3004F001A5D90 /* valle2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD94F2FA1AD3004F001A5D90 /* valle2ViewController.m */; };
 		FDFF752C1AC08D7800A59196 /* valle1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFF752B1AC08D7800A59196 /* valle1ViewController.m */; };
@@ -62,8 +68,16 @@
 		FD68CB151AC332DB009FCD93 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		FD68CB171AC3330A009FCD93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FD68CB191AC33314009FCD93 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FD742EA11AD5C5980044C6AB /* KMLViewer_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMLViewer_Prefix.pch; sourceTree = "<group>"; };
+		FD742EA21AD5C5A30044C6AB /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
+		FD742EA31AD5C5A30044C6AB /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
+		FD742EA51AD5C6690044C6AB /* sannicolas.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sannicolas.kml; sourceTree = "<group>"; };
+		FD742EA71AD5C7120044C6AB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FD742EA91AD5C71E0044C6AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD742EAB1AD5C7270044C6AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD742EAD1AD5C7830044C6AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FD8C3B961AD59E2100C47A02 /* valle1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = valle1ViewController.h; sourceTree = "<group>"; };
-		FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../GoogleMaps-iOS-1.9.2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../GoogleMaps-iOS-1.9.2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
 		FD94F2F91AD3004F001A5D90 /* valle2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = valle2ViewController.h; sourceTree = "<group>"; };
 		FD94F2FA1AD3004F001A5D90 /* valle2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = valle2ViewController.m; sourceTree = "<group>"; };
 		FDFF752B1AC08D7800A59196 /* valle1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = valle1ViewController.m; sourceTree = "<group>"; };
@@ -87,6 +101,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD742EAE1AD5C7830044C6AB /* Foundation.framework in Frameworks */,
+				FD742EAC1AD5C7270044C6AB /* CoreGraphics.framework in Frameworks */,
+				FD742EAA1AD5C71E0044C6AB /* UIKit.framework in Frameworks */,
+				FD742EA81AD5C7120044C6AB /* MapKit.framework in Frameworks */,
 				FD68CB1A1AC33314009FCD93 /* Security.framework in Frameworks */,
 				FD68CB181AC3330A009FCD93 /* CFNetwork.framework in Frameworks */,
 				FDFF75481AC08F0000A59196 /* SystemConfiguration.framework in Frameworks */,
@@ -140,7 +158,6 @@
 			children = (
 				FD315F841ABBA9D600407AD1 /* AppDelegate.h */,
 				FD315F851ABBA9D600407AD1 /* AppDelegate.m */,
-				FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */,
 				FD315F871ABBA9D600407AD1 /* ViewController.h */,
 				FD315F881ABBA9D600407AD1 /* ViewController.m */,
 				FD315F8A1ABBA9D600407AD1 /* Main.storyboard */,
@@ -148,6 +165,9 @@
 				FD94F2FA1AD3004F001A5D90 /* valle2ViewController.m */,
 				FD8C3B961AD59E2100C47A02 /* valle1ViewController.h */,
 				FDFF752B1AC08D7800A59196 /* valle1ViewController.m */,
+				FD742EA21AD5C5A30044C6AB /* KMLParser.h */,
+				FD742EA31AD5C5A30044C6AB /* KMLParser.m */,
+				FD742EA51AD5C6690044C6AB /* sannicolas.kml */,
 				FD315F8D1ABBA9D600407AD1 /* Images.xcassets */,
 				FD315F8F1ABBA9D600407AD1 /* LaunchScreen.xib */,
 				FD315F801ABBA9D600407AD1 /* Supporting Files */,
@@ -158,6 +178,7 @@
 		FD315F801ABBA9D600407AD1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD742EA11AD5C5980044C6AB /* KMLViewer_Prefix.pch */,
 				FD315F811ABBA9D600407AD1 /* Info.plist */,
 				FD315F821ABBA9D600407AD1 /* main.m */,
 			);
@@ -184,6 +205,12 @@
 		FD8C3B991AD59E8300C47A02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */,
+				FD742EAD1AD5C7830044C6AB /* Foundation.framework */,
+				FD742EAB1AD5C7270044C6AB /* CoreGraphics.framework */,
+				FD742EA91AD5C71E0044C6AB /* UIKit.framework */,
+				FD742EA71AD5C7120044C6AB /* MapKit.framework */,
+				FDFF75331AC08E7800A59196 /* CoreLocation.framework */,
 				FD68CB191AC33314009FCD93 /* Security.framework */,
 				FD68CB171AC3330A009FCD93 /* CFNetwork.framework */,
 				FDFF75471AC08F0000A59196 /* SystemConfiguration.framework */,
@@ -198,7 +225,6 @@
 				FDFF75391AC08EAF00A59196 /* GLKit.framework */,
 				FDFF75371AC08EA100A59196 /* CoreText.framework */,
 				FDFF75351AC08E8100A59196 /* AVFoundation.framework */,
-				FDFF75331AC08E7800A59196 /* CoreLocation.framework */,
 				FDFF75311AC08E7200A59196 /* CoreData.framework */,
 			);
 			name = Frameworks;
@@ -286,6 +312,7 @@
 			files = (
 				FD315F8C1ABBA9D600407AD1 /* Main.storyboard in Resources */,
 				FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */,
+				FD742EA61AD5C6690044C6AB /* sannicolas.kml in Resources */,
 				FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */,
 				FD8C3B981AD59E5600C47A02 /* GoogleMaps.bundle in Resources */,
 			);
@@ -306,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD315F891ABBA9D600407AD1 /* ViewController.m in Sources */,
+				FD742EA41AD5C5A30044C6AB /* KMLParser.m in Sources */,
 				FD94F2FB1AD3004F001A5D90 /* valle2ViewController.m in Sources */,
 				FDFF752C1AC08D7800A59196 /* valle1ViewController.m in Sources */,
 				FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */,
@@ -432,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/myapp",
@@ -448,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/myapp",

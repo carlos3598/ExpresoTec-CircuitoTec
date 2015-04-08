@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>sannicolas</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Ruta San Nicolás, 25KM, 01:15Horas</name>
+			<Placemark>
+				<styleUrl>#line-4186F0-4</styleUrl>
+				<name>25KM Ruta San Nicolás</name>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-100.272631,25.769718,0.0 -100.272705,25.767951,0.0 -100.272755,25.76635,0.0 -100.273132,25.764773,0.0 -100.273507,25.763269,0.0 -100.273741,25.762363,0.0 -100.27412,25.761635,0.0 -100.274922,25.760194,0.0 -100.275689,25.758836,0.0 -100.276683,25.757026,0.0 -100.2769,25.756657,0.0 -100.277458,25.754479,0.0 -100.277934,25.752583,0.0 -100.27829,25.750762,0.0 -100.278226,25.750584,0.0 -100.278213,25.750351,0.0 -100.278289,25.75014,0.0 -100.278277,25.75007,0.0 -100.277957,25.749928,0.0 -100.277192,25.74958,0.0 -100.276547,25.749274,0.0 -100.27618,25.749165,0.0 -100.275878,25.749150000000004,0.0 -100.275581,25.749215,0.0 -100.275237,25.749386,0.0 -100.274989,25.749592,0.0 -100.274468,25.750065,0.0 -100.274296,25.750221,0.0 -100.274107,25.750323,0.0 -100.273953,25.750373,0.0 -100.273796,25.750392,0.0 -100.273296,25.750391,0.0 -100.272559,25.750391,0.0 -100.272011,25.750377,0.0 -100.271703,25.750382,0.0 -100.270661,25.750489,0.0 -100.27004600000001,25.750557,0.0 -100.269424,25.750639,0.0 -100.269389,25.750627,0.0 -100.26933,25.750374,0.0 -100.269148,25.749149,0.0 -100.268981,25.747905,0.0 -100.269048,25.746934,0.0 -100.269137,25.746245,0.0 -100.269134,25.746139,0.0 -100.269243,25.74604,0.0 -100.271341,25.746263,0.0 -100.27315600000001,25.746474,0.0 -100.273356,25.746469,0.0 -100.273475,25.746426,0.0 -100.27357,25.746345,0.0 -100.273699,25.746241,0.0 -100.27406,25.744645,0.0 -100.274389,25.743156,0.0 -100.274574,25.742415,0.0 -100.274634,25.742283000000004,0.0 -100.274792,25.742206,0.0 -100.274961,25.742175,0.0 -100.276173,25.742352,0.0 -100.277038,25.742477,0.0 -100.277652,25.742549,0.0 -100.27805100000002,25.742659,0.0 -100.278482,25.74255,0.0 -100.280242,25.742562,0.0 -100.28268400000002,25.742446,0.0 -100.283193,25.742496,0.0 -100.283909,25.742716000000005,0.0 -100.284781,25.742847000000005,0.0 -100.285125,25.742837,0.0 -100.288317,25.743476,0.0 -100.289664,25.743787,0.0 -100.29069900000002,25.744652,0.0 -100.29116,25.744216,0.0 -100.293149,25.743524,0.0 -100.293373,25.743377,0.0 -100.293489,25.743221,0.0 -100.29467,25.742513,0.0 -100.2954,25.742103,0.0 -100.29607300000002,25.744037,0.0 -100.299038,25.742214,0.0 -100.302267,25.740226000000003,0.0 -100.302305,25.74032,0.0 -100.301883,25.741575,0.0 -100.301679,25.742128,0.0 -100.298997,25.749406,0.0 -100.299006,25.749487,0.0 -100.299236,25.74954,0.0 -100.299309,25.749538,0.0 -100.299792,25.748183,0.0 -100.300825,25.745213,0.0 -100.301807,25.742459,0.0 -100.302045,25.741807000000005,0.0 -100.304131,25.742353,0.0 -100.306663,25.742763,0.0 -100.310203,25.743251,0.0 -100.31203,25.742459,0.0 -100.312525,25.742327000000003,0.0 -100.314379,25.737116,0.0 -100.313788,25.736925,0.0 -100.311002,25.736775,0.0 -100.31077,25.736552,0.0 -100.310609,25.736566000000003,0.0 -100.310394,25.736616,0.0 -100.310349,25.736776,0.0 -100.310351,25.736908,0.0 -100.31046500000001,25.737005,0.0 -100.310669,25.737056,0.0 -100.310845,25.736984,0.0 -100.310942,25.736849,0.0 -100.311007,25.736826,0.0 -100.311633,25.736874,0.0 -100.313705,25.736991,0.0 -100.314204,25.737022,0.0 -100.314428,25.736882,0.0 -100.31487300000002,25.735618,0.0 -100.315117,25.734883,0.0 -100.315085,25.734781,0.0 -100.315461,25.733589,0.0 -100.315838,25.732546,0.0 -100.316204,25.731404,0.0 -100.316565,25.730254,0.0 -100.317097,25.728709,0.0 -100.317153,25.727458,0.0 -100.31708600000002,25.714276,0.0 -100.316847,25.699672,0.0 -100.316767,25.689684,0.0 -100.317146,25.688454000000004,0.0 -100.317577,25.687322,0.0 -100.317768,25.686197,0.0 -100.321023,25.663571,0.0 -100.319283,25.663178,0.0 -100.311906,25.661845,0.0 -100.309621,25.661579,0.0 -100.307527,25.661717,0.0 -100.30583,25.66214,0.0 -100.30306,25.663778,0.0 -100.30084500000001,25.665419,0.0 -100.298228,25.666238,0.0 -100.297417,25.666094,0.0 -100.297295,25.659382000000004,0.0 -100.292693,25.65166,0.0 -100.292672,25.651351,0.0 -100.292374,25.651206,0.0 -100.29219,25.65137,0.0 -100.292189,25.65168,0.0 -100.291867,25.651865,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<name>Parabús (Seven 7/Gasolinera)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.272695,25.769094,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-2</styleUrl>
+				<name>Av. Santo Domingo (Préstamo Express)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.277444,25.754679,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-3</styleUrl>
+				<name>Av. Las Puentes (Locales Comerciales, frente a la Iglesia de San Jorge)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.274705,25.742318,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-4</styleUrl>
+				<name>Saltillo</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.29530100000001,25.742182,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<name>15 de Agosto y 18 de Diciembre</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.306531,25.74278,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-6</styleUrl>
+				<name>Estacionamiento Sears</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.31310000000002,25.740942,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-7</styleUrl>
+				<name>La Pérgola (OXXO)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.31043,25.737041000000005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-8</styleUrl>
+				<name>Tecnológico de Monterrey, Campus Monterrey</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.289899,25.649998,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-ci-1'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-2'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-2.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-3'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-4'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-5'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-6'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-7'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-7.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-8'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-8.png</href>
+				</Icon>
+				<hotSpot x='1' y='16' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='line-4186F0-4'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+	</Document>
+</kml>

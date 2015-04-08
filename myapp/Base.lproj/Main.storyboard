@@ -310,9 +310,17 @@
                     <view key="view" contentMode="scaleToFill" id="wYi-rL-diD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fGx-bM-OS4">
+                                <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="hlZ-GB-WxX"/>
+                    <connections>
+                        <outlet property="map" destination="fGx-bM-OS4" id="xbe-xQ-mf7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qZq-WL-LdP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
