@@ -27,6 +27,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
+    
+    // Position the map so that all overlays and annotations are visible on screen.
+    
+
+    //Mi codigo
     GMSMarker *camion = [[GMSMarker alloc] init];
     Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://torrid-fire-4635.firebaseio.com/Valle2"];
     [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
@@ -53,7 +60,7 @@
     mapView_.settings.myLocationButton = YES;
 
     // Creates a marker in the center of the map.
-
+    /*
     GMSMutablePath *path = [GMSMutablePath path];
     
     // Parque
@@ -127,7 +134,7 @@
     self.view = mapView_;
     
     MKDirectionsRequest *location = [[MKDirections alloc]init];
-    
+    */
 }
 
 
