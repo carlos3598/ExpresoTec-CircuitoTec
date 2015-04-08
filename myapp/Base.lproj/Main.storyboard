@@ -299,10 +299,10 @@
             </objects>
             <point key="canvasLocation" x="1101" y="1030"/>
         </scene>
-        <!--View Controller-->
+        <!--Valle2 View Controller-->
         <scene sceneID="cYF-bm-kJM">
             <objects>
-                <viewController id="K6T-OM-9jZ" sceneMemberID="viewController">
+                <viewController id="K6T-OM-9jZ" customClass="valle2ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0Bb-xH-v1Y"/>
                         <viewControllerLayoutGuide type="bottom" id="es3-Rm-Sj1"/>
