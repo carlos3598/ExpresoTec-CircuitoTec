@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD07105D1AD71D64005F64FE /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07105C1AD71D64005F64FE /* KMLParser.m */; };
 		FD315F831ABBA9D600407AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F821ABBA9D600407AD1 /* main.m */; };
 		FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F851ABBA9D600407AD1 /* AppDelegate.m */; };
 		FD315F891ABBA9D600407AD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F881ABBA9D600407AD1 /* ViewController.m */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD07105B1AD71D64005F64FE /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
+		FD07105C1AD71D64005F64FE /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
 		FD2E74CC1AD6EA300064932D /* valle1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = valle1ViewController.h; sourceTree = "<group>"; };
 		FD315F7D1ABBA9D600407AD1 /* myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F811ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 		FD315F741ABBA9D600407AD1 = {
 			isa = PBXGroup;
 			children = (
+				FD07105B1AD71D64005F64FE /* KMLParser.h */,
+				FD07105C1AD71D64005F64FE /* KMLParser.m */,
 				FD8C3B991AD59E8300C47A02 /* Frameworks */,
 				FD315F7F1ABBA9D600407AD1 /* myapp */,
 				FD315F991ABBA9D600407AD1 /* myappTests */,
@@ -306,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD315F891ABBA9D600407AD1 /* ViewController.m in Sources */,
+				FD07105D1AD71D64005F64FE /* KMLParser.m in Sources */,
 				FD94F2FB1AD3004F001A5D90 /* valle2ViewController.m in Sources */,
 				FDFF752C1AC08D7800A59196 /* valle1ViewController.m in Sources */,
 				FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */,
