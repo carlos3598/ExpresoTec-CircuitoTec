@@ -8,9 +8,6 @@
 
 #import "valle2ViewController.h"
 
-@interface valle2ViewController ()
-
-@end
 
 @implementation valle2ViewController
 
