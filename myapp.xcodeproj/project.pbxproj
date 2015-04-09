@@ -46,7 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD07105A1AD71BDB005F64FE /* valle1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = valle1ViewController.h; sourceTree = "<group>"; };
 		FD2E74CC1AD6EA300064932D /* valle1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = valle1ViewController.h; sourceTree = "<group>"; };
 		FD315F7D1ABBA9D600407AD1 /* myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F811ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -148,7 +147,6 @@
 				FD94F2F91AD3004F001A5D90 /* valle2ViewController.h */,
 				FD94F2FA1AD3004F001A5D90 /* valle2ViewController.m */,
 				FD2E74CC1AD6EA300064932D /* valle1ViewController.h */,
-				FD07105A1AD71BDB005F64FE /* valle1ViewController.h */,
 				FDFF752B1AC08D7800A59196 /* valle1ViewController.m */,
 				FD315F8D1ABBA9D600407AD1 /* Images.xcassets */,
 				FD315F8F1ABBA9D600407AD1 /* LaunchScreen.xib */,
