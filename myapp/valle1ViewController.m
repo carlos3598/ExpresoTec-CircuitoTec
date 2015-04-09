@@ -58,6 +58,38 @@
     mapView_.myLocationEnabled = YES;
     self.view = mapView_;
     mapView_.settings.myLocationButton = YES;
+    
+    NSString *pathKml = [[NSBundle mainBundle] pathForResource:@"sannicolas" ofType:@"kml"];
+    NSURL *url = [NSURL fileURLWithPath:pathKml];
+    kmlParser = [[KMLParser alloc] initWithURL:url];
+    [kmlParser parseKML];
+    
+    NSArray *overlays = [kmlParser overlays];
+    MKPolyline *linea = overlays[0];
+    
+    NSArray *annotations = [kmlParser points];
+
+    GMSMutablePath *path = [GMSMutablePath path];
+    
+    for (unsigned long i=0; i < linea.pointCount; i++) {
+        MKMapPoint *coordenadas = &linea.points[i];
+        [path addLatitude:MKCoordinateForMapPoint(*coordenadas).latitude longitude:MKCoordinateForMapPoint(*coordenadas).longitude];
+    }
+    
+    for (id <MKAnnotation> annotation in annotations) {
+        GMSMarker *marker = [[GMSMarker alloc]init];
+        marker.position = annotation.coordinate;
+        marker.title = annotation.title;
+        marker.map = mapView_;
+    }
+    
+    GMSPolyline *polyline = [GMSPolyline polylineWithPath:path];
+    polyline.strokeColor = [UIColor blueColor];
+    polyline.strokeWidth = 5.f;
+    polyline.map = mapView_;
+    NSLog(@"User's location: %@", mapView_.myLocation);
+    self.view = mapView_;
+    
 
     // Creates a marker in the center of the map.
     /*
@@ -133,7 +165,6 @@
     NSLog(@"User's location: %@", mapView_.myLocation);
     self.view = mapView_;
     
-    MKDirectionsRequest *location = [[MKDirections alloc]init];
     */
 }
 

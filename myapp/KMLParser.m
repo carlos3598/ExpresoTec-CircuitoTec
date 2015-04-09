@@ -132,7 +132,7 @@
 - (void)beginOutline;
 - (void)endOutline;
 
-- (void)applyToOverlayPathView:(MKOverlayPathView *)view;
+//- (void)applyToOverlayPathView:(MKOverlayPathView *)view;
 
 @end
 
@@ -268,7 +268,7 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
             coords = realloc(coords, sizeof(CLLocationCoordinate2D) * space);
         }
         
-        double lat, lon;
+        double lat = 0.0, lon;
         NSScanner *scanner = [[NSScanner alloc] initWithString:tuple];
         [scanner setCharactersToBeSkipped:[NSCharacterSet characterSetWithCharactersInString:@","]];
         BOOL success = [scanner scanDouble:&lon];
@@ -616,12 +616,12 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
     [self clearString];
 }
 
-- (void)applyToOverlayPathView:(MKOverlayPathRenderer *)view
+/*- (void)applyToOverlayPathView:(MKOverlayPathRenderer *)view
 {
     view.strokeColor = strokeColor;
     view.fillColor = fillColor;
     view.lineWidth = strokeWidth;
-}
+}*/
 
 @end
 
@@ -768,6 +768,9 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
     // KMLPolygon corresponds to MKPolygonView
     
     MKPolygonRenderer *polyView = [[MKPolygonRenderer alloc] initWithPolygon:(MKPolygon *)shape];
+    polyView.strokeColor = [UIColor blueColor];
+    polyView.lineWidth = 5.0;
+    polyView.fillColor = [UIColor blueColor];
     return polyView;
 }
 
@@ -805,6 +808,9 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
 {
     // KMLLineString corresponds to MKPolylineView
     MKPolylineRenderer *lineView = [[MKPolylineRenderer alloc] initWithPolyline:(MKPolyline *)shape];
+    lineView.strokeColor = [UIColor blueColor];
+    lineView.lineWidth = 5.0;
+    lineView.fillColor = [UIColor blueColor];
     return lineView;
 }
 
@@ -938,7 +944,7 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
         id <MKOverlay> overlay = [self overlay];
         if (overlay) {
             overlayView = [geometry createOverlayView:overlay];
-            [style applyToOverlayPathView:overlayView];
+            //[style applyToOverlayPathView:overlayView];
         }
     }
     return overlayView;

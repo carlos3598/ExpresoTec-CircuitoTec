@@ -15,6 +15,11 @@
 		FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8F1ABBA9D600407AD1 /* LaunchScreen.xib */; };
 		FD315F9D1ABBA9D600407AD1 /* myappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F9C1ABBA9D600407AD1 /* myappTests.m */; };
 		FD68A7C11AD720070035E5E3 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FD68A7C01AD720070035E5E3 /* KMLParser.m */; };
+		FD68A7C31AD721250035E5E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68A7C21AD721250035E5E3 /* CoreGraphics.framework */; };
+		FD68A7C51AD7212E0035E5E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68A7C41AD7212E0035E5E3 /* Foundation.framework */; };
+		FD68A7C71AD7213A0035E5E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68A7C61AD7213A0035E5E3 /* UIKit.framework */; };
+		FD68A7C91AD721440035E5E3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68A7C81AD721440035E5E3 /* MapKit.framework */; };
+		FD68A7CB1AD7247B0035E5E3 /* sannicolas.kml in Resources */ = {isa = PBXBuildFile; fileRef = FD68A7CA1AD7247B0035E5E3 /* sannicolas.kml */; };
 		FD68CB161AC332DB009FCD93 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB151AC332DB009FCD93 /* Firebase.framework */; };
 		FD68CB181AC3330A009FCD93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB171AC3330A009FCD93 /* CFNetwork.framework */; };
 		FD68CB1A1AC33314009FCD93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB191AC33314009FCD93 /* Security.framework */; };
@@ -63,6 +68,11 @@
 		FD315F9C1ABBA9D600407AD1 /* myappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myappTests.m; sourceTree = "<group>"; };
 		FD68A7BF1AD720070035E5E3 /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
 		FD68A7C01AD720070035E5E3 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
+		FD68A7C21AD721250035E5E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD68A7C41AD7212E0035E5E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD68A7C61AD7213A0035E5E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD68A7C81AD721440035E5E3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FD68A7CA1AD7247B0035E5E3 /* sannicolas.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sannicolas.kml; sourceTree = "<group>"; };
 		FD68CB151AC332DB009FCD93 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		FD68CB171AC3330A009FCD93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FD68CB191AC33314009FCD93 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -90,6 +100,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD68A7C91AD721440035E5E3 /* MapKit.framework in Frameworks */,
+				FD68A7C71AD7213A0035E5E3 /* UIKit.framework in Frameworks */,
+				FD68A7C51AD7212E0035E5E3 /* Foundation.framework in Frameworks */,
+				FD68A7C31AD721250035E5E3 /* CoreGraphics.framework in Frameworks */,
 				FD68CB1A1AC33314009FCD93 /* Security.framework in Frameworks */,
 				FD68CB181AC3330A009FCD93 /* CFNetwork.framework in Frameworks */,
 				FDFF75481AC08F0000A59196 /* SystemConfiguration.framework in Frameworks */,
@@ -153,6 +167,7 @@
 				FD94F2FA1AD3004F001A5D90 /* valle2ViewController.m */,
 				FD2E74CC1AD6EA300064932D /* valle1ViewController.h */,
 				FDFF752B1AC08D7800A59196 /* valle1ViewController.m */,
+				FD68A7CA1AD7247B0035E5E3 /* sannicolas.kml */,
 				FD315F8D1ABBA9D600407AD1 /* Images.xcassets */,
 				FD315F8F1ABBA9D600407AD1 /* LaunchScreen.xib */,
 				FD315F801ABBA9D600407AD1 /* Supporting Files */,
@@ -189,6 +204,11 @@
 		FD8C3B991AD59E8300C47A02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FDFF75331AC08E7800A59196 /* CoreLocation.framework */,
+				FD68A7C81AD721440035E5E3 /* MapKit.framework */,
+				FD68A7C61AD7213A0035E5E3 /* UIKit.framework */,
+				FD68A7C41AD7212E0035E5E3 /* Foundation.framework */,
+				FD68A7C21AD721250035E5E3 /* CoreGraphics.framework */,
 				FD68CB191AC33314009FCD93 /* Security.framework */,
 				FD68CB171AC3330A009FCD93 /* CFNetwork.framework */,
 				FDFF75471AC08F0000A59196 /* SystemConfiguration.framework */,
@@ -203,7 +223,6 @@
 				FDFF75391AC08EAF00A59196 /* GLKit.framework */,
 				FDFF75371AC08EA100A59196 /* CoreText.framework */,
 				FDFF75351AC08E8100A59196 /* AVFoundation.framework */,
-				FDFF75331AC08E7800A59196 /* CoreLocation.framework */,
 				FDFF75311AC08E7200A59196 /* CoreData.framework */,
 			);
 			name = Frameworks;
@@ -291,6 +310,7 @@
 			files = (
 				FD315F8C1ABBA9D600407AD1 /* Main.storyboard in Resources */,
 				FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */,
+				FD68A7CB1AD7247B0035E5E3 /* sannicolas.kml in Resources */,
 				FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */,
 				FD8C3B981AD59E5600C47A02 /* GoogleMaps.bundle in Resources */,
 			);
