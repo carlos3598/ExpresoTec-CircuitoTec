@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface valle2ViewController : UIViewController
+
+#import "KMLParser.h"
+
+@interface valle2ViewController : UIViewController{
+    IBOutlet MKMapView *map;
+    KMLParser *kmlParser;
+}
+@property(nonatomic,strong) CLLocationManager *locationManager;
 
 @end

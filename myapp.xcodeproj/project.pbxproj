@@ -14,6 +14,7 @@
 		FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8D1ABBA9D600407AD1 /* Images.xcassets */; };
 		FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8F1ABBA9D600407AD1 /* LaunchScreen.xib */; };
 		FD315F9D1ABBA9D600407AD1 /* myappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F9C1ABBA9D600407AD1 /* myappTests.m */; };
+		FD68A7C11AD720070035E5E3 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FD68A7C01AD720070035E5E3 /* KMLParser.m */; };
 		FD68CB161AC332DB009FCD93 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB151AC332DB009FCD93 /* Firebase.framework */; };
 		FD68CB181AC3330A009FCD93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB171AC3330A009FCD93 /* CFNetwork.framework */; };
 		FD68CB1A1AC33314009FCD93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB191AC33314009FCD93 /* Security.framework */; };
@@ -60,6 +61,8 @@
 		FD315F961ABBA9D600407AD1 /* myappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F9B1ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD315F9C1ABBA9D600407AD1 /* myappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myappTests.m; sourceTree = "<group>"; };
+		FD68A7BF1AD720070035E5E3 /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
+		FD68A7C01AD720070035E5E3 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
 		FD68CB151AC332DB009FCD93 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		FD68CB171AC3330A009FCD93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FD68CB191AC33314009FCD93 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -138,6 +141,8 @@
 		FD315F7F1ABBA9D600407AD1 /* myapp */ = {
 			isa = PBXGroup;
 			children = (
+				FD68A7BF1AD720070035E5E3 /* KMLParser.h */,
+				FD68A7C01AD720070035E5E3 /* KMLParser.m */,
 				FD315F841ABBA9D600407AD1 /* AppDelegate.h */,
 				FD315F851ABBA9D600407AD1 /* AppDelegate.m */,
 				FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */,
@@ -306,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD315F891ABBA9D600407AD1 /* ViewController.m in Sources */,
+				FD68A7C11AD720070035E5E3 /* KMLParser.m in Sources */,
 				FD94F2FB1AD3004F001A5D90 /* valle2ViewController.m in Sources */,
 				FDFF752C1AC08D7800A59196 /* valle1ViewController.m in Sources */,
 				FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */,
