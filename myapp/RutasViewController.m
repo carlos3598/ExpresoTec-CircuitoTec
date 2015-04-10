@@ -31,7 +31,6 @@
     NSString *ruta = [self.detailItem description];
     ruta = [ruta lowercaseString];
     ruta = [ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
-    NSLog(@"%@", ruta);
     if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
         [self.locationManager requestWhenInUseAuthorization];
         
