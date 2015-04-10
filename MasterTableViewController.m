@@ -6,14 +6,14 @@
 //  Copyright (c) 2015 Carlos Salazar. All rights reserved.
 //
 
-#import "MasterValleTableViewController.h"
-#import "valle1ViewController.h"
+#import "MasterTableViewController.h"
+#import "RutasViewController.h"
 
-@interface MasterValleTableViewController ()
+@interface MasterTableViewController ()
 
 @end
 
-@implementation MasterValleTableViewController
+@implementation MasterTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

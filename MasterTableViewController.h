@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterValleTableViewController : UITableViewController
+@interface MasterTableViewController : UITableViewController
 
 @end

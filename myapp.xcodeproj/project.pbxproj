@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FD315F831ABBA9D600407AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F821ABBA9D600407AD1 /* main.m */; };
 		FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F851ABBA9D600407AD1 /* AppDelegate.m */; };
-		FD315F891ABBA9D600407AD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F881ABBA9D600407AD1 /* ViewController.m */; };
 		FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8D1ABBA9D600407AD1 /* Images.xcassets */; };
 		FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8F1ABBA9D600407AD1 /* LaunchScreen.xib */; };
 		FD315F9D1ABBA9D600407AD1 /* myappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F9C1ABBA9D600407AD1 /* myappTests.m */; };
@@ -23,7 +22,7 @@
 		FD68CB181AC3330A009FCD93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB171AC3330A009FCD93 /* CFNetwork.framework */; };
 		FD68CB1A1AC33314009FCD93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB191AC33314009FCD93 /* Security.framework */; };
 		FD8C3B981AD59E5600C47A02 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */; };
-		FDBA542D1AD8640300CD1087 /* MasterValleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBA542C1AD8640300CD1087 /* MasterValleTableViewController.m */; };
+		FDBA542D1AD8640300CD1087 /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBA542C1AD8640300CD1087 /* MasterTableViewController.m */; };
 		FDBA54311AD867C700CD1087 /* valle1.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA542E1AD867C700CD1087 /* valle1.kml */; };
 		FDBA54321AD867C700CD1087 /* valle2.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA542F1AD867C700CD1087 /* valle2.kml */; };
 		FDBA54371AD867D000CD1087 /* lincoln.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA54341AD867D000CD1087 /* lincoln.kml */; };
@@ -32,7 +31,7 @@
 		FDBA543B1AD867D700CD1087 /* cumbres.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA543A1AD867D700CD1087 /* cumbres.kml */; };
 		FDBA543D1AD8680800CD1087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBA543C1AD8680800CD1087 /* Main.storyboard */; };
 		FDBA54411AD86DBB00CD1087 /* valle3.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA54401AD86DBB00CD1087 /* valle3.kml */; };
-		FDFF752C1AC08D7800A59196 /* valle1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFF752B1AC08D7800A59196 /* valle1ViewController.m */; };
+		FDFF752C1AC08D7800A59196 /* RutasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFF752B1AC08D7800A59196 /* RutasViewController.m */; };
 		FDFF752E1AC08E3100A59196 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFF752D1AC08E3100A59196 /* GoogleMaps.framework */; };
 		FDFF75321AC08E7200A59196 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFF75311AC08E7200A59196 /* CoreData.framework */; };
 		FDFF75341AC08E7800A59196 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFF75331AC08E7800A59196 /* CoreLocation.framework */; };
@@ -59,14 +58,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD2E74CC1AD6EA300064932D /* valle1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = valle1ViewController.h; sourceTree = "<group>"; };
+		FD2E74CC1AD6EA300064932D /* RutasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RutasViewController.h; sourceTree = "<group>"; };
 		FD315F7D1ABBA9D600407AD1 /* myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F811ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD315F821ABBA9D600407AD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD315F841ABBA9D600407AD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD315F851ABBA9D600407AD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD315F871ABBA9D600407AD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD315F881ABBA9D600407AD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FD315F8D1ABBA9D600407AD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FD315F901ABBA9D600407AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FD315F961ABBA9D600407AD1 /* myappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,8 +80,8 @@
 		FD68CB171AC3330A009FCD93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FD68CB191AC33314009FCD93 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../GoogleMaps-iOS-1.9.2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
-		FDBA542B1AD8640300CD1087 /* MasterValleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterValleTableViewController.h; path = ../MasterValleTableViewController.h; sourceTree = "<group>"; };
-		FDBA542C1AD8640300CD1087 /* MasterValleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterValleTableViewController.m; path = ../MasterValleTableViewController.m; sourceTree = "<group>"; };
+		FDBA542B1AD8640300CD1087 /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterTableViewController.h; path = ../MasterTableViewController.h; sourceTree = "<group>"; };
+		FDBA542C1AD8640300CD1087 /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterTableViewController.m; path = ../MasterTableViewController.m; sourceTree = "<group>"; };
 		FDBA542E1AD867C700CD1087 /* valle1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = valle1.kml; sourceTree = "<group>"; };
 		FDBA542F1AD867C700CD1087 /* valle2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = valle2.kml; sourceTree = "<group>"; };
 		FDBA54341AD867D000CD1087 /* lincoln.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lincoln.kml; sourceTree = "<group>"; };
@@ -93,7 +90,7 @@
 		FDBA543A1AD867D700CD1087 /* cumbres.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cumbres.kml; sourceTree = "<group>"; };
 		FDBA543C1AD8680800CD1087 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FDBA54401AD86DBB00CD1087 /* valle3.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = valle3.kml; sourceTree = "<group>"; };
-		FDFF752B1AC08D7800A59196 /* valle1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = valle1ViewController.m; sourceTree = "<group>"; };
+		FDFF752B1AC08D7800A59196 /* RutasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RutasViewController.m; sourceTree = "<group>"; };
 		FDFF752D1AC08E3100A59196 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = myapp/GoogleMaps.framework; sourceTree = "<group>"; };
 		FDFF75311AC08E7200A59196 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FDFF75331AC08E7800A59196 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -169,18 +166,16 @@
 		FD315F7F1ABBA9D600407AD1 /* myapp */ = {
 			isa = PBXGroup;
 			children = (
-				FDBA542B1AD8640300CD1087 /* MasterValleTableViewController.h */,
-				FDBA542C1AD8640300CD1087 /* MasterValleTableViewController.m */,
+				FDBA542B1AD8640300CD1087 /* MasterTableViewController.h */,
+				FDBA542C1AD8640300CD1087 /* MasterTableViewController.m */,
 				FD68A7BF1AD720070035E5E3 /* KMLParser.h */,
 				FD68A7C01AD720070035E5E3 /* KMLParser.m */,
 				FD315F841ABBA9D600407AD1 /* AppDelegate.h */,
 				FD315F851ABBA9D600407AD1 /* AppDelegate.m */,
 				FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */,
-				FD315F871ABBA9D600407AD1 /* ViewController.h */,
-				FD315F881ABBA9D600407AD1 /* ViewController.m */,
 				FDBA543C1AD8680800CD1087 /* Main.storyboard */,
-				FD2E74CC1AD6EA300064932D /* valle1ViewController.h */,
-				FDFF752B1AC08D7800A59196 /* valle1ViewController.m */,
+				FD2E74CC1AD6EA300064932D /* RutasViewController.h */,
+				FDFF752B1AC08D7800A59196 /* RutasViewController.m */,
 				FDBA542E1AD867C700CD1087 /* valle1.kml */,
 				FDBA542F1AD867C700CD1087 /* valle2.kml */,
 				FDBA54401AD86DBB00CD1087 /* valle3.kml */,
@@ -358,10 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD315F891ABBA9D600407AD1 /* ViewController.m in Sources */,
-				FDBA542D1AD8640300CD1087 /* MasterValleTableViewController.m in Sources */,
+				FDBA542D1AD8640300CD1087 /* MasterTableViewController.m in Sources */,
 				FD68A7C11AD720070035E5E3 /* KMLParser.m in Sources */,
-				FDFF752C1AC08D7800A59196 /* valle1ViewController.m in Sources */,
+				FDFF752C1AC08D7800A59196 /* RutasViewController.m in Sources */,
 				FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */,
 				FD315F831ABBA9D600407AD1 /* main.m in Sources */,
 			);

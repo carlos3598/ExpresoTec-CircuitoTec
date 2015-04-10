@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Carlos Salazar. All rights reserved.
 //
 
-#import "valle1ViewController.h"
+#import "RutasViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
 #import <Firebase/Firebase.h>
 #import <MapKit/MapKit.h>
@@ -15,11 +15,11 @@
 
 
 
-@interface valle1ViewController ()
+@interface RutasViewController ()
 
 
 @end
-@implementation valle1ViewController {
+@implementation RutasViewController {
     GMSMapView *mapView_;
     
     

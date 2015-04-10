@@ -11,7 +11,7 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface valle1ViewController : UIViewController{
+@interface RutasViewController : UIViewController{
     KMLParser *kmlParser;
 }
 @property(nonatomic,retain) CLLocationManager *locationManager;
