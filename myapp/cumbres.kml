@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2 '>
+	<Document>
+		<name>Cumbres</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Ruta Cumbres, 20.1KM, 01:10Horas</name>
+			<Placemark>
+				<styleUrl>#line-4186F0-4</styleUrl>
+				<name>20.1KM Ruta Cumbres</name>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-100.413249,25.746169,0.0 -100.413123,25.746268,0.0 -100.410913,25.745571,0.0 -100.409343,25.74421,0.0 -100.405838,25.741624,0.0 -100.40348200000001,25.739752,0.0 -100.402548,25.73833,0.0 -100.398742,25.735263,0.0 -100.39705,25.734267,0.0 -100.398653,25.732208,0.0 -100.400146,25.733459,0.0 -100.400255,25.733878000000004,0.0 -100.400509,25.734030000000004,0.0 -100.400846,25.734030000000004,0.0 -100.401073,25.733801,0.0 -100.401152,25.733515,0.0 -100.400751,25.733288,0.0 -100.400394,25.733250000000005,0.0 -100.398483,25.731642,0.0 -100.395427,25.729447,0.0 -100.394697,25.726681,0.0 -100.394092,25.723338,0.0 -100.393194,25.722818,0.0 -100.39231,25.722573,0.0 -100.389201,25.721168,0.0 -100.388717,25.720882000000003,0.0 -100.388676,25.720599,0.0 -100.38791500000002,25.720008,0.0 -100.387316,25.719923,0.0 -100.386282,25.719469,0.0 -100.381614,25.715136,0.0 -100.380502,25.714081,0.0 -100.379885,25.713495,0.0 -100.377265,25.711861,0.0 -100.369947,25.704855,0.0 -100.369905,25.704805,0.0 -100.36982,25.704683,0.0 -100.369351,25.704239,0.0 -100.367201,25.702405000000002,0.0 -100.365435,25.701307,0.0 -100.357346,25.696958,0.0 -100.357187,25.695808,0.0 -100.357042,25.695174,0.0 -100.356953,25.694997,0.0 -100.35463,25.694919,0.0 -100.354644,25.694265,0.0 -100.3518,25.694201,0.0 -100.351348,25.693984,0.0 -100.35274300000002,25.673369,0.0 -100.35328,25.671408,0.0 -100.353232,25.670642,0.0 -100.351063,25.670016,0.0 -100.345279,25.668363,0.0 -100.340305,25.666856,0.0 -100.334524,25.665947000000003,0.0 -100.311119,25.661631,0.0 -100.307872,25.661625,0.0 -100.300656,25.665397,0.0 -100.298634,25.666164000000002,0.0 -100.297683,25.666299,0.0 -100.297419,25.665978,0.0 -100.297352,25.6594,0.0 -100.292834,25.651725,0.0 -100.292629,25.651273,0.0 -100.292364,25.65114,0.0 -100.292216,25.651457,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<name>Cambridge</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.413146,25.746149,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-2</styleUrl>
+				<name>Cumbres Elite</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.405986,25.741584,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-3</styleUrl>
+				<name>HEB</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.397372,25.73121,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-4</styleUrl>
+				<name>Diamant (Super 7)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.394353,25.724517,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<name>Paseo de los Navegantes / Rotonda de las Casas</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.388583,25.720236,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-6</styleUrl>
+				<name>Eric El Rojo (Super 7)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.382937,25.716014,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-7</styleUrl>
+				<name>Paseo de la Cima (Starbucks)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.377621,25.712069,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-8</styleUrl>
+				<name>Vip´s</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.363045,25.699873,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-9</styleUrl>
+				<name>Parque Av. Enrique C. Livas y 7a. Avenida</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.357322,25.695632,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-10</styleUrl>
+				<name>Clínica Ricardo Madla</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.354719,25.694334,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-11</styleUrl>
+				<name>Tecnológico de Monterrey, Campus Monterrey</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.28981,25.64975,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-ci-1'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-10'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-10.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-11'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-11.png</href>
+				</Icon>
+				<hotSpot x='1' y='16' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-2'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-2.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-3'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-4'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-5'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-6'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-7'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-7.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-8'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-8.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-9'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-9.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='line-4186F0-4'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+	</Document>
+</kml>

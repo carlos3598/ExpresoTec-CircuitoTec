@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2 '>
+	<Document>
+		<name>sanjeronimo</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Ruta San Jerónimo, 14.5KM, 00:45Horas</name>
+			<Placemark>
+				<styleUrl>#line-4186F0-4</styleUrl>
+				<name>14.5KM Ruta San Jerónimo</name>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-100.372206,25.695426,0.0 -100.372592,25.695177,0.0 -100.373386,25.694642,0.0 -100.373839,25.694345,0.0 -100.373968,25.693083,0.0 -100.373422,25.692287000000004,0.0 -100.373211,25.691913,0.0 -100.373088,25.691613,0.0 -100.373116,25.690888,0.0 -100.372985,25.690518,0.0 -100.37249300000002,25.690039,0.0 -100.372486,25.689558000000005,0.0 -100.370597,25.688317,0.0 -100.369794,25.686979,0.0 -100.373441,25.684498,0.0 -100.37368,25.684398,0.0 -100.371747,25.682274,0.0 -100.371333,25.681856,0.0 -100.370948,25.681243,0.0 -100.370503,25.68143,0.0 -100.369181,25.682154,0.0 -100.368687,25.682176,0.0 -100.36816900000001,25.682032,0.0 -100.36785,25.681828,0.0 -100.366861,25.681383,0.0 -100.366378,25.680996,0.0 -100.366256,25.68079,0.0 -100.365855,25.681044,0.0 -100.364803,25.68302,0.0 -100.36414,25.68386,0.0 -100.364904,25.684044,0.0 -100.366198,25.684527,0.0 -100.365536,25.685324,0.0 -100.36456,25.686073,0.0 -100.36155,25.682233,0.0 -100.361529,25.680745,0.0 -100.359525,25.680205,0.0 -100.358816,25.68025,0.0 -100.358325,25.68036,0.0 -100.356517,25.68155,0.0 -100.353471,25.683641,0.0 -100.352903,25.683874,0.0 -100.352196,25.683778,0.0 -100.352286,25.681846000000004,0.0 -100.352599,25.673766000000004,0.0 -100.352986,25.672129,0.0 -100.353386,25.671291,0.0 -100.353168,25.670726,0.0 -100.352186,25.670198,0.0 -100.349493,25.669572,0.0 -100.342711,25.667592,0.0 -100.337244,25.666263,0.0 -100.334817,25.665829,0.0 -100.32787900000001,25.664692000000002,0.0 -100.31228100000001,25.661921,0.0 -100.310793,25.661592,0.0 -100.307692,25.661661,0.0 -100.300615,25.665467,0.0 -100.298394,25.666188,0.0 -100.297428,25.666076000000004,0.0 -100.297287,25.659113,0.0 -100.292756,25.651677,0.0 -100.292655,25.651338,0.0 -100.292428,25.651235,0.0 -100.2922,25.651299,0.0 -100.292142,25.651723,0.0 -100.29178600000002,25.651968,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<name>Alfonso Junco</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.3721,25.695416,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-2</styleUrl>
+				<name>Antonio Caso</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.369908,25.686982,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-3</styleUrl>
+				<name>Jean Racine</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.372351,25.68938,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-4</styleUrl>
+				<name>Av. San Jemo (Seven 7)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.370447,25.681408,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<name>Alan Poe (OXXO)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.364799,25.685871,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-6</styleUrl>
+				<name>Estacionamieno Galerías Monterrey</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.356104,25.681744,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-7</styleUrl>
+				<name>CUM (Av. Gonzalitos)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.352455,25.677635,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-8</styleUrl>
+				<name>Tecnológico de Monterrey, Campus Monterrey</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.289937,25.649948,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-ci-1'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-2'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-2.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-3'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-4'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-5'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-6'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-7'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-7.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-8'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-8.png</href>
+				</Icon>
+				<hotSpot x='1' y='16' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='line-4186F0-4'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+	</Document>
+</kml>

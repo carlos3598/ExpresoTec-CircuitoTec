@@ -28,9 +28,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
         self.view = mapView_;
-
+    NSString *ruta = [self.detailItem description];
+    ruta = [ruta lowercaseString];
+    ruta = [ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
+    NSLog(@"%@", ruta);
     if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
         [self.locationManager requestWhenInUseAuthorization];
+        
     }
 
     
@@ -57,8 +61,8 @@
     mapView_.myLocationEnabled = YES;
     self.view = mapView_;
     mapView_.settings.myLocationButton = YES;
-    
-    NSString *pathKml = [[NSBundle mainBundle] pathForResource:@"sannicolas" ofType:@"kml"];
+
+    NSString *pathKml = [[NSBundle mainBundle] pathForResource:ruta ofType:@"kml"];
     NSURL *url = [NSURL fileURLWithPath:pathKml];
     kmlParser = [[KMLParser alloc] initWithURL:url];
     [kmlParser parseKML];
@@ -87,7 +91,6 @@
     polyline.strokeWidth = 5.f;
     polyline.map = mapView_;
     NSLog(@"User's location: %@", mapView_.myLocation);
-
 }
 
 
@@ -95,6 +98,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 /*
 #pragma mark - Navigation

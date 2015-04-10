@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2 '>
+	<Document>
+		<name>lindavista</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Ruta Contry Linda Vista, 15.6KM, 00:40Horas</name>
+			<Placemark>
+				<styleUrl>#line-4186F0-4</styleUrl>
+				<name>15.6KM Ruta Contry Linda Vista</name>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-100.214184,25.724123,0.0 -100.223774,25.70649,0.0 -100.224017,25.706454000000004,0.0 -100.224287,25.706345,0.0 -100.230483,25.706768,0.0 -100.23178700000001,25.702876,0.0 -100.254692,25.703211,0.0 -100.254213,25.699567000000002,0.0 -100.25408,25.699174,0.0 -100.253983,25.69798,0.0 -100.25440300000001,25.697332,0.0 -100.254856,25.696762,0.0 -100.25468,25.693008,0.0 -100.254764,25.692873000000002,0.0 -100.254647,25.692767,0.0 -100.254557,25.689778,0.0 -100.261308,25.687895,0.0 -100.26180200000002,25.687728,0.0 -100.26185500000001,25.68765,0.0 -100.261911,25.687548,0.0 -100.261877,25.686806,0.0 -100.261885,25.685628,0.0 -100.261871,25.684479,0.0 -100.26191,25.684128,0.0 -100.261946,25.684018,0.0 -100.262022,25.683912,0.0 -100.262142,25.683835,0.0 -100.262299,25.683769,0.0 -100.262459,25.683685,0.0 -100.262545,25.683592,0.0 -100.262615,25.68343,0.0 -100.262672,25.683301,0.0 -100.262716,25.683221,0.0 -100.262953,25.683084,0.0 -100.263198,25.682974,0.0 -100.26349900000001,25.682858,0.0 -100.263644,25.68281,0.0 -100.263926,25.682698,0.0 -100.264686,25.682564,0.0 -100.26557700000001,25.682471,0.0 -100.26656,25.682489,0.0 -100.267619,25.682556,0.0 -100.268301,25.682623,0.0 -100.269472,25.68268,0.0 -100.269994,25.682666,0.0 -100.27043300000001,25.682595,0.0 -100.270797,25.682554,0.0 -100.271176,25.682471,0.0 -100.271292,25.682449,0.0 -100.271503,25.682344000000004,0.0 -100.271933,25.682193000000005,0.0 -100.272371,25.681969,0.0 -100.272582,25.681805,0.0 -100.27298200000001,25.681255,0.0 -100.27336,25.680904,0.0 -100.273794,25.68061,0.0 -100.274351,25.680389,0.0 -100.274667,25.680196,0.0 -100.27498200000001,25.679883,0.0 -100.275249,25.679456,0.0 -100.275515,25.678745,0.0 -100.275864,25.677938,0.0 -100.276332,25.677193,0.0 -100.276739,25.676707,0.0 -100.27727,25.67621,0.0 -100.27787,25.675774,0.0 -100.278503,25.675444,0.0 -100.279081,25.675212,0.0 -100.279777,25.675013,0.0 -100.280682,25.674886,0.0 -100.28212900000001,25.674682,0.0 -100.283297,25.674444,0.0 -100.284453,25.674172,0.0 -100.285821,25.673678,0.0 -100.286851,25.673314,0.0 -100.287541,25.673103,0.0 -100.287863,25.672987000000003,0.0 -100.288009,25.673014,0.0 -100.288095,25.673062,0.0 -100.288123,25.673168,0.0 -100.288121,25.67322,0.0 -100.288032,25.673337,0.0 -100.287898,25.673364,0.0 -100.287642,25.67331,0.0 -100.28737000000001,25.673191,0.0 -100.287032,25.672908,0.0 -100.286011,25.671893,0.0 -100.285489,25.671246,0.0 -100.284808,25.670185,0.0 -100.284587,25.669745,0.0 -100.284455,25.668438,0.0 -100.28436,25.664876,0.0 -100.282475,25.66046,0.0 -100.282016,25.659279,0.0 -100.280301,25.657016,0.0 -100.277338,25.653022,0.0 -100.277389,25.652982,0.0 -100.277524,25.652919,0.0 -100.277764,25.652895,0.0 -100.279273,25.652519,0.0 -100.280467,25.65227,0.0 -100.280946,25.652262,0.0 -100.282655,25.652668,0.0 -100.284129,25.652982,0.0 -100.28593900000001,25.653676,0.0 -100.286831,25.65385,0.0 -100.287958,25.653808,0.0 -100.289021,25.653679,0.0 -100.289801,25.653574,0.0 -100.292124,25.651713,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<name>Parabús (Bancomer La Fe)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.215548,25.722226000000003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-2</styleUrl>
+				<name>Olimpia (Seven 7)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.224343,25.706399,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-3</styleUrl>
+				<name>Tauro (OXXO)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.231776,25.703068,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-4</styleUrl>
+				<name>Nemesio García Naranjo</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.254211,25.70328,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<name>Vista Regia (Rotonda)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.25476,25.693163,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-6</styleUrl>
+				<name>Tecnológico de Monterrey, Campus Monterrey</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.289851,25.64991,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-ci-1'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-2'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-2.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-3'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-4'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-5'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-6'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+				<hotSpot x='1' y='16' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='line-4186F0-4'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+	</Document>
+</kml>

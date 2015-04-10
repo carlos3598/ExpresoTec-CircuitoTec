@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2 '>
+	<Document>
+		<name>lincoln</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Ruta Lincoln, 18.2KM, 00:55Horas</name>
+			<Placemark>
+				<styleUrl>#line-4186F0-4</styleUrl>
+				<name>18.2KM Ruta Lincoln</name>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-100.388221,25.74625,0.0 -100.385975,25.74389,0.0 -100.381713,25.739082,0.0 -100.377716,25.73493,0.0 -100.377688,25.735041,0.0 -100.375985,25.736383,0.0 -100.372618,25.732625,0.0 -100.365332,25.72471,0.0 -100.358482,25.719858,0.0 -100.342587,25.709693,0.0 -100.342356,25.704658000000002,0.0 -100.345739,25.681127,0.0 -100.344147,25.68087,0.0 -100.343397,25.680681,0.0 -100.342077,25.68023,0.0 -100.341007,25.679686,0.0 -100.339942,25.679064,0.0 -100.33991500000002,25.676912,0.0 -100.338803,25.676932,0.0 -100.33879100000001,25.676837,0.0 -100.33877,25.676385,0.0 -100.338723,25.676301,0.0 -100.334938,25.67582,0.0 -100.332431,25.675514,0.0 -100.333141,25.672323,0.0 -100.33373,25.670161,0.0 -100.334964,25.66598,0.0 -100.327848,25.664712,0.0 -100.318137,25.663049,0.0 -100.310872,25.661693,0.0 -100.30808400000001,25.661512,0.0 -100.305788,25.662185,0.0 -100.300741,25.665419,0.0 -100.297742,25.666364,0.0 -100.297393,25.666003,0.0 -100.297158,25.659383,0.0 -100.296911,25.658574,0.0 -100.292678,25.651619,0.0 -100.292645,25.651288,0.0 -100.292395,25.651212,0.0 -100.292245,25.651303,0.0 -100.292127,25.651604,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<name>Tienda/Famracias del Ahorro (Pedro Infante)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.388215,25.746068,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-2</styleUrl>
+				<name>Parabús (Secundaria #8)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.376111,25.736128,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-3</styleUrl>
+				<name>Parabús Puente Peatonal HEB</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.368987,25.728551000000003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-4</styleUrl>
+				<name>Calle Nueva Inglaterra (OXXO)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.355318,25.717619,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<name>Parabús Rotonda Simón Bolivar y Lincoln</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.342807,25.709191,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-6</styleUrl>
+				<name>Pastelería Lety</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.343211,25.699497,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-7</styleUrl>
+				<name>Virgilio Garza (Seven 7)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.343284,25.680558,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-8</styleUrl>
+				<name>V. Carranza (Flores y Peluches Sandra)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.332587,25.675499,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-9</styleUrl>
+				<name>Tecnológico de Monterrey, Campus Monterrey</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.289815,25.649899,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-ci-1'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-2'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-2.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-3'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-4'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-5'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-6'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-7'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-7.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-8'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-8.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-9'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-9.png</href>
+				</Icon>
+				<hotSpot x='1' y='16' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='line-4186F0-4'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+	</Document>
+</kml>

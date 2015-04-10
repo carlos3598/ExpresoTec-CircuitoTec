@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2 '>
+	<Document>
+		<name>valle2</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Ruta Valle 2, 23.5KM, 00:45Horas</name>
+			<Placemark>
+				<styleUrl>#line-4186F0-4</styleUrl>
+				<name>23.5KM Ruta Valle 2</name>
+				<ExtendedData>
+					<Data name='_SnapToRoads'>
+						<value>true</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[_SnapToRoads: true]]></description>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-100.378418,25.650816,0.0 -100.380554,25.64477,0.0 -100.380686,25.644322,0.0 -100.381259,25.642865,0.0 -100.38180800000002,25.641163,0.0 -100.382487,25.638878,0.0 -100.379776,25.638086,0.0 -100.378304,25.637711,0.0 -100.37587700000002,25.636961,0.0 -100.374001,25.636438,0.0 -100.373642,25.636305,0.0 -100.373184,25.636032000000004,0.0 -100.372498,25.635801,0.0 -100.372437,25.635746,0.0 -100.371254,25.635412,0.0 -100.370438,25.635382000000003,0.0 -100.370033,25.635258,0.0 -100.369865,25.63534,0.0 -100.369011,25.63529,0.0 -100.363441,25.635298,0.0 -100.357262,25.63525,0.0 -100.356827,25.635288,0.0 -100.355896,25.635504,0.0 -100.35569,25.635689,0.0 -100.355415,25.636122,0.0 -100.355057,25.636395,0.0 -100.354485,25.637009,0.0 -100.354195,25.637878,0.0 -100.354111,25.638327000000004,0.0 -100.353958,25.638676,0.0 -100.354012,25.638805,0.0 -100.353287,25.639482,0.0 -100.353195,25.639832,0.0 -100.353111,25.64167,0.0 -100.35292100000001,25.641907,0.0 -100.352455,25.642111,0.0 -100.350128,25.642567,0.0 -100.349823,25.642576,0.0 -100.349243,25.642502,0.0 -100.348747,25.642384,0.0 -100.347145,25.64187,0.0 -100.338264,25.638372,0.0 -100.338051,25.638174,0.0 -100.33801300000002,25.638037,0.0 -100.337837,25.637941,0.0 -100.337753,25.637768,0.0 -100.337769,25.637234,0.0 -100.3377,25.636929,0.0 -100.33680700000001,25.636023,0.0 -100.336594,25.63574,0.0 -100.33597600000002,25.634411,0.0 -100.335922,25.634169000000004,0.0 -100.335915,25.63386,0.0 -100.336273,25.632793,0.0 -100.33650200000001,25.632318,0.0 -100.336761,25.631962,0.0 -100.335968,25.631184,0.0 -100.335548,25.630688,0.0 -100.335358,25.630533,0.0 -100.335213,25.630472,0.0 -100.334488,25.630375,0.0 -100.334328,25.630951,0.0 -100.334808,25.631044,0.0 -100.335144,25.631279,0.0 -100.335281,25.631304,0.0 -100.33564,25.631325,0.0 -100.335968,25.631184,0.0 -100.336693,25.631897,0.0 -100.336563,25.632034,0.0 -100.336273,25.632607,0.0 -100.335823,25.633909000000003,0.0 -100.335793,25.634182,0.0 -100.335999,25.634735,0.0 -100.336601,25.635859000000004,0.0 -100.336899,25.63625,0.0 -100.337593,25.636927,0.0 -100.337662,25.637213,0.0 -100.337646,25.637756,0.0 -100.337686,25.637985,0.0 -100.337622,25.638183,0.0 -100.338676,25.643105,0.0 -100.339661,25.649103,0.0 -100.339691,25.649639,0.0 -100.339211,25.65143,0.0 -100.338989,25.652084000000002,0.0 -100.338463,25.653723,0.0 -100.338409,25.653797,0.0 -100.338219,25.653845,0.0 -100.337944,25.653730000000003,0.0 -100.336868,25.652939,0.0 -100.335579,25.652285,0.0 -100.329681,25.649014,0.0 -100.326515,25.647011,0.0 -100.326431,25.647127,0.0 -100.324921,25.646118,0.0 -100.323776,25.645435,0.0 -100.31263,25.638313,0.0 -100.311539,25.637659,0.0 -100.308784,25.635777,0.0 -100.306793,25.634502,0.0 -100.306023,25.634066,0.0 -100.305313,25.633772,0.0 -100.304031,25.633121,0.0 -100.30331400000001,25.632584,0.0 -100.302521,25.631887,0.0 -100.301704,25.63139,0.0 -100.300117,25.630348,0.0 -100.299255,25.629839,0.0 -100.297395,25.628674,0.0 -100.295658,25.627574,0.0 -100.293841,25.626346,0.0 -100.292513,25.62551,0.0 -100.290877,25.624479,0.0 -100.289305,25.62347,0.0 -100.288473,25.622936,0.0 -100.287494,25.622312,0.0 -100.286484,25.621656,0.0 -100.28471,25.62053,0.0 -100.283016,25.619462,0.0 -100.280685,25.617967,0.0 -100.278679,25.61668,0.0 -100.27767,25.616048,0.0 -100.276679,25.615433,0.0 -100.275115,25.614416,0.0 -100.274621,25.61407,0.0 -100.274195,25.613933,0.0 -100.273662,25.613847,0.0 -100.273171,25.613817,0.0 -100.273058,25.613863,0.0 -100.272989,25.613875,0.0 -100.272279,25.613894000000002,0.0 -100.27185800000001,25.613926,0.0 -100.27162,25.613961,0.0 -100.271471,25.614019,0.0 -100.271266,25.614213,0.0 -100.27114,25.614434000000003,0.0 -100.271082,25.615181,0.0 -100.271051,25.615898,0.0 -100.270962,25.617234,0.0 -100.270869,25.618524,0.0 -100.270827,25.619438,0.0 -100.270927,25.620049,0.0 -100.271137,25.62057,0.0 -100.271309,25.62092,0.0 -100.272256,25.621721,0.0 -100.273105,25.622357,0.0 -100.27380900000001,25.622879,0.0 -100.274342,25.623392,0.0 -100.274858,25.623931,0.0 -100.275334,25.624515,0.0 -100.27601800000001,25.625494,0.0 -100.276619,25.626444,0.0 -100.277478,25.627836,0.0 -100.278463,25.629442,0.0 -100.279507,25.631118,0.0 -100.280229,25.632283000000005,0.0 -100.281495,25.634279,0.0 -100.282694,25.63617,0.0 -100.283518,25.63747,0.0 -100.284505,25.639028,0.0 -100.28457,25.639136,0.0 -100.284597,25.639175,0.0 -100.284622,25.639211,0.0 -100.285234,25.640192000000003,0.0 -100.285565,25.640774,0.0 -100.285622,25.640884000000003,0.0 -100.290886,25.649137000000003,0.0 -100.291046,25.649508,0.0 -100.292206,25.651352,0.0 -100.29216,25.65151,0.0 -100.292206,25.651644,0.0 -100.29170200000002,25.652048,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<name>Av. Lomas del Valle</name>
+				<ExtendedData>
+					<Data name='_SnapToRoads'>
+						<value></value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[_SnapToRoads: ]]></description>
+				<Point>
+					<coordinates>-100.378452,25.65105,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-2</styleUrl>
+				<name>Sierra Azul</name>
+				<ExtendedData>
+					<Data name='_SnapToRoads'>
+						<value></value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[_SnapToRoads: ]]></description>
+				<Point>
+					<coordinates>-100.380139,25.638178,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-3</styleUrl>
+				<name>El Ángel (San Ángel)</name>
+				<ExtendedData>
+					<Data name='_SnapToRoads'>
+						<value></value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[_SnapToRoads: ]]></description>
+				<Point>
+					<coordinates>-100.370029,25.635216,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-4</styleUrl>
+				<name>Planetario ALFA</name>
+				<ExtendedData>
+					<Data name='_SnapToRoads'>
+						<value></value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[_SnapToRoads: ]]></description>
+				<Point>
+					<coordinates>-100.358633,25.635232000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<name>Alejandría</name>
+				<ExtendedData>
+					<Data name='_SnapToRoads'>
+						<value></value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[_SnapToRoads: ]]></description>
+				<Point>
+					<coordinates>-100.335524,25.630602,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-6</styleUrl>
+				<name>Av. Lampazos</name>
+				<ExtendedData>
+					<Data name='_SnapToRoads'>
+						<value></value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[_SnapToRoads: ]]></description>
+				<Point>
+					<coordinates>-100.338936,25.645234,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-7</styleUrl>
+				<name>Estacionamiento Plaza Fiesta San Agustín</name>
+				<ExtendedData>
+					<Data name='_SnapToRoads'>
+						<value></value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[_SnapToRoads: ]]></description>
+				<Point>
+					<coordinates>-100.338864,25.652206,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-ci-8</styleUrl>
+				<name>Tecnológico de Monterrey, Campus Monterrey</name>
+				<ExtendedData>
+					<Data name='_SnapToRoads'>
+						<value></value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[_SnapToRoads: ]]></description>
+				<Point>
+					<coordinates>-100.289941,25.650065,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-ci-1'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-2'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-2.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-3'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-4'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-5'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-6'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-7'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-7.png</href>
+				</Icon>
+				<hotSpot x='16' y='32' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-8'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-8.png</href>
+				</Icon>
+				<hotSpot x='1' y='16' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='line-4186F0-4'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+	</Document>
+</kml>

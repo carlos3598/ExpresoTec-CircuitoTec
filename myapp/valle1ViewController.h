@@ -15,4 +15,6 @@
     KMLParser *kmlParser;
 }
 @property(nonatomic,retain) CLLocationManager *locationManager;
+@property (strong, nonatomic) id detailItem;
+
 @end
