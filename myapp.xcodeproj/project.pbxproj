@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07D84CA81ADF5CC40016A20D /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07D84CA71ADF5CC40016A20D /* GoogleMaps.bundle */; };
 		FD315F831ABBA9D600407AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F821ABBA9D600407AD1 /* main.m */; };
 		FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F851ABBA9D600407AD1 /* AppDelegate.m */; };
 		FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8D1ABBA9D600407AD1 /* Images.xcassets */; };
@@ -58,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07D84CA71ADF5CC40016A20D /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = ../GoogleMaps.bundle; sourceTree = "<group>"; };
 		FD2E74CC1AD6EA300064932D /* RutasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RutasViewController.h; sourceTree = "<group>"; };
 		FD315F7D1ABBA9D600407AD1 /* myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F811ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 		FD8C3B991AD59E8300C47A02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07D84CA71ADF5CC40016A20D /* GoogleMaps.bundle */,
 				FDFF75331AC08E7800A59196 /* CoreLocation.framework */,
 				FD68A7C81AD721440035E5E3 /* MapKit.framework */,
 				FD68A7C61AD7213A0035E5E3 /* UIKit.framework */,
@@ -330,6 +333,7 @@
 				FDBA543D1AD8680800CD1087 /* Main.storyboard in Resources */,
 				FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */,
 				FDBA54391AD867D000CD1087 /* sanjeronimo.kml in Resources */,
+				07D84CA81ADF5CC40016A20D /* GoogleMaps.bundle in Resources */,
 				FD68A7CB1AD7247B0035E5E3 /* sannicolas.kml in Resources */,
 				FDBA54371AD867D000CD1087 /* lincoln.kml in Resources */,
 				FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */,

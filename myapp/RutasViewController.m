@@ -35,24 +35,6 @@
         [self.locationManager requestWhenInUseAuthorization];
         
     }
-
-    
-    // Position the map so that all overlays and annotations are visible on screen.
-    
-
-    GMSMarker *camion = [[GMSMarker alloc] init];
-    Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://torrid-fire-4635.firebaseio.com/Valle2"];
-    [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-        double latitud,longitud;
-        latitud = [snapshot.value[@"Latitud"] doubleValue];
-        longitud = [snapshot.value[@"Longitud"] doubleValue];
-        camion.position = CLLocationCoordinate2DMake(latitud, longitud);
-        camion.title = @"Camion";
-        camion.map = mapView_;
-
-    }];
-
-    // Do any additional setup after loading the view.
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:25.649998
                                                             longitude:-100.289899
                                                                  zoom:11];
@@ -60,7 +42,26 @@
     mapView_.myLocationEnabled = YES;
     self.view = mapView_;
     mapView_.settings.myLocationButton = YES;
+    
+    // Position the map so that all overlays and annotations are visible on screen.
+    
 
+    GMSMarker *camion = [[GMSMarker alloc] init];
+    Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://rutastec.firebaseio.com/Ruta"];
+    [valle1 observeEventType:FEventTypeChildAdded withBlock:^(FDataSnapshot *snapshot) {
+        double latitud,longitud;
+        latitud = [snapshot.value[@"latitude"] doubleValue];
+        longitud = [snapshot.value[@"longitude"] doubleValue];
+        NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
+        NSLog(log);
+        camion.position = CLLocationCoordinate2DMake(latitud, longitud);
+        camion.title = @"Camion";
+        camion.map = mapView_;
+
+    }];
+    
+    // Do any additional setup after loading the view.
+    
     NSString *pathKml = [[NSBundle mainBundle] pathForResource:ruta ofType:@"kml"];
     NSURL *url = [NSURL fileURLWithPath:pathKml];
     kmlParser = [[KMLParser alloc] initWithURL:url];
