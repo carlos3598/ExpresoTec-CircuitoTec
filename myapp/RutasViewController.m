@@ -48,7 +48,7 @@
 
     GMSMarker *camion = [[GMSMarker alloc] init];
     Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://rutastec.firebaseio.com/Ruta"];
-    [valle1 observeEventType:FEventTypeChildAdded withBlock:^(FDataSnapshot *snapshot) {
+    [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
         double latitud,longitud;
         latitud = [snapshot.value[@"latitude"] doubleValue];
         longitud = [snapshot.value[@"longitude"] doubleValue];
