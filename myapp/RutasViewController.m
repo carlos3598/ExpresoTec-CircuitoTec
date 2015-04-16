@@ -27,8 +27,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
         self.view = mapView_;
     NSString *ruta = [self.detailItem description];
+    self.navigationItem.title = ruta;
     ruta = [ruta lowercaseString];
     ruta = [ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
     if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
@@ -52,8 +54,8 @@
         double latitud,longitud;
         latitud = [snapshot.value[@"latitude"] doubleValue];
         longitud = [snapshot.value[@"longitude"] doubleValue];
-        NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
-        NSLog(log);
+        //NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
+        //NSLog(log);
         camion.position = CLLocationCoordinate2DMake(latitud, longitud);
         camion.title = @"Camion";
         camion.map = mapView_;
