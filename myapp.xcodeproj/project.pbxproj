@@ -12,6 +12,11 @@
 		FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8D1ABBA9D600407AD1 /* Images.xcassets */; };
 		FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8F1ABBA9D600407AD1 /* LaunchScreen.xib */; };
 		FD315F9D1ABBA9D600407AD1 /* myappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F9C1ABBA9D600407AD1 /* myappTests.m */; };
+		FD4FB3261ADF6B120032ECD5 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD4FB3251ADF6B120032ECD5 /* GoogleMaps.bundle */; };
+		FD6509351AE02EC60088BC9C /* Star Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6509331AE02EC60088BC9C /* Star Filled-25.png */; };
+		FD6509361AE02EC60088BC9C /* Star-25.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6509341AE02EC60088BC9C /* Star-25.png */; };
+		FD6509381AE02F050088BC9C /* Star Filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6509371AE02F050088BC9C /* Star Filled-32.png */; };
+		FD65093A1AE038340088BC9C /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD6509391AE038340088BC9C /* Property List.plist */; };
 		FD68A7C11AD720070035E5E3 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FD68A7C01AD720070035E5E3 /* KMLParser.m */; };
 		FD68A7C31AD721250035E5E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68A7C21AD721250035E5E3 /* CoreGraphics.framework */; };
 		FD68A7C51AD7212E0035E5E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68A7C41AD7212E0035E5E3 /* Foundation.framework */; };
@@ -21,7 +26,6 @@
 		FD68CB161AC332DB009FCD93 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB151AC332DB009FCD93 /* Firebase.framework */; };
 		FD68CB181AC3330A009FCD93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB171AC3330A009FCD93 /* CFNetwork.framework */; };
 		FD68CB1A1AC33314009FCD93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB191AC33314009FCD93 /* Security.framework */; };
-		FD8C3B981AD59E5600C47A02 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */; };
 		FDBA542D1AD8640300CD1087 /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBA542C1AD8640300CD1087 /* MasterTableViewController.m */; };
 		FDBA54311AD867C700CD1087 /* valle1.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA542E1AD867C700CD1087 /* valle1.kml */; };
 		FDBA54321AD867C700CD1087 /* valle2.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA542F1AD867C700CD1087 /* valle2.kml */; };
@@ -69,6 +73,11 @@
 		FD315F961ABBA9D600407AD1 /* myappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F9B1ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD315F9C1ABBA9D600407AD1 /* myappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myappTests.m; sourceTree = "<group>"; };
+		FD4FB3251ADF6B120032ECD5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../GoogleMaps-iOS-1.9.2/GoogleMaps.framework/versions/a/resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		FD6509331AE02EC60088BC9C /* Star Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star Filled-25.png"; sourceTree = "<group>"; };
+		FD6509341AE02EC60088BC9C /* Star-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-25.png"; sourceTree = "<group>"; };
+		FD6509371AE02F050088BC9C /* Star Filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star Filled-32.png"; sourceTree = "<group>"; };
+		FD6509391AE038340088BC9C /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		FD68A7BF1AD720070035E5E3 /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
 		FD68A7C01AD720070035E5E3 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
 		FD68A7C21AD721250035E5E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,7 +88,6 @@
 		FD68CB151AC332DB009FCD93 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		FD68CB171AC3330A009FCD93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FD68CB191AC33314009FCD93 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../GoogleMaps-iOS-1.9.2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
 		FDBA542B1AD8640300CD1087 /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterTableViewController.h; path = ../MasterTableViewController.h; sourceTree = "<group>"; };
 		FDBA542C1AD8640300CD1087 /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterTableViewController.m; path = ../MasterTableViewController.m; sourceTree = "<group>"; };
 		FDBA542E1AD867C700CD1087 /* valle1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = valle1.kml; sourceTree = "<group>"; };
@@ -172,10 +180,13 @@
 				FD68A7C01AD720070035E5E3 /* KMLParser.m */,
 				FD315F841ABBA9D600407AD1 /* AppDelegate.h */,
 				FD315F851ABBA9D600407AD1 /* AppDelegate.m */,
-				FD8C3B971AD59E5600C47A02 /* GoogleMaps.bundle */,
 				FDBA543C1AD8680800CD1087 /* Main.storyboard */,
+				FD4FB3251ADF6B120032ECD5 /* GoogleMaps.bundle */,
 				FD2E74CC1AD6EA300064932D /* RutasViewController.h */,
 				FDFF752B1AC08D7800A59196 /* RutasViewController.m */,
+				FD6509331AE02EC60088BC9C /* Star Filled-25.png */,
+				FD6509371AE02F050088BC9C /* Star Filled-32.png */,
+				FD6509341AE02EC60088BC9C /* Star-25.png */,
 				FDBA542E1AD867C700CD1087 /* valle1.kml */,
 				FDBA542F1AD867C700CD1087 /* valle2.kml */,
 				FDBA54401AD86DBB00CD1087 /* valle3.kml */,
@@ -187,6 +198,7 @@
 				FD315F8D1ABBA9D600407AD1 /* Images.xcassets */,
 				FD315F8F1ABBA9D600407AD1 /* LaunchScreen.xib */,
 				FD315F801ABBA9D600407AD1 /* Supporting Files */,
+				FD6509391AE038340088BC9C /* Property List.plist */,
 			);
 			path = myapp;
 			sourceTree = "<group>";
@@ -325,17 +337,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDBA54311AD867C700CD1087 /* valle1.kml in Resources */,
+				FD6509381AE02F050088BC9C /* Star Filled-32.png in Resources */,
+				FD6509361AE02EC60088BC9C /* Star-25.png in Resources */,
 				FDBA543B1AD867D700CD1087 /* cumbres.kml in Resources */,
 				FDBA54321AD867C700CD1087 /* valle2.kml in Resources */,
 				FDBA543D1AD8680800CD1087 /* Main.storyboard in Resources */,
+				FD65093A1AE038340088BC9C /* Property List.plist in Resources */,
 				FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */,
 				FDBA54391AD867D000CD1087 /* sanjeronimo.kml in Resources */,
 				FD68A7CB1AD7247B0035E5E3 /* sannicolas.kml in Resources */,
 				FDBA54371AD867D000CD1087 /* lincoln.kml in Resources */,
+				FD6509351AE02EC60088BC9C /* Star Filled-25.png in Resources */,
 				FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */,
-				FD8C3B981AD59E5600C47A02 /* GoogleMaps.bundle in Resources */,
 				FDBA54381AD867D000CD1087 /* lindavista.kml in Resources */,
 				FDBA54411AD86DBB00CD1087 /* valle3.kml in Resources */,
+				FD4FB3261ADF6B120032ECD5 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

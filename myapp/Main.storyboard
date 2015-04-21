@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
@@ -381,13 +381,38 @@
                     <view key="view" contentMode="scaleToFill" id="n6k-km-Wxh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycD-yy-Lpj">
+                                <rect key="frame" x="117" y="127" width="87" height="32"/>
+                                <state key="normal" image="Star Filled-25.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1Y-64-yEc">
+                                <rect key="frame" x="64" y="237" width="87" height="32"/>
+                                <state key="normal" image="Star Filled-32.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="HdV-as-0Iv"/>
+                    <navigationItem key="navigationItem" id="slK-CS-b4R">
+                        <nil key="title"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="QXz-er-gCe">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="1rJ-OY-FbU">
+                                <rect key="frame" x="101" y="85" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nwx-EG-I4g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1788" y="281"/>
+            <point key="canvasLocation" x="2276" y="465"/>
         </scene>
         <!--Galerías-->
         <scene sceneID="pgP-C7-EBt">
@@ -508,7 +533,11 @@
             <point key="canvasLocation" x="1788" y="1030"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Star Filled-25.png" width="25" height="25"/>
+        <image name="Star Filled-32.png" width="32" height="32"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xoW-gQ-dMX"/>
+        <segue reference="LO8-vf-l3A"/>
     </inferredMetricsTieBreakers>
 </document>

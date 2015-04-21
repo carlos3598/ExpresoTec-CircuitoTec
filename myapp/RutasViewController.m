@@ -21,8 +21,6 @@
 @end
 @implementation RutasViewController {
     GMSMapView *mapView_;
-    
-    
 }
 
 - (void)viewDidLoad {
@@ -46,21 +44,35 @@
     mapView_.settings.myLocationButton = YES;
     
     // Position the map so that all overlays and annotations are visible on screen.
-    
-
     GMSMarker *camion = [[GMSMarker alloc] init];
+    Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://torrid-fire-4635.firebaseio.com/Valle2"];
+    [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
+        double latitud,longitud;
+        latitud = [snapshot.value[@"Latitud"] doubleValue];
+        longitud = [snapshot.value[@"Longitud"] doubleValue];
+
+        camion.position = CLLocationCoordinate2DMake(latitud, longitud);
+        camion.title = @"Camion";
+        camion.map = mapView_;
+    }];
+    /*GMSMarker *camion = [[GMSMarker alloc] init];
     Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://rutastec.firebaseio.com/Ruta"];
     [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
         double latitud,longitud;
         latitud = [snapshot.value[@"latitude"] doubleValue];
         longitud = [snapshot.value[@"longitude"] doubleValue];
+<<<<<<< Updated upstream
         //NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
         //NSLog(log);
+=======
+        NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
+        NSLog(@"%@",log);
+>>>>>>> Stashed changes
         camion.position = CLLocationCoordinate2DMake(latitud, longitud);
         camion.title = @"Camion";
         camion.map = mapView_;
 
-    }];
+    }];*/
     
     // Do any additional setup after loading the view.
     
@@ -72,15 +84,13 @@
     NSArray *overlays = [kmlParser overlays];
     MKPolyline *linea = overlays[0];
     
-    NSArray *annotations = [kmlParser points];
-
     GMSMutablePath *path = [GMSMutablePath path];
-    
     for (unsigned long i=0; i < linea.pointCount; i++) {
         MKMapPoint *coordenadas = &linea.points[i];
         [path addLatitude:MKCoordinateForMapPoint(*coordenadas).latitude longitude:MKCoordinateForMapPoint(*coordenadas).longitude];
     }
-    
+    NSArray *annotations = [kmlParser points];
+
     for (id <MKAnnotation> annotation in annotations) {
         GMSMarker *marker = [[GMSMarker alloc]init];
         marker.position = annotation.coordinate;
