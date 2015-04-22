@@ -27,9 +27,10 @@
     [super viewDidLoad];
     
         self.view = mapView_;
-    NSString *ruta = [self.detailItem description];
-    self.navigationItem.title = ruta;
+    NSString *ruta = self.detailItem;
+    self.tabBarController.title = ruta;
     ruta = [ruta lowercaseString];
+    //NSLog(@"Ruta %@", ruta);
     ruta = [ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
     if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
         [self.locationManager requestWhenInUseAuthorization];
@@ -43,7 +44,8 @@
     self.view = mapView_;
     mapView_.settings.myLocationButton = YES;
     
-    // Position the map so that all overlays and annotations are visible on screen.
+    
+    /*
     GMSMarker *camion = [[GMSMarker alloc] init];
     Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://torrid-fire-4635.firebaseio.com/Valle2"];
     [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
@@ -55,7 +57,7 @@
         camion.title = @"Camion";
         camion.map = mapView_;
     }];
-    /*GMSMarker *camion = [[GMSMarker alloc] init];
+    GMSMarker *camion = [[GMSMarker alloc] init];
     Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://rutastec.firebaseio.com/Ruta"];
     [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
         double latitud,longitud;

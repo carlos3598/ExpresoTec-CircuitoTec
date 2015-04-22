@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0704E7251AE77C8500C994F6 /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 0704E7241AE77C8500C994F6 /* mapa.png */; };
+		0704E7271AE77CA200C994F6 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0704E7261AE77CA200C994F6 /* calendar.png */; };
 		FD315F831ABBA9D600407AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F821ABBA9D600407AD1 /* main.m */; };
 		FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F851ABBA9D600407AD1 /* AppDelegate.m */; };
 		FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8D1ABBA9D600407AD1 /* Images.xcassets */; };
@@ -62,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0704E7241AE77C8500C994F6 /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapa.png; sourceTree = "<group>"; };
+		0704E7261AE77CA200C994F6 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
 		FD2E74CC1AD6EA300064932D /* RutasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RutasViewController.h; sourceTree = "<group>"; };
 		FD315F7D1ABBA9D600407AD1 /* myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F811ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -178,12 +182,14 @@
 				FDBA542C1AD8640300CD1087 /* MasterTableViewController.m */,
 				FD68A7BF1AD720070035E5E3 /* KMLParser.h */,
 				FD68A7C01AD720070035E5E3 /* KMLParser.m */,
+				0704E7241AE77C8500C994F6 /* mapa.png */,
 				FD315F841ABBA9D600407AD1 /* AppDelegate.h */,
 				FD315F851ABBA9D600407AD1 /* AppDelegate.m */,
 				FDBA543C1AD8680800CD1087 /* Main.storyboard */,
 				FD4FB3251ADF6B120032ECD5 /* GoogleMaps.bundle */,
 				FD2E74CC1AD6EA300064932D /* RutasViewController.h */,
 				FDFF752B1AC08D7800A59196 /* RutasViewController.m */,
+				0704E7261AE77CA200C994F6 /* calendar.png */,
 				FD6509331AE02EC60088BC9C /* Star Filled-25.png */,
 				FD6509371AE02F050088BC9C /* Star Filled-32.png */,
 				FD6509341AE02EC60088BC9C /* Star-25.png */,
@@ -337,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDBA54311AD867C700CD1087 /* valle1.kml in Resources */,
+				0704E7271AE77CA200C994F6 /* calendar.png in Resources */,
 				FD6509381AE02F050088BC9C /* Star Filled-32.png in Resources */,
 				FD6509361AE02EC60088BC9C /* Star-25.png in Resources */,
 				FDBA543B1AD867D700CD1087 /* cumbres.kml in Resources */,
@@ -344,6 +351,7 @@
 				FDBA543D1AD8680800CD1087 /* Main.storyboard in Resources */,
 				FD65093A1AE038340088BC9C /* Property List.plist in Resources */,
 				FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */,
+				0704E7251AE77C8500C994F6 /* mapa.png in Resources */,
 				FDBA54391AD867D000CD1087 /* sanjeronimo.kml in Resources */,
 				FD68A7CB1AD7247B0035E5E3 /* sannicolas.kml in Resources */,
 				FDBA54371AD867D000CD1087 /* lincoln.kml in Resources */,

@@ -15,6 +15,6 @@
     KMLParser *kmlParser;
 }
 @property(nonatomic,retain) CLLocationManager *locationManager;
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) NSString * detailItem;
 
 @end
