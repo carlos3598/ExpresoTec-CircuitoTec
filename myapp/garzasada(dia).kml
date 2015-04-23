@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Circuito Tec - Ruta 1 (Diurna)</name>
+		<description><![CDATA[Favor de estar 5 min. antes en la parada]]></description>
+		<Folder>
+			<name>Circuito Tec - Ruta 1 (Diurna)</name>
+			<Placemark>
+				<name>Ruta 1</name>
+				<description><![CDATA[Garza Sada<br>9.5 km de recorrido en 30 Min.<br>INICIO: Lago hacía Multimedios (Pedro Martínez)]]></description>
+				<styleUrl>#line-FF0000-2</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-100.290939,25.65214,0.0 -100.290916,25.652451,0.0 -100.291061,25.652571,0.0 -100.292107,25.651751,0.0 -100.292236,25.651699,0.0 -100.292397,25.65172,0.0 -100.292458,25.651779000000005,0.0 -100.294807,25.65564,0.0 -100.296356,25.65803,0.0 -100.296661,25.658621,0.0 -100.296982,25.6598,0.0 -100.297073,25.660431,0.0 -100.297112,25.662519,0.0 -100.29720300000001,25.66258,0.0 -100.297302,25.662571,0.0 -100.297379,25.662491,0.0 -100.297394,25.659479,0.0 -100.297241,25.658951000000002,0.0 -100.284988,25.639553,0.0 -100.281075,25.633198,0.0 -100.278526,25.629059,0.0 -100.277039,25.626745,0.0 -100.276901,25.626766,0.0 -100.276817,25.626917,0.0 -100.282425,25.635834,0.0 -100.283554,25.637547000000005,0.0 -100.284782,25.639589,0.0 -100.28508,25.640079,0.0 -100.28891,25.64616,0.0 -100.289383,25.646799,0.0 -100.291023,25.649429,0.0 -100.292053,25.651199,0.0 -100.292053,25.65169,0.0 -100.291054,25.652491,0.0 -100.290993,25.652411,0.0 -100.290993,25.65213,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Parada 1 Ruta 1</name>
+				<description><![CDATA[00:00 Pedro Martínez / Multimedios]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.2974546,25.6625746,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 2 Ruta 1</name>
+				<description><![CDATA[00:04 Av. 2 de Abril / Transpaís]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.2955761,25.6561645,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 3 Ruta 1</name>
+				<description><![CDATA[00:07 Rotonda / Físicos / s/n]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.2929,25.651867000000003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 4 Ruta 1</name>
+				<description><![CDATA[00:10 Luis Elizondo / Av. Luis Elizondo / Plaza Sebastián / DHL]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.29039,25.64786,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 5 Ruta 1</name>
+				<description><![CDATA[00:12 Garza Sada 1892 / Loma Larga / Domino´s Pizza / Garza Sada 1892]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.2862612,25.641337900000003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 6 Ruta 1</name>
+				<description><![CDATA[00:13 Chilli´s / s/n / Chilli´s]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.282959,25.636087,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 7 Ruta 1</name>
+				<description><![CDATA[00:14 Oficina Municipal / Sierra de Taray / Automotríz Seat / Centro de Atención Ciudadana MTY ]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.28048700000001,25.632145,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 8 Ruta 1</name>
+				<description><![CDATA[00:15 Acapulco / Blvd. Acapulco / HEB / Super Colchones / Farmacia Benavides]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.276886,25.626741,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 9 Ruta 1</name>
+				<description><![CDATA[00:16 Psicis / Psicis / El Palmito / Vinoteca]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.278587,25.629866,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 10 Ruta 1</name>
+				<description><![CDATA[00:18 Libra / Libra / Seven Eleven]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.279327,25.631081,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 11 Ruta 1</name>
+				<description><![CDATA[00:20 Constelaciones / Av. Constelaciones / Banorte]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.281326,25.634251,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 12 Ruta 1</name>
+				<description><![CDATA[00:23 Plaza La Silla / s/n / Plaza La Silla]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.28257,25.636272,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 13 Ruta 1</name>
+				<description><![CDATA[00:25 Cinépolis / Hamburgo / Kentuchy Fried Chiken / Cinépolis]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.287689,25.644318,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada 14 Ruta 1</name>
+				<description><![CDATA[00:27 El Borrego / s/n / Estacionamiento El Borrego]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.290627,25.648991,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parada Campus Monterrey Ruta 1</name>
+				<description><![CDATA[00:30 Estacionamiento de El Lago]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.290943,25.652161,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-ci-1'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='line-FF0000-2'>
+			<LineStyle>
+				<color>ff0000FF</color>
+				<width>2</width>
+			</LineStyle>
+		</Style>
+	</Document>
+</kml>

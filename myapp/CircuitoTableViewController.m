@@ -1,25 +1,24 @@
 //
-//  MasterValleTableViewController.m
+//  CircuitoTableViewController.m
 //  myapp
 //
-//  Created by Carlos Salazar on 4/10/15.
+//  Created by alumno on 4/23/15.
 //  Copyright (c) 2015 Carlos Salazar. All rights reserved.
 //
 
-#import "MasterTableViewController.h"
+#import "CircuitoTableViewController.h"
 #import "RutasViewController.h"
 
-@interface MasterTableViewController ()
+@interface CircuitoTableViewController ()
 @property NSArray *objects;
 @end
 
-@implementation MasterTableViewController
+@implementation CircuitoTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-       _objects = [[NSArray alloc] initWithObjects:@"Cumbres",@"Lincoln",@"Linda Vista",@"San Jeronimo",@"San Nicolas",@"Valle 1",@"Valle 2",@"Valle 3",nil];
- 
+    _objects = [[NSArray alloc] initWithObjects:@"Garza Sada (Dia) ",@"Ruta A (noche) ",@"Ruta B (noche) ",@"Ruta B (noche)",nil];
+    
     
     
     
@@ -39,7 +38,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell2" forIndexPath:indexPath];
     
     NSString *object = self.objects[indexPath.row];
     cell.textLabel.text = [object description];
@@ -50,7 +49,6 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
     UITableViewCell *cell = (UITableViewCell*) sender;
     UITabBarController *controler = [segue destinationViewController];
     RutasViewController *contr = [[controler viewControllers] objectAtIndex:0];

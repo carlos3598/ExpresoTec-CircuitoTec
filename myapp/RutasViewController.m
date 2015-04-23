@@ -35,6 +35,8 @@
     if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
         [self.locationManager requestWhenInUseAuthorization];
         
+       self.parentViewController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(myRightButton)];
+        
     }
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:25.649998
                                                             longitude:-100.289899
@@ -91,8 +93,13 @@
         MKMapPoint *coordenadas = &linea.points[i];
         [path addLatitude:MKCoordinateForMapPoint(*coordenadas).latitude longitude:MKCoordinateForMapPoint(*coordenadas).longitude];
     }
+    
+    
+    
+    
+    
     NSArray *annotations = [kmlParser points];
-
+    
     for (id <MKAnnotation> annotation in annotations) {
         GMSMarker *marker = [[GMSMarker alloc]init];
         marker.position = annotation.coordinate;
@@ -100,12 +107,23 @@
         marker.map = mapView_;
     }
     
-    GMSPolyline *polyline = [GMSPolyline polylineWithPath:path];
-    polyline.strokeColor = [UIColor blueColor];
-    polyline.strokeWidth = 5.f;
-    polyline.map = mapView_;
-    NSLog(@"User's location: %@", mapView_.myLocation);
+    if([ruta rangeOfString:@"noche"].location == NSNotFound){
+        
+        GMSPolyline *polyline = [GMSPolyline polylineWithPath:path];
+        polyline.strokeColor = [UIColor colorWithRed:0 green:0 blue:1 alpha:.5];
+        polyline.strokeWidth = 3.f;
+        polyline.map = mapView_;
+        NSLog(@"User's location: %@", mapView_.myLocation);
+
+    }
+    else {
+        GMSPolygon *polygon = [GMSPolygon polygonWithPath:path];
+        polygon.fillColor =[UIColor colorWithRed:0 green:0 blue:1 alpha:.08];
+        polygon.strokeColor = [UIColor colorWithRed:0 green:0 blue:1 alpha:1];
+        polygon.map = mapView_;
+    }
 }
+
 
 
 - (void)didReceiveMemoryWarning {

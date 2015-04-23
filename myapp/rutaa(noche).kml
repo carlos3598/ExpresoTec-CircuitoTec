@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Circuito Tec</name>
+		<description><![CDATA[Zonas de Salidas y cobertura del servicio durante la noche (18:00 a las 08:00 horas) en los alrededores del Campus Monterrey. Salidas @20-30 minutos]]></description>
+		<Folder>
+			<name>Circuito Tec - Nocturno</name>
+			<Placemark>
+				<name>Ruta A - Salida - Aulas IV</name>
+				<description><![CDATA[Colonias de cobertura: - Alta Vista - Alta Vista Invernadero - Narvarte - México, de las 18:00 a las 08:00 horas.]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.288656,25.6491502,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta A</name>
+				<description><![CDATA[Colonias de cobertura: - Alta Vista - Alta Vista Invernadero - Narvarte - México, de las 18:00 a las 08:00 horas.]]></description>
+				<styleUrl>#icon-ci-2</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.285692,25.644389,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta A</name>
+				<description><![CDATA[Colonias de cobertura: - Alta Vista - Alta Vista Invernadero - Narvarte - México, de las 18:00 a las 08:00 horas.]]></description>
+				<styleUrl>#poly-993399-3-115</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>-100.297112,25.644311999999996,0.0 -100.2966,25.641953,0.0 -100.297585,25.641565,0.0 -100.297546,25.640171000000002,0.0 -100.296555,25.638701999999995,0.0 -100.296768,25.637966,0.0 -100.296257,25.637465,0.0 -100.294968,25.637773999999997,0.0 -100.293205,25.637077,0.0 -100.291023,25.635259999999995,0.0 -100.289558,25.636574000000003,0.0 -100.284279,25.639319999999998,0.0 -100.27814500000001,25.642262,0.0 -100.277634,25.642687,0.0 -100.276512,25.643112,0.0 -100.273857,25.643036,0.0 -100.274666,25.646284,0.0 -100.274712,25.649843,0.0 -100.27523,25.650967,0.0 -100.277374,25.650192,0.0 -100.278099,25.648762,0.0 -100.279564,25.647871,0.0 -100.280411,25.652434999999997,0.0 -100.284065,25.653015000000003,0.0 -100.284538,25.651934,0.0 -100.290077,25.647755,0.0 -100.293381,25.645241,0.0 -100.297112,25.644311999999996,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+									
+		</Folder>
+		<Style id='icon-ci-1'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-2'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-2.png</href>
+				</Icon>
+				<hotSpot x='0' y='0' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-3'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-4'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+				<hotSpot x='0' y='0' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-5'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-6'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+				<hotSpot x='0' y='0' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='poly-3333FF-3-115'>
+			<LineStyle>
+				<color>ffFF3333</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>73FF3333</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-33CC00-3-115'>
+			<LineStyle>
+				<color>ff00CC33</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7300CC33</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-993399-3-115'>
+			<LineStyle>
+				<color>ff993399</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>73993399</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>

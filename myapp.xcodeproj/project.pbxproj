@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		0704E7251AE77C8500C994F6 /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 0704E7241AE77C8500C994F6 /* mapa.png */; };
 		0704E7271AE77CA200C994F6 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0704E7261AE77CA200C994F6 /* calendar.png */; };
+		FB427B6B1AE95DC600D21149 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB427B6A1AE95DC600D21149 /* GoogleMaps.bundle */; };
+		FB427B6E1AE9639B00D21149 /* CircuitoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB427B6D1AE9639B00D21149 /* CircuitoTableViewController.m */; };
+		FB427B711AE969EA00D21149 /* garzasada(dia).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B6F1AE969EA00D21149 /* garzasada(dia).kml */; };
+		FB427B761AE96F0000D21149 /* rutaa(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B731AE96F0000D21149 /* rutaa(noche).kml */; };
+		FB427B771AE96F0000D21149 /* rutab(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B741AE96F0000D21149 /* rutab(noche).kml */; };
+		FB427B781AE96F0000D21149 /* rutac(noche) in Resources */ = {isa = PBXBuildFile; fileRef = FB427B751AE96F0000D21149 /* rutac(noche) */; };
 		FD315F831ABBA9D600407AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F821ABBA9D600407AD1 /* main.m */; };
 		FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F851ABBA9D600407AD1 /* AppDelegate.m */; };
 		FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8D1ABBA9D600407AD1 /* Images.xcassets */; };
 		FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8F1ABBA9D600407AD1 /* LaunchScreen.xib */; };
 		FD315F9D1ABBA9D600407AD1 /* myappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F9C1ABBA9D600407AD1 /* myappTests.m */; };
-		FD4FB3261ADF6B120032ECD5 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD4FB3251ADF6B120032ECD5 /* GoogleMaps.bundle */; };
 		FD6509351AE02EC60088BC9C /* Star Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6509331AE02EC60088BC9C /* Star Filled-25.png */; };
 		FD6509361AE02EC60088BC9C /* Star-25.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6509341AE02EC60088BC9C /* Star-25.png */; };
 		FD6509381AE02F050088BC9C /* Star Filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6509371AE02F050088BC9C /* Star Filled-32.png */; };
@@ -66,6 +71,13 @@
 /* Begin PBXFileReference section */
 		0704E7241AE77C8500C994F6 /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapa.png; sourceTree = "<group>"; };
 		0704E7261AE77CA200C994F6 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		FB427B6A1AE95DC600D21149 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = ../../GoogleMaps.bundle; sourceTree = "<group>"; };
+		FB427B6C1AE9639B00D21149 /* CircuitoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircuitoTableViewController.h; sourceTree = "<group>"; };
+		FB427B6D1AE9639B00D21149 /* CircuitoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircuitoTableViewController.m; sourceTree = "<group>"; };
+		FB427B6F1AE969EA00D21149 /* garzasada(dia).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "garzasada(dia).kml"; sourceTree = "<group>"; };
+		FB427B731AE96F0000D21149 /* rutaa(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rutaa(noche).kml"; sourceTree = "<group>"; };
+		FB427B741AE96F0000D21149 /* rutab(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rutab(noche).kml"; sourceTree = "<group>"; };
+		FB427B751AE96F0000D21149 /* rutac(noche) */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rutac(noche)"; sourceTree = "<group>"; };
 		FD2E74CC1AD6EA300064932D /* RutasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RutasViewController.h; sourceTree = "<group>"; };
 		FD315F7D1ABBA9D600407AD1 /* myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F811ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,7 +89,6 @@
 		FD315F961ABBA9D600407AD1 /* myappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F9B1ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD315F9C1ABBA9D600407AD1 /* myappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myappTests.m; sourceTree = "<group>"; };
-		FD4FB3251ADF6B120032ECD5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../GoogleMaps-iOS-1.9.2/GoogleMaps.framework/versions/a/resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
 		FD6509331AE02EC60088BC9C /* Star Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star Filled-25.png"; sourceTree = "<group>"; };
 		FD6509341AE02EC60088BC9C /* Star-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-25.png"; sourceTree = "<group>"; };
 		FD6509371AE02F050088BC9C /* Star Filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star Filled-32.png"; sourceTree = "<group>"; };
@@ -171,6 +182,10 @@
 		0704E7291AE783D200C994F6 /* kml */ = {
 			isa = PBXGroup;
 			children = (
+				FB427B731AE96F0000D21149 /* rutaa(noche).kml */,
+				FB427B741AE96F0000D21149 /* rutab(noche).kml */,
+				FB427B751AE96F0000D21149 /* rutac(noche) */,
+				FB427B6F1AE969EA00D21149 /* garzasada(dia).kml */,
 				FDBA542E1AD867C700CD1087 /* valle1.kml */,
 				FDBA542F1AD867C700CD1087 /* valle2.kml */,
 				FDBA54401AD86DBB00CD1087 /* valle3.kml */,
@@ -199,6 +214,8 @@
 				FDFF752B1AC08D7800A59196 /* RutasViewController.m */,
 				FDBA542C1AD8640300CD1087 /* MasterTableViewController.m */,
 				FDBA542B1AD8640300CD1087 /* MasterTableViewController.h */,
+				FB427B6C1AE9639B00D21149 /* CircuitoTableViewController.h */,
+				FB427B6D1AE9639B00D21149 /* CircuitoTableViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -228,9 +245,9 @@
 				0704E72B1AE783FB00C994F6 /* ViewController */,
 				0704E72A1AE783EC00C994F6 /* KMLParser */,
 				FD315F841ABBA9D600407AD1 /* AppDelegate.h */,
+				FB427B6A1AE95DC600D21149 /* GoogleMaps.bundle */,
 				FD315F851ABBA9D600407AD1 /* AppDelegate.m */,
 				FDBA543C1AD8680800CD1087 /* Main.storyboard */,
-				FD4FB3251ADF6B120032ECD5 /* GoogleMaps.bundle */,
 				0704E7281AE783C400C994F6 /* Images */,
 				0704E7291AE783D200C994F6 /* kml */,
 				FD315F8D1ABBA9D600407AD1 /* Images.xcassets */,
@@ -377,21 +394,25 @@
 				FDBA54311AD867C700CD1087 /* valle1.kml in Resources */,
 				0704E7271AE77CA200C994F6 /* calendar.png in Resources */,
 				FD6509381AE02F050088BC9C /* Star Filled-32.png in Resources */,
+				FB427B781AE96F0000D21149 /* rutac(noche) in Resources */,
+				FB427B771AE96F0000D21149 /* rutab(noche).kml in Resources */,
 				FD6509361AE02EC60088BC9C /* Star-25.png in Resources */,
 				FDBA543B1AD867D700CD1087 /* cumbres.kml in Resources */,
 				FDBA54321AD867C700CD1087 /* valle2.kml in Resources */,
 				FDBA543D1AD8680800CD1087 /* Main.storyboard in Resources */,
 				FD65093A1AE038340088BC9C /* Property List.plist in Resources */,
 				FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */,
+				FB427B6B1AE95DC600D21149 /* GoogleMaps.bundle in Resources */,
+				FB427B711AE969EA00D21149 /* garzasada(dia).kml in Resources */,
 				0704E7251AE77C8500C994F6 /* mapa.png in Resources */,
 				FDBA54391AD867D000CD1087 /* sanjeronimo.kml in Resources */,
 				FD68A7CB1AD7247B0035E5E3 /* sannicolas.kml in Resources */,
 				FDBA54371AD867D000CD1087 /* lincoln.kml in Resources */,
 				FD6509351AE02EC60088BC9C /* Star Filled-25.png in Resources */,
 				FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */,
+				FB427B761AE96F0000D21149 /* rutaa(noche).kml in Resources */,
 				FDBA54381AD867D000CD1087 /* lindavista.kml in Resources */,
 				FDBA54411AD86DBB00CD1087 /* valle3.kml in Resources */,
-				FD4FB3261ADF6B120032ECD5 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDBA542D1AD8640300CD1087 /* MasterTableViewController.m in Sources */,
+				FB427B6E1AE9639B00D21149 /* CircuitoTableViewController.m in Sources */,
 				FD68A7C11AD720070035E5E3 /* KMLParser.m in Sources */,
 				FDFF752C1AC08D7800A59196 /* RutasViewController.m in Sources */,
 				FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */,

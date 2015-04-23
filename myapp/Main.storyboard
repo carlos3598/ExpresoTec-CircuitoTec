@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -22,12 +22,12 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LWg-FD-HMa">
-                                <rect key="frame" x="89" y="235" width="143" height="30"/>
+                                <rect key="frame" x="87" y="225" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuo-m8-JPr">
-                                <rect key="frame" x="113" y="305" width="92" height="30"/>
+                                <rect key="frame" x="112" y="303" width="92" height="30"/>
                                 <state key="normal" title="Iniciar Sesión">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -107,29 +107,24 @@
         <!--Circuito Tec-->
         <scene sceneID="BUF-Hp-Mhm">
             <objects>
-                <tableViewController id="0Xp-qr-lW0" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="wLe-aG-5M8">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V4d-5j-o8W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="0Xp-qr-lW0" customClass="CircuitoTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="wLe-aG-5M8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <sections>
-                            <tableViewSection id="9FL-0L-r7A">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="HtW-ks-aoF">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HtW-ks-aoF" id="gXP-mQ-prB">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="FJR-Vi-uIz">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FJR-Vi-uIz" id="qI4-3N-OgV">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                        </sections>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell2" id="FJR-Vi-uIz">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FJR-Vi-uIz" id="qI4-3N-OgV">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="F6b-4B-V9D" kind="show" id="bnx-1n-rhV"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="0Xp-qr-lW0" id="v7Q-TK-58X"/>
                             <outlet property="delegate" destination="0Xp-qr-lW0" id="YPy-Et-nHW"/>
@@ -137,7 +132,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Circuito Tec" id="8AY-Bq-NIL"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="V4d-5j-o8W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="583" y="1036"/>
         </scene>
@@ -190,9 +184,10 @@
             </objects>
             <point key="canvasLocation" x="1101" y="281"/>
         </scene>
-        <!--Mapa-->
+        <!--Title-->
         <scene sceneID="OQb-Nd-CMp">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Irl-Wb-3j9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="7S3-P1-KhG" customClass="RutasViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iAw-Kc-Bb2"/>
@@ -204,9 +199,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Mapa" image="mapa.png" id="I7v-jQ-pxE"/>
+                    <navigationItem key="navigationItem" title="Title" id="WCl-Iw-IeO">
+                        <barButtonItem key="rightBarButtonItem" image="Star Filled-25.png" style="plain" id="cRK-lP-vWp">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZGC-xq-NhT">
+                                <rect key="frame" x="233" y="7" width="80" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Star Filled-25.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Irl-Wb-3j9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2251" y="274"/>
         </scene>
@@ -227,7 +232,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f2M-fA-LUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2116" y="674"/>
+            <point key="canvasLocation" x="2243" y="894"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="wS4-f2-SUF">
@@ -250,7 +255,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Star Filled-25.png" width="25" height="25"/>
         <image name="calendar.png" width="25" height="25"/>
         <image name="mapa.png" width="25" height="25"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="bnx-1n-rhV"/>
+    </inferredMetricsTieBreakers>
 </document>

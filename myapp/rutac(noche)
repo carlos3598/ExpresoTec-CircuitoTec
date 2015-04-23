@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Circuito Tec</name>
+		<description><![CDATA[Zonas de Salidas y cobertura del servicio durante la noche (18:00 a las 08:00 horas) en los alrededores del Campus Monterrey. Salidas @20-30 minutos]]></description>
+		<Folder>
+			<name>Circuito Tec - Nocturno</name>
+						<Placemark>
+				<name>Ruta C - Salida - Rectoría (Lago de los Patos)</name>
+				<description><![CDATA[Colonias de cobertura: - Florida- Estadio- Primavera- Villas Tec- Torres Tec, de las 18:00 a las 08:00 horas.]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.2910365,25.6522149,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta C</name>
+				<description><![CDATA[Colonias de cobertura: - Florida- Estadio- Primavera- Villas Tec- Torres Tec, de las 18:00 a las 08:00 horas.]]></description>
+				<styleUrl>#icon-ci-6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.28749500000002,25.655918000000003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta C</name>
+				<description><![CDATA[Colonias de cobertura: - Florida- Estadio- Primavera- Villas Tec- Torres Tec, de las 18:00 a las 08:00 horas.]]></description>
+				<styleUrl>#poly-3333FF-3-115</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>-100.289948,25.648066,0.0 -100.284492,25.651896,0.0 -100.283974,25.652863000000004,0.0 -100.280113,25.652126,0.0 -100.279686,25.647795,0.0 -100.27800800000001,25.649033,0.0 -100.27758,25.650114,0.0 -100.275307,25.650809999999996,0.0 -100.279984,25.656614,0.0 -100.282562,25.660057,0.0 -100.284065,25.660133000000002,0.0 -100.290031,25.659864,0.0 -100.291451,25.660328,0.0 -100.294411,25.662186000000002,0.0 -100.29720300000001,25.662841999999998,0.0 -100.296944,25.65851,0.0 -100.289948,25.648066,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Style id='icon-ci-1'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-2'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-2.png</href>
+				</Icon>
+				<hotSpot x='0' y='0' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-3'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-4'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+				<hotSpot x='0' y='0' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-5'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-6'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+				<hotSpot x='0' y='0' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='poly-3333FF-3-115'>
+			<LineStyle>
+				<color>ffFF3333</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>73FF3333</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-33CC00-3-115'>
+			<LineStyle>
+				<color>ff00CC33</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7300CC33</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-993399-3-115'>
+			<LineStyle>
+				<color>ff993399</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>73993399</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>

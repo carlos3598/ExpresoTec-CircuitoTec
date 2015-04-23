@@ -16,5 +16,6 @@
 }
 @property(nonatomic,retain) CLLocationManager *locationManager;
 @property (strong, nonatomic) NSString * detailItem;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *myRightButton;
 
 @end

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Circuito Tec</name>
+		<description><![CDATA[Zonas de Salidas y cobertura del servicio durante la noche (18:00 a las 08:00 horas) en los alrededores del Campus Monterrey. Salidas @20-30 minutos]]></description>
+		<Folder>
+			<name>Circuito Tec - Nocturno</name>
+			<Placemark>
+				<name>Ruta B - Salida - Rectoría (Lago de los Patos)</name>
+				<description><![CDATA[Colonias de cobertura: - Roma - Tecnológico, de las 18:00 a las 08:00 horas.]]></description>
+				<styleUrl>#icon-ci-3</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.2910337,25.6523045,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta B</name>
+				<styleUrl>#icon-ci-4</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.29813770000001,25.6524362,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta B</name>
+				<description><![CDATA[Colonias de cobertura: - Roma - Tecnológico, de las 18:00 a las 08:00 horas.]]></description>
+				<styleUrl>#poly-33CC00-3-115</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>-100.297585,25.659632,0.0 -100.298447,25.659399000000004,0.0 -100.299088,25.656652,0.0 -100.30201,25.657077999999995,0.0 -100.303291,25.651468,0.0 -100.302132,25.651043000000005,0.0 -100.302307,25.649805,0.0 -100.301918,25.649689,0.0 -100.302521,25.645550000000004,0.0 -100.30201,25.644545,0.0 -100.30153700000001,25.642998,0.0 -100.298363,25.643578,0.0 -100.296982,25.644312000000003,0.0 -100.293381,25.645394999999997,0.0 -100.290115,25.647949,0.0 -100.297585,25.659632,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+					</Folder>
+		<Style id='icon-ci-1'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-2'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-2.png</href>
+				</Icon>
+				<hotSpot x='0' y='0' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-3'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-4'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+				<hotSpot x='0' y='0' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-5'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-ci-6'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+				<hotSpot x='0' y='0' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='poly-3333FF-3-115'>
+			<LineStyle>
+				<color>ffFF3333</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>73FF3333</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-33CC00-3-115'>
+			<LineStyle>
+				<color>ff00CC33</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7300CC33</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-993399-3-115'>
+			<LineStyle>
+				<color>ff993399</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>73993399</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>
