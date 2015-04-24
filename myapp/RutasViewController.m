@@ -25,6 +25,9 @@
     NSMutableArray *markers;
     NSArray *annotations;
     BOOL bImagen;
+    BOOL bruta;
+    GMSPolygon *polygon;
+    GMSMutablePath *path;
 }
 
 -(IBAction)addFavorite:(UIButton *)sender{
@@ -48,6 +51,7 @@
     UIBarButtonItem *btnItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
     self.tabBarController.navigationItem.rightBarButtonItem = btnItem;
     bImagen = false;
+    bruta = false;
     ruta = [ruta lowercaseString];
     //NSLog(@"Ruta %@", ruta);
     ruta = [ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
@@ -59,7 +63,7 @@
     
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:25.649998
                                                             longitude:-100.289899
-                                                                 zoom:11];
+                                                                 zoom:14];
     mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView_.myLocationEnabled = YES;
     self.view = mapView_;
@@ -110,7 +114,12 @@
     NSArray *overlays = [kmlParser overlays];
     MKPolyline *linea = overlays[0];
     
-    GMSMutablePath *path = [GMSMutablePath path];
+    CGFloat hue = ( arc4random() % 256 / 256.0 );  //  0.0 to 1.0
+    CGFloat saturation = ( arc4random() % 128 / 256.0 ) + 0.5;  //  0.5 to 1.0, away from white
+    CGFloat brightness = ( arc4random() % 128 / 256.0 ) + 0.5;  //  0.5 to 1.0, away from black
+    UIColor *color = [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1];
+    
+    path = [GMSMutablePath path];
     for (unsigned long i=0; i < linea.pointCount; i++) {
         MKMapPoint *coordenadas = &linea.points[i];
         [path addLatitude:MKCoordinateForMapPoint(*coordenadas).latitude longitude:MKCoordinateForMapPoint(*coordenadas).longitude];
@@ -127,39 +136,31 @@
     }
     
     if([ruta rangeOfString:@"noche"].location == NSNotFound){
-        
+        bruta = true;
         GMSPolyline *polyline = [GMSPolyline polylineWithPath:path];
-        polyline.strokeColor = [UIColor colorWithRed:0 green:0 blue:1 alpha:.5];
+        polyline.strokeColor = color;
         polyline.strokeWidth = 3.f;
         polyline.map = mapView_;
         NSLog(@"User's location: %@", mapView_.myLocation);
 
     }
     else {
-        GMSPolygon *polygon = [GMSPolygon polygonWithPath:path];
-        polygon.fillColor =[UIColor colorWithRed:0 green:0 blue:1 alpha:.08];
-        polygon.strokeColor = [UIColor colorWithRed:0 green:0 blue:1 alpha:1];
+        bruta = false;
+        polygon = [GMSPolygon polygonWithPath:path];
+        polygon.fillColor =color;
+        polygon.strokeColor = color;
         polygon.map = mapView_;
     }
     
 }
 -(void) showAllMarkers{
     
-    
-    CLLocationCoordinate2D x = CLLocationCoordinate2DMake(25.653177, -100.290390);
-    GMSCoordinateBounds *bounds = [[GMSCoordinateBounds alloc] initWithCoordinate:x coordinate:x];
-    
-    for (id <MKAnnotation> annotation in annotations) {
-        GMSMarker *marker = [[GMSMarker alloc]init];
-        marker.position = annotation.coordinate;
-        bounds = [bounds includingCoordinate:marker.position];
-    }
-    
-    
-    [mapView_ animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:50.0f]];
+    GMSCoordinateBounds *bounds = [[GMSCoordinateBounds alloc] initWithPath:path];
+    [mapView_ animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:30.0f]];
 }
 
 -(void) viewDidAppear:(BOOL)animated {
+    
     [self showAllMarkers];
 }
 
