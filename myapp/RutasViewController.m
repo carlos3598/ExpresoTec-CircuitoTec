@@ -26,21 +26,31 @@
     NSArray *annotations;
 }
 
+-(IBAction)addFavorite:(UIButton *)sender{
+    [sender setImage:[UIImage imageNamed:@"Star Filled-25.png"] forState:UIControlStateNormal];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
         self.view = mapView_;
     NSString *ruta = self.detailItem;
-    self.tabBarController.title = ruta;
+    self.tabBarController.navigationItem.title = ruta;
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setFrame:CGRectMake(0.0f, 0.0f, 25.0f, 40.0f)];
+    [btn addTarget:self action:@selector(addFavorite:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setImage:[UIImage imageNamed:@"Star-25.png"] forState:UIControlStateNormal];
+    UIBarButtonItem *btnItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    self.tabBarController.navigationItem.rightBarButtonItem = btnItem;
     ruta = [ruta lowercaseString];
     //NSLog(@"Ruta %@", ruta);
     ruta = [ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
     if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
         [self.locationManager requestWhenInUseAuthorization];
         
-
-        
     }
+    
+    
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:25.649998
                                                             longitude:-100.289899
                                                                  zoom:11];
