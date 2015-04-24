@@ -22,11 +22,8 @@
 @end
 @implementation RutasViewController {
     GMSMapView *mapView_;
-    NSMutableArray *markers;
     NSArray *annotations;
     BOOL bImagen;
-    BOOL bruta;
-    GMSPolygon *polygon;
     GMSMutablePath *path;
 }
 
@@ -51,7 +48,6 @@
     UIBarButtonItem *btnItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
     self.tabBarController.navigationItem.rightBarButtonItem = btnItem;
     bImagen = false;
-    bruta = false;
     ruta = [ruta lowercaseString];
     //NSLog(@"Ruta %@", ruta);
     ruta = [ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
@@ -136,7 +132,7 @@
     }
     
     if([ruta rangeOfString:@"noche"].location == NSNotFound){
-        bruta = true;
+        
         GMSPolyline *polyline = [GMSPolyline polylineWithPath:path];
         polyline.strokeColor = color;
         polyline.strokeWidth = 3.f;
@@ -145,8 +141,8 @@
 
     }
     else {
-        bruta = false;
-        polygon = [GMSPolygon polygonWithPath:path];
+        
+        GMSPolygon *polygon= [GMSPolygon polygonWithPath:path];
         polygon.fillColor =color;
         polygon.strokeColor = color;
         polygon.map = mapView_;

@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _objects = [[NSArray alloc] initWithObjects:@"Garza Sada (Dia) ",@"Ruta A (noche) ",@"Ruta B (noche) ",@"Ruta B (noche)",nil];
+    _objects = [[NSArray alloc] initWithObjects:@"Garza Sada (Dia) ",@"Ruta A (noche) ",@"Ruta B (noche) ",@"Ruta C (noche)",nil];
     
     
     

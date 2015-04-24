@@ -14,7 +14,7 @@
 		FB427B711AE969EA00D21149 /* garzasada(dia).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B6F1AE969EA00D21149 /* garzasada(dia).kml */; };
 		FB427B761AE96F0000D21149 /* rutaa(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B731AE96F0000D21149 /* rutaa(noche).kml */; };
 		FB427B771AE96F0000D21149 /* rutab(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B741AE96F0000D21149 /* rutab(noche).kml */; };
-		FB427B781AE96F0000D21149 /* rutac(noche) in Resources */ = {isa = PBXBuildFile; fileRef = FB427B751AE96F0000D21149 /* rutac(noche) */; };
+		FB427B781AE96F0000D21149 /* rutac(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B751AE96F0000D21149 /* rutac(noche).kml */; };
 		FD315F831ABBA9D600407AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F821ABBA9D600407AD1 /* main.m */; };
 		FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F851ABBA9D600407AD1 /* AppDelegate.m */; };
 		FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8D1ABBA9D600407AD1 /* Images.xcassets */; };
@@ -77,7 +77,7 @@
 		FB427B6F1AE969EA00D21149 /* garzasada(dia).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "garzasada(dia).kml"; sourceTree = "<group>"; };
 		FB427B731AE96F0000D21149 /* rutaa(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rutaa(noche).kml"; sourceTree = "<group>"; };
 		FB427B741AE96F0000D21149 /* rutab(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rutab(noche).kml"; sourceTree = "<group>"; };
-		FB427B751AE96F0000D21149 /* rutac(noche) */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rutac(noche)"; sourceTree = "<group>"; };
+		FB427B751AE96F0000D21149 /* rutac(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rutac(noche).kml"; sourceTree = "<group>"; };
 		FD2E74CC1AD6EA300064932D /* RutasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RutasViewController.h; sourceTree = "<group>"; };
 		FD315F7D1ABBA9D600407AD1 /* myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F811ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 			children = (
 				FB427B731AE96F0000D21149 /* rutaa(noche).kml */,
 				FB427B741AE96F0000D21149 /* rutab(noche).kml */,
-				FB427B751AE96F0000D21149 /* rutac(noche) */,
+				FB427B751AE96F0000D21149 /* rutac(noche).kml */,
 				FB427B6F1AE969EA00D21149 /* garzasada(dia).kml */,
 				FDBA542E1AD867C700CD1087 /* valle1.kml */,
 				FDBA542F1AD867C700CD1087 /* valle2.kml */,
@@ -395,7 +395,7 @@
 				07352A5D1AE97EED0093AE20 /* GoogleMaps.bundle in Resources */,
 				0704E7271AE77CA200C994F6 /* calendar.png in Resources */,
 				FD6509381AE02F050088BC9C /* Star Filled-32.png in Resources */,
-				FB427B781AE96F0000D21149 /* rutac(noche) in Resources */,
+				FB427B781AE96F0000D21149 /* rutac(noche).kml in Resources */,
 				FB427B771AE96F0000D21149 /* rutab(noche).kml in Resources */,
 				FD6509361AE02EC60088BC9C /* Star-25.png in Resources */,
 				FDBA543B1AD867D700CD1087 /* cumbres.kml in Resources */,
