@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -107,7 +107,6 @@
         <!--Circuito Tec-->
         <scene sceneID="BUF-Hp-Mhm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="V4d-5j-o8W" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="0Xp-qr-lW0" customClass="CircuitoTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="wLe-aG-5M8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
@@ -132,6 +131,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Circuito Tec" id="8AY-Bq-NIL"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V4d-5j-o8W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="583" y="1036"/>
         </scene>
@@ -184,10 +184,9 @@
             </objects>
             <point key="canvasLocation" x="1101" y="281"/>
         </scene>
-        <!--Title-->
+        <!--Mapa-->
         <scene sceneID="OQb-Nd-CMp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Irl-Wb-3j9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="7S3-P1-KhG" customClass="RutasViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iAw-Kc-Bb2"/>
@@ -199,19 +198,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Mapa" image="mapa.png" id="I7v-jQ-pxE"/>
-                    <navigationItem key="navigationItem" title="Title" id="WCl-Iw-IeO">
-                        <barButtonItem key="rightBarButtonItem" image="Star Filled-25.png" style="plain" id="cRK-lP-vWp">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZGC-xq-NhT">
-                                <rect key="frame" x="233" y="7" width="80" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Star Filled-25.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Irl-Wb-3j9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2251" y="274"/>
         </scene>
@@ -255,7 +244,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Star Filled-25.png" width="25" height="25"/>
         <image name="calendar.png" width="25" height="25"/>
         <image name="mapa.png" width="25" height="25"/>
     </resources>

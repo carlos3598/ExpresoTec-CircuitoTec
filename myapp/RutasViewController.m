@@ -18,9 +18,12 @@
 @interface RutasViewController ()
 
 
+
 @end
 @implementation RutasViewController {
     GMSMapView *mapView_;
+    NSMutableArray *markers;
+    NSArray *annotations;
 }
 
 - (void)viewDidLoad {
@@ -35,7 +38,7 @@
     if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
         [self.locationManager requestWhenInUseAuthorization];
         
-       self.parentViewController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(myRightButton)];
+
         
     }
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:25.649998
@@ -80,10 +83,13 @@
     
     // Do any additional setup after loading the view.
     
+    
+    
     NSString *pathKml = [[NSBundle mainBundle] pathForResource:ruta ofType:@"kml"];
     NSURL *url = [NSURL fileURLWithPath:pathKml];
     kmlParser = [[KMLParser alloc] initWithURL:url];
     [kmlParser parseKML];
+    
     
     NSArray *overlays = [kmlParser overlays];
     MKPolyline *linea = overlays[0];
@@ -94,11 +100,8 @@
         [path addLatitude:MKCoordinateForMapPoint(*coordenadas).latitude longitude:MKCoordinateForMapPoint(*coordenadas).longitude];
     }
     
+    annotations = [kmlParser points];
     
-    
-    
-    
-    NSArray *annotations = [kmlParser points];
     
     for (id <MKAnnotation> annotation in annotations) {
         GMSMarker *marker = [[GMSMarker alloc]init];
@@ -122,8 +125,27 @@
         polygon.strokeColor = [UIColor colorWithRed:0 green:0 blue:1 alpha:1];
         polygon.map = mapView_;
     }
+    
+}
+-(void) showAllMarkers{
+    
+    
+    CLLocationCoordinate2D x = CLLocationCoordinate2DMake(25.653177, -100.290390);
+    GMSCoordinateBounds *bounds = [[GMSCoordinateBounds alloc] initWithCoordinate:x coordinate:x];
+    
+    for (id <MKAnnotation> annotation in annotations) {
+        GMSMarker *marker = [[GMSMarker alloc]init];
+        marker.position = annotation.coordinate;
+        bounds = [bounds includingCoordinate:marker.position];
+    }
+    
+    
+    [mapView_ animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:50.0f]];
 }
 
+-(void) viewDidAppear:(BOOL)animated {
+    [self showAllMarkers];
+}
 
 
 - (void)didReceiveMemoryWarning {

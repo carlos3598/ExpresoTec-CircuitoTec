@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0704E7251AE77C8500C994F6 /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 0704E7241AE77C8500C994F6 /* mapa.png */; };
 		0704E7271AE77CA200C994F6 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0704E7261AE77CA200C994F6 /* calendar.png */; };
-		FB427B6B1AE95DC600D21149 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB427B6A1AE95DC600D21149 /* GoogleMaps.bundle */; };
+		07352A5D1AE97EED0093AE20 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07352A5C1AE97EED0093AE20 /* GoogleMaps.bundle */; };
 		FB427B6E1AE9639B00D21149 /* CircuitoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB427B6D1AE9639B00D21149 /* CircuitoTableViewController.m */; };
 		FB427B711AE969EA00D21149 /* garzasada(dia).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B6F1AE969EA00D21149 /* garzasada(dia).kml */; };
 		FB427B761AE96F0000D21149 /* rutaa(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B731AE96F0000D21149 /* rutaa(noche).kml */; };
@@ -71,7 +71,7 @@
 /* Begin PBXFileReference section */
 		0704E7241AE77C8500C994F6 /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapa.png; sourceTree = "<group>"; };
 		0704E7261AE77CA200C994F6 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
-		FB427B6A1AE95DC600D21149 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = ../../GoogleMaps.bundle; sourceTree = "<group>"; };
+		07352A5C1AE97EED0093AE20 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = ../../GoogleMaps.bundle; sourceTree = "<group>"; };
 		FB427B6C1AE9639B00D21149 /* CircuitoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircuitoTableViewController.h; sourceTree = "<group>"; };
 		FB427B6D1AE9639B00D21149 /* CircuitoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircuitoTableViewController.m; sourceTree = "<group>"; };
 		FB427B6F1AE969EA00D21149 /* garzasada(dia).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "garzasada(dia).kml"; sourceTree = "<group>"; };
@@ -242,10 +242,10 @@
 		FD315F7F1ABBA9D600407AD1 /* myapp */ = {
 			isa = PBXGroup;
 			children = (
+				07352A5C1AE97EED0093AE20 /* GoogleMaps.bundle */,
 				0704E72B1AE783FB00C994F6 /* ViewController */,
 				0704E72A1AE783EC00C994F6 /* KMLParser */,
 				FD315F841ABBA9D600407AD1 /* AppDelegate.h */,
-				FB427B6A1AE95DC600D21149 /* GoogleMaps.bundle */,
 				FD315F851ABBA9D600407AD1 /* AppDelegate.m */,
 				FDBA543C1AD8680800CD1087 /* Main.storyboard */,
 				0704E7281AE783C400C994F6 /* Images */,
@@ -392,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDBA54311AD867C700CD1087 /* valle1.kml in Resources */,
+				07352A5D1AE97EED0093AE20 /* GoogleMaps.bundle in Resources */,
 				0704E7271AE77CA200C994F6 /* calendar.png in Resources */,
 				FD6509381AE02F050088BC9C /* Star Filled-32.png in Resources */,
 				FB427B781AE96F0000D21149 /* rutac(noche) in Resources */,
@@ -402,7 +403,6 @@
 				FDBA543D1AD8680800CD1087 /* Main.storyboard in Resources */,
 				FD65093A1AE038340088BC9C /* Property List.plist in Resources */,
 				FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */,
-				FB427B6B1AE95DC600D21149 /* GoogleMaps.bundle in Resources */,
 				FB427B711AE969EA00D21149 /* garzasada(dia).kml in Resources */,
 				0704E7251AE77C8500C994F6 /* mapa.png in Resources */,
 				FDBA54391AD867D000CD1087 /* sanjeronimo.kml in Resources */,
@@ -591,6 +591,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = myappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myapp.app/myapp";
@@ -606,6 +607,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = myappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myapp.app/myapp";

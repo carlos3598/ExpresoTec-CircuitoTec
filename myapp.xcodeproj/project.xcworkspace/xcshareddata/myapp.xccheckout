@@ -10,8 +10,6 @@
 	<string>myapp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>79AD5312A7F0E74D75BA549186DE78FFBC498193</key>
-		<string>https://github.com/epv44/Google-Maps-Prototype.git</string>
 		<key>CAE10EB855B6EE2AA14109636E237A96DBE78EAE</key>
 		<string>https://github.com/carlos3598/myapp.git</string>
 	</dict>
@@ -19,8 +17,6 @@
 	<string>myapp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>79AD5312A7F0E74D75BA549186DE78FFBC498193</key>
-		<string>../../../Google-Maps-Prototype</string>
 		<key>CAE10EB855B6EE2AA14109636E237A96DBE78EAE</key>
 		<string>../..</string>
 	</dict>
@@ -32,14 +28,6 @@
 	<string>CAE10EB855B6EE2AA14109636E237A96DBE78EAE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>79AD5312A7F0E74D75BA549186DE78FFBC498193</string>
-			<key>IDESourceControlWCCName</key>
-			<string>Google-Maps-Prototype</string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
