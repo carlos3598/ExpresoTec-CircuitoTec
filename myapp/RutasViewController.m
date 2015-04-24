@@ -24,16 +24,21 @@
     GMSMapView *mapView_;
     NSMutableArray *markers;
     NSArray *annotations;
+    BOOL bImagen;
 }
 
 -(IBAction)addFavorite:(UIButton *)sender{
-    [sender setImage:[UIImage imageNamed:@"Star Filled-25.png"] forState:UIControlStateNormal];
+    if(!bImagen)
+        [sender setImage:[UIImage imageNamed:@"Star Filled-25.png"] forState:UIControlStateNormal];
+    else
+       [sender setImage:[UIImage imageNamed:@"Star-25.png"] forState:UIControlStateNormal];
+    bImagen = !bImagen;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-        self.view = mapView_;
+    self.view = mapView_;
     NSString *ruta = self.detailItem;
     self.tabBarController.navigationItem.title = ruta;
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -42,6 +47,7 @@
     [btn setImage:[UIImage imageNamed:@"Star-25.png"] forState:UIControlStateNormal];
     UIBarButtonItem *btnItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
     self.tabBarController.navigationItem.rightBarButtonItem = btnItem;
+    bImagen = false;
     ruta = [ruta lowercaseString];
     //NSLog(@"Ruta %@", ruta);
     ruta = [ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
