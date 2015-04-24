@@ -21,39 +21,73 @@
 
 @end
 @implementation RutasViewController {
+    
     GMSMapView *mapView_;
     NSArray *annotations;
+    NSArray *markers;
     BOOL bImagen;
     GMSMutablePath *path;
+    NSString *rutaOrig;
+    NSString *path1;
+    NSMutableArray *windowsArray;
+    NSMutableDictionary *data;
+    NSArray *paths;
+    NSString *documentsDirectory;
+    NSString *pathP;
+    NSInteger index;
 }
 
 -(IBAction)addFavorite:(UIButton *)sender{
-    if(!bImagen)
+    if(!bImagen) {
         [sender setImage:[UIImage imageNamed:@"Star Filled-25.png"] forState:UIControlStateNormal];
-    else
-       [sender setImage:[UIImage imageNamed:@"Star-25.png"] forState:UIControlStateNormal];
-    bImagen = !bImagen;
+    
+        NSLog(@"windows: %@", windowsArray);
+        [windowsArray addObject:rutaOrig];
+        NSLog(@"windows after add: %@", windowsArray);
+        [windowsArray writeToFile:path1 atomically:YES];
+    }
+    else{
+        [windowsArray removeObject:rutaOrig];
+         NSLog(@"windows after remove: %@", windowsArray);
+        [sender setImage:[UIImage imageNamed:@"Star-25.png"] forState:UIControlStateNormal];
+        [windowsArray writeToFile:path1 atomically:YES];
+        bImagen = !bImagen;
+    }
+    
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.view = mapView_;
+    path1 = [[NSBundle mainBundle] pathForResource:@"favoritos" ofType:@"plist"];
+    windowsArray =[[NSMutableArray alloc] initWithContentsOfFile:path1];
     NSString *ruta = self.detailItem;
+    bImagen = [windowsArray containsObject:ruta];
+    //index = [windowsArray   indexOfObject:ruta];
+    NSLog(@"inicia%@", windowsArray);
+    self.view = mapView_;
+   
+    rutaOrig = ruta;
     self.tabBarController.navigationItem.title = ruta;
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setFrame:CGRectMake(0.0f, 0.0f, 25.0f, 40.0f)];
     [btn addTarget:self action:@selector(addFavorite:) forControlEvents:UIControlEventTouchUpInside];
-    [btn setImage:[UIImage imageNamed:@"Star-25.png"] forState:UIControlStateNormal];
+    
+    if(bImagen)
+        [btn setImage:[UIImage imageNamed:@"Star Filled-25.png"] forState:UIControlStateNormal];
+    else
+        [btn setImage:[UIImage imageNamed:@"Star-25.png"] forState:UIControlStateNormal];
     UIBarButtonItem *btnItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
     self.tabBarController.navigationItem.rightBarButtonItem = btnItem;
-    bImagen = false;
+   
     ruta = [ruta lowercaseString];
+    
     //NSLog(@"Ruta %@", ruta);
     ruta = [ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
     if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
         [self.locationManager requestWhenInUseAuthorization];
         
+        
+    
     }
     
     
@@ -122,20 +156,30 @@
     }
     
     annotations = [kmlParser points];
-    
-    
-    for (id <MKAnnotation> annotation in annotations) {
-        GMSMarker *marker = [[GMSMarker alloc]init];
-        marker.position = annotation.coordinate;
-        marker.title = annotation.title;
-        marker.map = mapView_;
+    NSInteger i = 0;
+    for ( id <MKAnnotation> annotation in annotations) {
+        NSString *imagen;
+        if(i< [annotations count]-1){
+            imagen = [NSString stringWithFormat:@"icon-%d", i];
+        }
+        if(i == [annotations count]){
+            imagen = @"icon-tec";
+        }
+            GMSMarker *marker = [[GMSMarker alloc]init];
+            marker.position = annotation.coordinate;
+            marker.title = annotation.title;
+            marker.icon = [UIImage imageNamed:imagen];
+            marker.map = mapView_;
+            i++;
     }
+    
+    
     
     if([ruta rangeOfString:@"noche"].location == NSNotFound){
         
         GMSPolyline *polyline = [GMSPolyline polylineWithPath:path];
         polyline.strokeColor = color;
-        polyline.strokeWidth = 3.f;
+        polyline.strokeWidth = 3.0f;
         polyline.map = mapView_;
         NSLog(@"User's location: %@", mapView_.myLocation);
 
