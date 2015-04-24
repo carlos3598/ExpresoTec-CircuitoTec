@@ -162,7 +162,7 @@
         if(i< [annotations count]-1){
             imagen = [NSString stringWithFormat:@"icon-%d", i];
         }
-        if(i == [annotations count]){
+        if(i == [annotations count]-1){
             imagen = @"icon-tec";
         }
             GMSMarker *marker = [[GMSMarker alloc]init];
