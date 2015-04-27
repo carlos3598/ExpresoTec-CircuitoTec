@@ -11,6 +11,9 @@
 		0704E7271AE77CA200C994F6 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0704E7261AE77CA200C994F6 /* calendar.png */; };
 		07352A5D1AE97EED0093AE20 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07352A5C1AE97EED0093AE20 /* GoogleMaps.bundle */; };
 		074F4D151AEAFD86007DF1E7 /* FavoritosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074F4D141AEAFD86007DF1E7 /* FavoritosTableViewController.m */; };
+		07B083121AEED6E00017A7D0 /* RFSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B083111AEED6E00017A7D0 /* RFSegmentView.m */; };
+		07B083151AEED6F40017A7D0 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B083141AEED6F40017A7D0 /* RFViewController.m */; };
+		07B083171AEEF0B40017A7D0 /* horarios.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B083161AEEF0B40017A7D0 /* horarios.plist */; };
 		07BB84A01AE9E549007943C9 /* icon-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84971AE9E549007943C9 /* icon-0.png */; };
 		07BB84A11AE9E549007943C9 /* icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84981AE9E549007943C9 /* icon-1.png */; };
 		07BB84A21AE9E549007943C9 /* icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84991AE9E549007943C9 /* icon-2.png */; };
@@ -86,6 +89,11 @@
 		07352A5C1AE97EED0093AE20 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = ../../GoogleMaps.bundle; sourceTree = "<group>"; };
 		074F4D131AEAFD86007DF1E7 /* FavoritosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritosTableViewController.h; sourceTree = "<group>"; };
 		074F4D141AEAFD86007DF1E7 /* FavoritosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritosTableViewController.m; sourceTree = "<group>"; };
+		07B083101AEED6E00017A7D0 /* RFSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFSegmentView.h; sourceTree = "<group>"; };
+		07B083111AEED6E00017A7D0 /* RFSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFSegmentView.m; sourceTree = "<group>"; };
+		07B083131AEED6F40017A7D0 /* RFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
+		07B083141AEED6F40017A7D0 /* RFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
+		07B083161AEEF0B40017A7D0 /* horarios.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = horarios.plist; sourceTree = "<group>"; };
 		07BB84971AE9E549007943C9 /* icon-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-0.png"; sourceTree = "<group>"; };
 		07BB84981AE9E549007943C9 /* icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-1.png"; sourceTree = "<group>"; };
 		07BB84991AE9E549007943C9 /* icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-2.png"; sourceTree = "<group>"; };
@@ -236,6 +244,10 @@
 		0704E72B1AE783FB00C994F6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				074F4D131AEAFD86007DF1E7 /* FavoritosTableViewController.h */,
+				074F4D141AEAFD86007DF1E7 /* FavoritosTableViewController.m */,
+				07B083131AEED6F40017A7D0 /* RFViewController.h */,
+				07B083141AEED6F40017A7D0 /* RFViewController.m */,
 				FD2E74CC1AD6EA300064932D /* RutasViewController.h */,
 				FDFF752B1AC08D7800A59196 /* RutasViewController.m */,
 				FDBA542C1AD8640300CD1087 /* MasterTableViewController.m */,
@@ -244,6 +256,15 @@
 				FB427B6D1AE9639B00D21149 /* CircuitoTableViewController.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		07B0830F1AEED6E00017A7D0 /* RFSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				07B083101AEED6E00017A7D0 /* RFSegmentView.h */,
+				07B083111AEED6E00017A7D0 /* RFSegmentView.m */,
+			);
+			path = RFSegmentView;
 			sourceTree = "<group>";
 		};
 		07BB84A91AE9E552007943C9 /* markers */ = {
@@ -286,14 +307,14 @@
 		FD315F7F1ABBA9D600407AD1 /* myapp */ = {
 			isa = PBXGroup;
 			children = (
+				07B0830F1AEED6E00017A7D0 /* RFSegmentView */,
 				07352A5C1AE97EED0093AE20 /* GoogleMaps.bundle */,
 				0704E72B1AE783FB00C994F6 /* ViewController */,
 				0704E72A1AE783EC00C994F6 /* KMLParser */,
 				FD315F841ABBA9D600407AD1 /* AppDelegate.h */,
 				FD315F851ABBA9D600407AD1 /* AppDelegate.m */,
 				FDBA543C1AD8680800CD1087 /* Main.storyboard */,
-				074F4D131AEAFD86007DF1E7 /* FavoritosTableViewController.h */,
-				074F4D141AEAFD86007DF1E7 /* FavoritosTableViewController.m */,
+				07B083161AEEF0B40017A7D0 /* horarios.plist */,
 				0704E7281AE783C400C994F6 /* Images */,
 				0704E7291AE783D200C994F6 /* kml */,
 				FD315F8D1ABBA9D600407AD1 /* Images.xcassets */,
@@ -460,6 +481,7 @@
 				FD68A7CB1AD7247B0035E5E3 /* sannicolas.kml in Resources */,
 				07BB84AD1AE9ECEF007943C9 /* icon-8.png in Resources */,
 				07BB84A61AE9E549007943C9 /* icon-6.png in Resources */,
+				07B083171AEEF0B40017A7D0 /* horarios.plist in Resources */,
 				FDBA54371AD867D000CD1087 /* lincoln.kml in Resources */,
 				FD6509351AE02EC60088BC9C /* Star Filled-25.png in Resources */,
 				07BB84A31AE9E549007943C9 /* icon-3.png in Resources */,
@@ -487,10 +509,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B083121AEED6E00017A7D0 /* RFSegmentView.m in Sources */,
 				074F4D151AEAFD86007DF1E7 /* FavoritosTableViewController.m in Sources */,
 				FDBA542D1AD8640300CD1087 /* MasterTableViewController.m in Sources */,
 				FB427B6E1AE9639B00D21149 /* CircuitoTableViewController.m in Sources */,
 				FD68A7C11AD720070035E5E3 /* KMLParser.m in Sources */,
+				07B083151AEED6F40017A7D0 /* RFViewController.m in Sources */,
 				FDFF752C1AC08D7800A59196 /* RutasViewController.m in Sources */,
 				FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */,
 				FD315F831ABBA9D600407AD1 /* main.m in Sources */,

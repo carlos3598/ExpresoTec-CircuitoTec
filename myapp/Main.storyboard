@@ -224,7 +224,7 @@
         <!--Horarios-->
         <scene sceneID="S48-1g-H0U">
             <objects>
-                <viewController id="V0h-0j-CH8" sceneMemberID="viewController">
+                <viewController id="V0h-0j-CH8" customClass="RFViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EAF-5e-9uS"/>
                         <viewControllerLayoutGuide type="bottom" id="JcA-1u-YTz"/>
@@ -232,9 +232,67 @@
                     <view key="view" contentMode="scaleToFill" id="EfL-9W-bLd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qZO-BM-aCm">
+                                <rect key="frame" x="0.0" y="129" width="320" height="302"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQu-4C-hbK">
+                                        <rect key="frame" x="24" y="8" width="120" height="49"/>
+                                        <string key="text">SALIDAS 
+DEL PUNTO 1</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsO-lH-cjI">
+                                        <rect key="frame" x="201" y="8" width="98" height="49"/>
+                                        <string key="text">LLEGADAS
+TEC</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.089999999999999997" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BHb-vA-WUN">
+                                <rect key="frame" x="0.0" y="129" width="320" height="302"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRN-QD-ah4" userLabel="LLEGADAS TEC">
+                                        <rect key="frame" x="100" y="8" width="120" height="49"/>
+                                        <string key="text">SALIDAS DEL
+TEC</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.089999999999999997" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eWq-ps-CIG">
+                                <rect key="frame" x="0.0" y="129" width="320" height="302"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCo-Hd-qFn" userLabel="LLEGADAS TEC">
+                                        <rect key="frame" x="57" y="8" width="206" height="49"/>
+                                        <string key="text">TIEMPO DE RECORRIDO
+INICIANDO PARADA 1</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.089999999999999997" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Horarios" image="calendar.png" id="N4V-CM-oyo"/>
+                    <connections>
+                        <outlet property="vista1" destination="qZO-BM-aCm" id="xkD-Rc-q5g"/>
+                        <outlet property="vista2" destination="BHb-vA-WUN" id="iti-G7-2nf"/>
+                        <outlet property="vista3" destination="eWq-ps-CIG" id="XuR-R7-2Ug"/>
+                        <outlet property="vistaIda" destination="EfL-9W-bLd" id="ysB-hQ-7WX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f2M-fA-LUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
