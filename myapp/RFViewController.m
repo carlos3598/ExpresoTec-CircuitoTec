@@ -206,7 +206,9 @@ UIColor *color;
     [self addSegmentedView];
     self.scrollv2.hidden = YES;
     self.scrollv3.hidden = YES;
-   
+    _ruta = [_ruta lowercaseString];
+    _ruta = [_ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
+   NSLog(@"current index is %@",_ruta);
     // Do any additional setup after loading the view.
 }
 
@@ -218,7 +220,7 @@ UIColor *color;
 
 - (void)segmentViewSelectIndex:(NSInteger)index
 {
-    NSLog(@"current index is %ld",(long)index);
+    
     if(index == 0){
         self.scrollv1.hidden = NO;
         self.scrollv2.hidden = YES;

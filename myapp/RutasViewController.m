@@ -80,8 +80,6 @@
     self.tabBarController.navigationItem.rightBarButtonItem = btnItem;
    
     ruta = [ruta lowercaseString];
-    
-    //NSLog(@"Ruta %@", ruta);
     ruta = [ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
     if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
         [self.locationManager requestWhenInUseAuthorization];

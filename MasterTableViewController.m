@@ -12,10 +12,12 @@
 
 @interface MasterTableViewController ()
 @property NSArray *objects;
-@property NSInteger index;
+
 @end
 
 @implementation MasterTableViewController
+
+NSInteger index2;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -45,7 +47,7 @@
     
     NSString *object = self.objects[indexPath.row];
     cell.textLabel.text = [object description];
-    _index = indexPath.row;
+    index2 = indexPath.row;
     return cell;
 }
 
@@ -59,7 +61,7 @@
     RutasViewController *mapa = [[controler viewControllers] objectAtIndex:0];
     RFViewController *horarios = [[controler viewControllers] objectAtIndex:1];
     mapa.detailItem = cell.textLabel.text;
-    horarios.index= _index;
+    horarios.ruta =cell.textLabel.text;
 }
 
 
