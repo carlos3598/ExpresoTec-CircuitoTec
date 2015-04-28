@@ -21,7 +21,7 @@
 @implementation RFViewController
 
 -(void) viewDidAppear:(BOOL)animated   {
-    
+    [self addScrollViews];
 }
 
 UIColor *color;
@@ -48,10 +48,10 @@ UIColor *color;
     NSArray *regresoM = [dic objectForKey:@"regresoM"];
     NSArray *tiempo = [dic objectForKey:@"tiempo"];
     
-    UIView *borderBottom1 = [[UIView alloc] initWithFrame:CGRectMake(0.0, self.lbSal.frame.origin.y + self.lbSal.frame.size.height, kScreenWidth, 1.0)];
+    UIView *borderBottom1 = [[UIView alloc] initWithFrame:CGRectMake(0.0, self.lbSal.frame.origin.y + self.lbSal.frame.size.height +10, kScreenWidth, 1.0)];
     borderBottom1.backgroundColor = color;
     
-    UIView *borderBottom2 = [[UIView alloc] initWithFrame:CGRectMake(0.0, self.lbsSalida.frame.origin.y + self.lbsSalida.frame.size.height, kScreenWidth, 1.0)];
+    UIView *borderBottom2 = [[UIView alloc] initWithFrame:CGRectMake(0.0, self.lbsSalida.frame.origin.y + self.lbsSalida.frame.size.height+10, kScreenWidth, 1.0)];
     borderBottom2.backgroundColor = color;
     UIView *borderBottom3 = [[UIView alloc] initWithFrame:CGRectMake(0.0, self.lbParada.frame.origin.y -5, kScreenWidth, 1.0)];
     borderBottom3.backgroundColor = color;
@@ -61,7 +61,7 @@ UIColor *color;
     [_scrollv2 addSubview:borderBottom2];
     [_scrollv3 addSubview:borderBottom3];
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, self.lbSal.frame.origin.y + self.lbSal.frame.size.height, kScreenWidth, 30)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, self.lbSal.frame.origin.y + self.lbSal.frame.size.height + 10, kScreenWidth, 30)];
     label.text = @"Lunes, Martes, Jueves, Viernes";
     label.textAlignment = NSTextAlignmentCenter;
     
@@ -72,9 +72,9 @@ UIColor *color;
     CGFloat initY = 10;
     CGFloat finalY =0;
     for (int i =0; i<[salidas count]; i++) {
-        UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(self.lbSal.frame.size.width/2, label.frame.origin.y + label.frame.size.height+initY, 50, 20)];
+        UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(self.lbSal.frame.size.width/2 + self.lbSal.frame.origin.x -25, label.frame.origin.y  + label.frame.size.height+initY, 50, 20)];
         label1.text = salidas[i];
-        UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(self.lbLLegadas.frame.origin.x +20 ,label.frame.origin.y+ label.frame.size.height+ initY, 50, 20)];
+        UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(self.lbLLegadas.frame.origin.x+ self.lbLLegadas.frame.size.width/2 -25 ,label.frame.origin.y+ label.frame.size.height+ initY, 50, 20)];
         label2.text = llegadas[i];
         initY+=30;
         [_scrollv1 addSubview:label1];
@@ -98,9 +98,9 @@ UIColor *color;
     [_scrollv1 addSubview:borderBottomM];
     
     for (int i =0; i<[salidasM count]; i++) {
-        UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(self.lbSal.frame.size.width/2, labelMier.frame.origin.y + labelMier.frame.size.height+initY, 50, 20)];
+        UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(self.lbSal.frame.size.width/2 + self.lbSal.frame.origin.x  -25 , labelMier.frame.origin.y + labelMier.frame.size.height+initY, 50, 20)];
         label1.text = salidasM[i];
-        UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(self.lbLLegadas.frame.origin.x +20 ,labelMier.frame.origin.y+ labelMier.frame.size.height+ initY, 50, 20)];
+        UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(self.lbLLegadas.frame.origin.x + self.lbLLegadas.frame.size.width/2 -25 ,labelMier.frame.origin.y+ labelMier.frame.size.height+ initY, 50, 20)];
         label2.text = llegadasM[i];
         initY+=30;
         [_scrollv1 addSubview:label1];
@@ -119,7 +119,7 @@ UIColor *color;
     
     
     /***** Vista de Regreso ***/
-    UILabel *labelT = [[UILabel alloc] initWithFrame:CGRectMake(0, self.lbsSalida.frame.origin.y + self.lbsSalida.frame.size.height , kScreenWidth, 30)];
+    UILabel *labelT = [[UILabel alloc] initWithFrame:CGRectMake(0, self.lbsSalida.frame.origin.y + self.lbsSalida.frame.size.height +10, kScreenWidth, 30)];
     labelT.text = @"Lunes, Martes, Jueves, Viernes";
     labelT.textAlignment = NSTextAlignmentCenter;
     
@@ -178,7 +178,7 @@ UIColor *color;
         else
             label1.text = [NSString stringWithFormat:@"%d",i+1];
         label1.textAlignment = NSTextAlignmentCenter;
-        UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(self.lbHorario.frame.origin.x , self.lbParada.frame.origin.y + self.lbParada.frame.size.height+initY, 50 , 20)];
+        UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(self.lbHorario.frame.origin.x + self.lbHorario.frame.size.width/2 -25 , self.lbParada.frame.origin.y + self.lbParada.frame.size.height+initY, 50 , 20)];
         label2.text = tiempo[i];
         label2.textAlignment = NSTextAlignmentCenter;
         initY+=30;
@@ -187,6 +187,8 @@ UIColor *color;
         
     }
     _scrollv3.contentSize = CGSizeMake(self.scrollv3.frame.size.width,500);
+    
+ 
     
 }
 -(void) addSegmentedView{
@@ -202,9 +204,9 @@ UIColor *color;
 {
     [super viewDidLoad];
     [self addSegmentedView];
-    [self addScrollViews];
     self.scrollv2.hidden = YES;
     self.scrollv3.hidden = YES;
+   
     // Do any additional setup after loading the view.
 }
 
@@ -216,7 +218,7 @@ UIColor *color;
 
 - (void)segmentViewSelectIndex:(NSInteger)index
 {
-    NSLog(@"current index is %d",index);
+    NSLog(@"current index is %ld",(long)index);
     if(index == 0){
         self.scrollv1.hidden = NO;
         self.scrollv2.hidden = YES;

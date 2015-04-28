@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,17 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DhU-Cf-YPs">
-                                <rect key="frame" x="89" y="167" width="141" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LWg-FD-HMa">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LWg-FD-HMa">
                                 <rect key="frame" x="87" y="225" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuo-m8-JPr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuo-m8-JPr">
                                 <rect key="frame" x="112" y="303" width="92" height="30"/>
                                 <state key="normal" title="Iniciar Sesión">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -35,8 +31,23 @@
                                     <segue destination="2b0-SU-12j" kind="show" id="viX-pb-Qgb"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DhU-Cf-YPs">
+                                <rect key="frame" x="90" y="167" width="141" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DhU-Cf-YPs" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="74" id="84L-UB-bzC"/>
+                            <constraint firstItem="DhU-Cf-YPs" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Ar9-Eg-lNx"/>
+                            <constraint firstItem="LWg-FD-HMa" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="71" id="Fcg-uW-RU2"/>
+                            <constraint firstItem="LWg-FD-HMa" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="J21-iU-0Wz"/>
+                            <constraint firstAttribute="centerX" secondItem="wuo-m8-JPr" secondAttribute="centerX" constant="2" id="NgQ-bq-6QX"/>
+                            <constraint firstItem="LWg-FD-HMa" firstAttribute="centerX" secondItem="wuo-m8-JPr" secondAttribute="centerX" id="YD6-bn-dWF"/>
+                            <constraint firstItem="LWg-FD-HMa" firstAttribute="top" secondItem="DhU-Cf-YPs" secondAttribute="bottom" constant="28" id="aTu-4Z-TTL"/>
+                            <constraint firstAttribute="centerY" secondItem="wuo-m8-JPr" secondAttribute="centerY" constant="-78" id="edG-6f-iWO"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="NoV-Qt-UgO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
@@ -224,7 +235,6 @@
         <!--Horarios-->
         <scene sceneID="S48-1g-H0U">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f2M-fA-LUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="V0h-0j-CH8" customClass="RFViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EAF-5e-9uS"/>
@@ -234,32 +244,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eJt-rk-4Hl">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eJt-rk-4Hl" userLabel="Scroll View LLEGA">
                                 <rect key="frame" x="0.0" y="133" width="320" height="298"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQu-4C-hbK">
-                                        <rect key="frame" x="14" y="21" width="120" height="49"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQu-4C-hbK" userLabel="SALIDAS  DEL PUNTO 1">
+                                        <rect key="frame" x="35" y="14" width="110" height="49"/>
                                         <string key="text">SALIDAS 
 DEL PUNTO 1</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsO-lH-cjI">
-                                        <rect key="frame" x="201" y="21" width="98" height="49"/>
-                                        <string key="text">LLEGADAS
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsO-lH-cjI" userLabel="LLEGADAS AL TEC">
+                                        <rect key="frame" x="173" y="14" width="117" height="49"/>
+                                        <string key="text">LLEGADAS AL
 TEC</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="VQu-4C-hbK" secondAttribute="centerX" constant="70" id="25S-Cz-OKI"/>
+                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="top" secondItem="eJt-rk-4Hl" secondAttribute="top" constant="14" id="GBS-ul-kNX"/>
+                                    <constraint firstAttribute="centerX" secondItem="dsO-lH-cjI" secondAttribute="centerX" constant="-71.5" id="Uye-9R-cdu"/>
+                                    <constraint firstItem="VQu-4C-hbK" firstAttribute="top" secondItem="eJt-rk-4Hl" secondAttribute="top" constant="14" id="gMM-ps-7ZR"/>
+                                </constraints>
                             </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UfA-YC-fhh">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UfA-YC-fhh" userLabel="Scroll View SALIDAS">
                                 <rect key="frame" x="0.0" y="133" width="320" height="298"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LU4-0J-Y9j" userLabel="SALIDAS DEL TEC">
-                                        <rect key="frame" x="101" y="21" width="118" height="49"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LU4-0J-Y9j" userLabel="SALIDAS DEL TEC">
+                                        <rect key="frame" x="95" y="12" width="124" height="49"/>
                                         <string key="text">SALIDAS DEL
 TEC</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -267,49 +283,74 @@ TEC</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="LU4-0J-Y9j" secondAttribute="centerX" id="X30-pJ-fh1"/>
+                                    <constraint firstItem="LU4-0J-Y9j" firstAttribute="top" secondItem="UfA-YC-fhh" secondAttribute="top" constant="12" id="dO3-Gy-SFn"/>
+                                </constraints>
                             </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cPu-6S-GzG">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1wM-x6-oRL" userLabel="Scroll View TIEMPO">
                                 <rect key="frame" x="0.0" y="133" width="320" height="298"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ajt-5H-oOf">
-                                        <rect key="frame" x="53" y="21" width="215" height="49"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="PARADA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ba1-ka-B7B">
+                                        <rect key="frame" x="57" y="81" width="67" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8i-NF-keT" userLabel="TIEMPO DE RECORRIDO INICIANDO PARADA 1">
+                                        <rect key="frame" x="57" y="12" width="206" height="58"/>
                                         <string key="text">TIEMPO DE RECORRIDO
-INICIANDO EN PARADA 1</string>
+INICIANDO PARADA 1</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parada" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJZ-kr-UrE">
-                                        <rect key="frame" x="53" y="84" width="69" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Horario" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPZ-j8-ioy">
-                                        <rect key="frame" x="209" y="84" width="59" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="HORARIO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRp-zH-LBQ">
+                                        <rect key="frame" x="185" y="81" width="78" height="28"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="o8i-NF-keT" firstAttribute="top" secondItem="1wM-x6-oRL" secondAttribute="top" constant="12" id="UfZ-sO-Xbg"/>
+                                    <constraint firstAttribute="centerX" secondItem="o8i-NF-keT" secondAttribute="centerX" id="amj-Cm-fu2"/>
+                                    <constraint firstAttribute="centerX" secondItem="Ba1-ka-B7B" secondAttribute="centerX" constant="69.5" id="giZ-Yd-afs"/>
+                                    <constraint firstAttribute="centerX" secondItem="rRp-zH-LBQ" secondAttribute="centerX" constant="-64" id="ttN-Qf-mFA"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1wM-x6-oRL" firstAttribute="leading" secondItem="EfL-9W-bLd" secondAttribute="leadingMargin" constant="-16" id="7Wc-6r-fh3"/>
+                            <constraint firstItem="eJt-rk-4Hl" firstAttribute="top" secondItem="EAF-5e-9uS" secondAttribute="bottom" constant="69" id="FXw-XN-5ol"/>
+                            <constraint firstItem="JcA-1u-YTz" firstAttribute="top" secondItem="UfA-YC-fhh" secondAttribute="bottom" id="G9l-dz-BcW"/>
+                            <constraint firstItem="UfA-YC-fhh" firstAttribute="leading" secondItem="EfL-9W-bLd" secondAttribute="leadingMargin" constant="-16" id="Ioe-zS-cjH"/>
+                            <constraint firstItem="JcA-1u-YTz" firstAttribute="top" secondItem="eJt-rk-4Hl" secondAttribute="bottom" id="O3R-vY-tgq"/>
+                            <constraint firstItem="eJt-rk-4Hl" firstAttribute="leading" secondItem="EfL-9W-bLd" secondAttribute="leadingMargin" constant="-16" id="Oga-sE-eLF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eJt-rk-4Hl" secondAttribute="trailing" constant="-16" id="dZJ-hY-zu1"/>
+                            <constraint firstItem="1wM-x6-oRL" firstAttribute="top" secondItem="EAF-5e-9uS" secondAttribute="bottom" constant="69" id="gRV-WU-nLG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1wM-x6-oRL" secondAttribute="trailing" constant="-16" id="hQf-Xh-EsA"/>
+                            <constraint firstItem="UfA-YC-fhh" firstAttribute="top" secondItem="EAF-5e-9uS" secondAttribute="bottom" constant="69" id="hxc-HE-qFe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UfA-YC-fhh" secondAttribute="trailing" constant="-16" id="jqf-IH-obH"/>
+                            <constraint firstItem="JcA-1u-YTz" firstAttribute="top" secondItem="1wM-x6-oRL" secondAttribute="bottom" id="lcs-5o-fA0"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Horarios" image="calendar.png" id="N4V-CM-oyo"/>
                     <connections>
-                        <outlet property="lbHorario" destination="tPZ-j8-ioy" id="aBq-Zz-JZf"/>
+                        <outlet property="lbHorario" destination="rRp-zH-LBQ" id="4LH-qb-Qpn"/>
                         <outlet property="lbLLegadas" destination="dsO-lH-cjI" id="WBa-jd-ldk"/>
-                        <outlet property="lbParada" destination="PJZ-kr-UrE" id="hcB-5Y-Rvb"/>
+                        <outlet property="lbParada" destination="Ba1-ka-B7B" id="Il7-lJ-LFR"/>
                         <outlet property="lbSal" destination="VQu-4C-hbK" id="srn-mq-J8y"/>
-                        <outlet property="lbTiempo" destination="Ajt-5H-oOf" id="gBH-Sg-Pmg"/>
+                        <outlet property="lbTiempo" destination="o8i-NF-keT" id="liK-ne-zah"/>
                         <outlet property="lbsSalida" destination="LU4-0J-Y9j" id="b1n-4v-54Z"/>
                         <outlet property="scrollv1" destination="eJt-rk-4Hl" id="8aq-WJ-Igj"/>
                         <outlet property="scrollv2" destination="UfA-YC-fhh" id="ChT-ka-gu3"/>
-                        <outlet property="scrollv3" destination="cPu-6S-GzG" id="o5v-Sl-rzS"/>
+                        <outlet property="scrollv3" destination="1wM-x6-oRL" id="dng-H6-Vgi"/>
                         <outlet property="vistaIda" destination="EfL-9W-bLd" id="ysB-hQ-7WX"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f2M-fA-LUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2243" y="894"/>
         </scene>
@@ -360,6 +401,23 @@ INICIANDO EN PARADA 1</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kmd-M2-4Ql" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1212" y="996"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tHY-hV-xCm">
+            <objects>
+                <viewController id="K0z-fq-ARg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KVb-dh-NtD"/>
+                        <viewControllerLayoutGuide type="bottom" id="jP3-AA-eiZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NIc-1R-zob">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xFf-Dc-tRZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>

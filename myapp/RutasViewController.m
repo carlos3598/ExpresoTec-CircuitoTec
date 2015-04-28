@@ -160,7 +160,7 @@
     for ( id <MKAnnotation> annotation in annotations) {
         NSString *imagen;
         if(i< [annotations count]-1){
-            imagen = [NSString stringWithFormat:@"icon-%d", i];
+            imagen = [NSString stringWithFormat:@"icon-%ld", (long)i];
         }
         if(i == [annotations count]-1){
             imagen = @"icon-tec";
