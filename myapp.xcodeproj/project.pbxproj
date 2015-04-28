@@ -13,7 +13,7 @@
 		074F4D151AEAFD86007DF1E7 /* FavoritosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074F4D141AEAFD86007DF1E7 /* FavoritosTableViewController.m */; };
 		07B083121AEED6E00017A7D0 /* RFSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B083111AEED6E00017A7D0 /* RFSegmentView.m */; };
 		07B083151AEED6F40017A7D0 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B083141AEED6F40017A7D0 /* RFViewController.m */; };
-		07B083171AEEF0B40017A7D0 /* horarios.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B083161AEEF0B40017A7D0 /* horarios.plist */; };
+		07B083171AEEF0B40017A7D0 /* lincoln.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B083161AEEF0B40017A7D0 /* lincoln.plist */; };
 		07BB84A01AE9E549007943C9 /* icon-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84971AE9E549007943C9 /* icon-0.png */; };
 		07BB84A11AE9E549007943C9 /* icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84981AE9E549007943C9 /* icon-1.png */; };
 		07BB84A21AE9E549007943C9 /* icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84991AE9E549007943C9 /* icon-2.png */; };
@@ -93,7 +93,7 @@
 		07B083111AEED6E00017A7D0 /* RFSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFSegmentView.m; sourceTree = "<group>"; };
 		07B083131AEED6F40017A7D0 /* RFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
 		07B083141AEED6F40017A7D0 /* RFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
-		07B083161AEEF0B40017A7D0 /* horarios.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = horarios.plist; sourceTree = "<group>"; };
+		07B083161AEEF0B40017A7D0 /* lincoln.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lincoln.plist; sourceTree = "<group>"; };
 		07BB84971AE9E549007943C9 /* icon-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-0.png"; sourceTree = "<group>"; };
 		07BB84981AE9E549007943C9 /* icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-1.png"; sourceTree = "<group>"; };
 		07BB84991AE9E549007943C9 /* icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-2.png"; sourceTree = "<group>"; };
@@ -314,7 +314,7 @@
 				FD315F841ABBA9D600407AD1 /* AppDelegate.h */,
 				FD315F851ABBA9D600407AD1 /* AppDelegate.m */,
 				FDBA543C1AD8680800CD1087 /* Main.storyboard */,
-				07B083161AEEF0B40017A7D0 /* horarios.plist */,
+				07B083161AEEF0B40017A7D0 /* lincoln.plist */,
 				0704E7281AE783C400C994F6 /* Images */,
 				0704E7291AE783D200C994F6 /* kml */,
 				FD315F8D1ABBA9D600407AD1 /* Images.xcassets */,
@@ -481,7 +481,7 @@
 				FD68A7CB1AD7247B0035E5E3 /* sannicolas.kml in Resources */,
 				07BB84AD1AE9ECEF007943C9 /* icon-8.png in Resources */,
 				07BB84A61AE9E549007943C9 /* icon-6.png in Resources */,
-				07B083171AEEF0B40017A7D0 /* horarios.plist in Resources */,
+				07B083171AEEF0B40017A7D0 /* lincoln.plist in Resources */,
 				FDBA54371AD867D000CD1087 /* lincoln.kml in Resources */,
 				FD6509351AE02EC60088BC9C /* Star Filled-25.png in Resources */,
 				07BB84A31AE9E549007943C9 /* icon-3.png in Resources */,

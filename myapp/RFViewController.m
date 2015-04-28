@@ -37,9 +37,9 @@ UIColor *color;
 }
 -(void) addScrollViews{
 
-    NSString *path1 = [[NSBundle mainBundle] pathForResource:@"horarios" ofType:@"plist"];
-    _objects =[[NSMutableArray alloc] initWithContentsOfFile:path1];
-    NSDictionary *dic = [_objects objectAtIndex:1];
+    NSString *path1 = [[NSBundle mainBundle] pathForResource:@"lincoln" ofType:@"plist"];
+    
+    NSDictionary *dic = [[NSDictionary alloc] initWithContentsOfFile:path1];
     NSArray *salidas = [dic objectForKey:@"salidas"];
     NSArray *llegadas = [dic objectForKey:@"llegadas"];
     NSArray *salidasM = [dic objectForKey:@"salidasM"];
