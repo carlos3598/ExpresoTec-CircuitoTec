@@ -224,6 +224,7 @@
         <!--Horarios-->
         <scene sceneID="S48-1g-H0U">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f2M-fA-LUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="V0h-0j-CH8" customClass="RFViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EAF-5e-9uS"/>
@@ -233,11 +234,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qZO-BM-aCm">
-                                <rect key="frame" x="0.0" y="129" width="320" height="302"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eJt-rk-4Hl">
+                                <rect key="frame" x="0.0" y="133" width="320" height="298"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQu-4C-hbK">
-                                        <rect key="frame" x="24" y="8" width="120" height="49"/>
+                                        <rect key="frame" x="14" y="21" width="120" height="49"/>
                                         <string key="text">SALIDAS 
 DEL PUNTO 1</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -245,7 +246,7 @@ DEL PUNTO 1</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsO-lH-cjI">
-                                        <rect key="frame" x="201" y="8" width="98" height="49"/>
+                                        <rect key="frame" x="201" y="21" width="98" height="49"/>
                                         <string key="text">LLEGADAS
 TEC</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -253,13 +254,12 @@ TEC</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.089999999999999997" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BHb-vA-WUN">
-                                <rect key="frame" x="0.0" y="129" width="320" height="302"/>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UfA-YC-fhh">
+                                <rect key="frame" x="0.0" y="133" width="320" height="298"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRN-QD-ah4" userLabel="LLEGADAS TEC">
-                                        <rect key="frame" x="100" y="8" width="120" height="49"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LU4-0J-Y9j" userLabel="SALIDAS DEL TEC">
+                                        <rect key="frame" x="101" y="21" width="118" height="49"/>
                                         <string key="text">SALIDAS DEL
 TEC</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -267,34 +267,49 @@ TEC</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.089999999999999997" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eWq-ps-CIG">
-                                <rect key="frame" x="0.0" y="129" width="320" height="302"/>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cPu-6S-GzG">
+                                <rect key="frame" x="0.0" y="133" width="320" height="298"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCo-Hd-qFn" userLabel="LLEGADAS TEC">
-                                        <rect key="frame" x="57" y="8" width="206" height="49"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ajt-5H-oOf">
+                                        <rect key="frame" x="53" y="21" width="215" height="49"/>
                                         <string key="text">TIEMPO DE RECORRIDO
-INICIANDO PARADA 1</string>
+INICIANDO EN PARADA 1</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parada" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJZ-kr-UrE">
+                                        <rect key="frame" x="53" y="84" width="69" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Horario" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPZ-j8-ioy">
+                                        <rect key="frame" x="209" y="84" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.089999999999999997" colorSpace="calibratedRGB"/>
-                            </view>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Horarios" image="calendar.png" id="N4V-CM-oyo"/>
                     <connections>
-                        <outlet property="vista1" destination="qZO-BM-aCm" id="xkD-Rc-q5g"/>
-                        <outlet property="vista2" destination="BHb-vA-WUN" id="iti-G7-2nf"/>
-                        <outlet property="vista3" destination="eWq-ps-CIG" id="XuR-R7-2Ug"/>
+                        <outlet property="lbHorario" destination="tPZ-j8-ioy" id="aBq-Zz-JZf"/>
+                        <outlet property="lbLLegadas" destination="dsO-lH-cjI" id="WBa-jd-ldk"/>
+                        <outlet property="lbParada" destination="PJZ-kr-UrE" id="hcB-5Y-Rvb"/>
+                        <outlet property="lbSal" destination="VQu-4C-hbK" id="srn-mq-J8y"/>
+                        <outlet property="lbTiempo" destination="Ajt-5H-oOf" id="gBH-Sg-Pmg"/>
+                        <outlet property="lbsSalida" destination="LU4-0J-Y9j" id="b1n-4v-54Z"/>
+                        <outlet property="scrollv1" destination="eJt-rk-4Hl" id="8aq-WJ-Igj"/>
+                        <outlet property="scrollv2" destination="UfA-YC-fhh" id="ChT-ka-gu3"/>
+                        <outlet property="scrollv3" destination="cPu-6S-GzG" id="o5v-Sl-rzS"/>
                         <outlet property="vistaIda" destination="EfL-9W-bLd" id="ysB-hQ-7WX"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f2M-fA-LUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2243" y="894"/>
         </scene>

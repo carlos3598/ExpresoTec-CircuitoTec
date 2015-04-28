@@ -8,9 +8,11 @@
 
 #import "MasterTableViewController.h"
 #import "RutasViewController.h"
+#import "RFViewController.h"
 
 @interface MasterTableViewController ()
 @property NSArray *objects;
+@property NSInteger index;
 @end
 
 @implementation MasterTableViewController
@@ -43,6 +45,7 @@
     
     NSString *object = self.objects[indexPath.row];
     cell.textLabel.text = [object description];
+    _index = indexPath.row;
     return cell;
 }
 
@@ -53,8 +56,10 @@
     
     UITableViewCell *cell = (UITableViewCell*) sender;
     UITabBarController *controler = [segue destinationViewController];
-    RutasViewController *contr = [[controler viewControllers] objectAtIndex:0];
-    contr.detailItem = cell.textLabel.text;
+    RutasViewController *mapa = [[controler viewControllers] objectAtIndex:0];
+    RFViewController *horarios = [[controler viewControllers] objectAtIndex:1];
+    mapa.detailItem = cell.textLabel.text;
+    horarios.index= _index;
 }
 
 

@@ -10,10 +10,18 @@
 
 @interface RFViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIView *vistaIda;
-@property (weak, nonatomic) IBOutlet UIView *vista1;
 @property (weak, nonatomic) IBOutlet UILabel *lbSal;
-@property (weak, nonatomic) IBOutlet UIView *vista2;
-@property (weak, nonatomic) IBOutlet UIView *vista3;
+@property NSInteger index;
+@property (weak, nonatomic) IBOutlet UILabel *lbLLegadas;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollv1;
+@property (weak, nonatomic) IBOutlet UILabel *lbsSalida;
+@property (weak, nonatomic) IBOutlet UILabel *lbTiempo;
+
+
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollv2;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollv3;
+@property (weak, nonatomic) IBOutlet UILabel *lbParada;
+@property (weak, nonatomic) IBOutlet UILabel *lbHorario;
 
 @end
 
