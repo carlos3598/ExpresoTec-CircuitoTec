@@ -47,7 +47,7 @@ BOOL match;
 - (IBAction)login:(id)sender {
     _usuario = self.tfUsuario.text;
     _password = self.tfPassword.text;
-    NSString *saved = [SSKeychain passwordForService:_service account:_usuario];
+    //NSString *saved = [SSKeychain passwordForService:_service account:_usuario];
     if([_usuario isEqualToString:@"admin"] && [_password isEqualToString:@"admin"])
         match  = YES;
     else

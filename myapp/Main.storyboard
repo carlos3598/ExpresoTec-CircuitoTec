@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -266,10 +267,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eJt-rk-4Hl" userLabel="Scroll View LLEGA">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eJt-rk-4Hl" userLabel="Scroll View LLEGA">
                                 <rect key="frame" x="0.0" y="133" width="320" height="298"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQu-4C-hbK" userLabel="SALIDAS  DEL PUNTO 1">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQu-4C-hbK" userLabel="SALIDAS  DEL PUNTO 1">
                                         <rect key="frame" x="35" y="14" width="110" height="49"/>
                                         <string key="text">SALIDAS 
 DEL PUNTO 1</string>
@@ -277,8 +278,12 @@ DEL PUNTO 1</string>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsO-lH-cjI" userLabel="LLEGADAS AL TEC">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsO-lH-cjI" userLabel="LLEGADAS AL TEC">
                                         <rect key="frame" x="173" y="14" width="117" height="49"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="49" id="JU8-np-wyc"/>
+                                            <constraint firstAttribute="width" constant="117" id="lp4-87-EQC"/>
+                                        </constraints>
                                         <string key="text">LLEGADAS AL
 TEC</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -287,17 +292,24 @@ TEC</string>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="centerX" secondItem="VQu-4C-hbK" secondAttribute="centerX" constant="70" id="25S-Cz-OKI"/>
-                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="top" secondItem="eJt-rk-4Hl" secondAttribute="top" constant="14" id="GBS-ul-kNX"/>
-                                    <constraint firstAttribute="centerX" secondItem="dsO-lH-cjI" secondAttribute="centerX" constant="-71.5" id="Uye-9R-cdu"/>
-                                    <constraint firstItem="VQu-4C-hbK" firstAttribute="top" secondItem="eJt-rk-4Hl" secondAttribute="top" constant="14" id="gMM-ps-7ZR"/>
+                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="leading" secondItem="eJt-rk-4Hl" secondAttribute="leading" constant="173" id="3g4-cl-zUN"/>
+                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="firstBaseline" secondItem="VQu-4C-hbK" secondAttribute="firstBaseline" id="89P-hn-qxE"/>
+                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="top" secondItem="eJt-rk-4Hl" secondAttribute="top" constant="14" id="ELW-MM-PrY"/>
+                                    <constraint firstAttribute="bottom" secondItem="dsO-lH-cjI" secondAttribute="bottom" constant="235" id="Xq3-vj-AGs"/>
+                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="baseline" secondItem="VQu-4C-hbK" secondAttribute="baseline" id="Z0b-O9-kIO"/>
+                                    <constraint firstAttribute="trailing" secondItem="dsO-lH-cjI" secondAttribute="trailing" constant="30" id="cjm-2K-cQj"/>
+                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="leading" secondItem="VQu-4C-hbK" secondAttribute="trailing" constant="28" id="j0z-vj-x9A"/>
                                 </constraints>
                             </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UfA-YC-fhh" userLabel="Scroll View SALIDAS">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UfA-YC-fhh" userLabel="Scroll View SALIDAS">
                                 <rect key="frame" x="0.0" y="133" width="320" height="298"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LU4-0J-Y9j" userLabel="SALIDAS DEL TEC">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LU4-0J-Y9j" userLabel="SALIDAS DEL TEC">
                                         <rect key="frame" x="95" y="12" width="124" height="49"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="49" id="5B6-qB-mgI"/>
+                                            <constraint firstAttribute="width" constant="124" id="pZ1-lp-dQ5"/>
+                                        </constraints>
                                         <string key="text">SALIDAS DEL
 TEC</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -306,28 +318,36 @@ TEC</string>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="centerX" secondItem="LU4-0J-Y9j" secondAttribute="centerX" id="X30-pJ-fh1"/>
-                                    <constraint firstItem="LU4-0J-Y9j" firstAttribute="top" secondItem="UfA-YC-fhh" secondAttribute="top" constant="12" id="dO3-Gy-SFn"/>
+                                    <constraint firstAttribute="trailing" secondItem="LU4-0J-Y9j" secondAttribute="trailing" constant="101" id="H3Z-V1-vwy"/>
+                                    <constraint firstAttribute="bottom" secondItem="LU4-0J-Y9j" secondAttribute="bottom" constant="237" id="d0G-hH-ved"/>
+                                    <constraint firstItem="LU4-0J-Y9j" firstAttribute="top" secondItem="UfA-YC-fhh" secondAttribute="top" constant="12" id="jMi-IB-qHC"/>
+                                    <constraint firstItem="LU4-0J-Y9j" firstAttribute="leading" secondItem="UfA-YC-fhh" secondAttribute="leading" constant="95" id="vST-Iz-lHh"/>
                                 </constraints>
                             </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1wM-x6-oRL" userLabel="Scroll View TIEMPO">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1wM-x6-oRL" userLabel="Scroll View TIEMPO">
                                 <rect key="frame" x="0.0" y="133" width="320" height="298"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="PARADA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ba1-ka-B7B">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PARADA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ba1-ka-B7B">
                                         <rect key="frame" x="57" y="81" width="67" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="Tt9-g8-s6b"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8i-NF-keT" userLabel="TIEMPO DE RECORRIDO INICIANDO PARADA 1">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8i-NF-keT" userLabel="TIEMPO DE RECORRIDO INICIANDO PARADA 1">
                                         <rect key="frame" x="57" y="12" width="206" height="58"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="58" id="9n6-Qd-rSz"/>
+                                        </constraints>
                                         <string key="text">TIEMPO DE RECORRIDO
 INICIANDO PARADA 1</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="HORARIO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRp-zH-LBQ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HORARIO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRp-zH-LBQ">
                                         <rect key="frame" x="185" y="81" width="78" height="28"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -335,10 +355,16 @@ INICIANDO PARADA 1</string>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="o8i-NF-keT" firstAttribute="top" secondItem="1wM-x6-oRL" secondAttribute="top" constant="12" id="UfZ-sO-Xbg"/>
-                                    <constraint firstAttribute="centerX" secondItem="o8i-NF-keT" secondAttribute="centerX" id="amj-Cm-fu2"/>
-                                    <constraint firstAttribute="centerX" secondItem="Ba1-ka-B7B" secondAttribute="centerX" constant="69.5" id="giZ-Yd-afs"/>
-                                    <constraint firstAttribute="centerX" secondItem="rRp-zH-LBQ" secondAttribute="centerX" constant="-64" id="ttN-Qf-mFA"/>
+                                    <constraint firstItem="o8i-NF-keT" firstAttribute="leading" secondItem="1wM-x6-oRL" secondAttribute="leading" constant="57" id="2ER-10-4b5"/>
+                                    <constraint firstAttribute="trailing" secondItem="o8i-NF-keT" secondAttribute="trailing" constant="57" id="2oO-6t-cOs"/>
+                                    <constraint firstItem="o8i-NF-keT" firstAttribute="centerX" secondItem="1wM-x6-oRL" secondAttribute="centerX" id="4wg-4T-OBH"/>
+                                    <constraint firstItem="rRp-zH-LBQ" firstAttribute="top" secondItem="o8i-NF-keT" secondAttribute="bottom" constant="11" id="83Y-2p-KaN"/>
+                                    <constraint firstAttribute="bottom" secondItem="o8i-NF-keT" secondAttribute="bottom" constant="228" id="BQR-E8-tr8"/>
+                                    <constraint firstItem="o8i-NF-keT" firstAttribute="trailing" secondItem="rRp-zH-LBQ" secondAttribute="trailing" id="DJQ-bJ-ij2"/>
+                                    <constraint firstItem="Ba1-ka-B7B" firstAttribute="firstBaseline" secondItem="rRp-zH-LBQ" secondAttribute="firstBaseline" id="Fyk-gy-lo7"/>
+                                    <constraint firstItem="o8i-NF-keT" firstAttribute="top" secondItem="1wM-x6-oRL" secondAttribute="top" constant="12" id="SHf-TI-vCI"/>
+                                    <constraint firstItem="Ba1-ka-B7B" firstAttribute="baseline" secondItem="rRp-zH-LBQ" secondAttribute="baseline" id="sCb-7A-yGZ"/>
+                                    <constraint firstItem="o8i-NF-keT" firstAttribute="leading" secondItem="Ba1-ka-B7B" secondAttribute="leading" id="xSA-yZ-VbC"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
