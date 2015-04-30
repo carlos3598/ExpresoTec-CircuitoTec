@@ -98,36 +98,22 @@
     mapView_.settings.myLocationButton = YES;
     
     
-    /*
-    GMSMarker *camion = [[GMSMarker alloc] init];
-    Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://torrid-fire-4635.firebaseio.com/Valle2"];
-    [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-        double latitud,longitud;
-        latitud = [snapshot.value[@"Latitud"] doubleValue];
-        longitud = [snapshot.value[@"Longitud"] doubleValue];
-
-        camion.position = CLLocationCoordinate2DMake(latitud, longitud);
-        camion.title = @"Camion";
-        camion.map = mapView_;
-    }];
+  
     GMSMarker *camion = [[GMSMarker alloc] init];
     Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://rutastec.firebaseio.com/Ruta"];
     [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
         double latitud,longitud;
         latitud = [snapshot.value[@"latitude"] doubleValue];
         longitud = [snapshot.value[@"longitude"] doubleValue];
-<<<<<<< Updated upstream
-        //NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
-        //NSLog(log);
-=======
+
         NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
         NSLog(@"%@",log);
->>>>>>> Stashed changes
+
         camion.position = CLLocationCoordinate2DMake(latitud, longitud);
         camion.title = @"Camion";
         camion.map = mapView_;
 
-    }];*/
+    }];
     
     // Do any additional setup after loading the view.
     

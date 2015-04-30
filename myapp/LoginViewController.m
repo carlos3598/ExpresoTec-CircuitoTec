@@ -20,7 +20,10 @@ BOOL match;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _service = @"expreso";
-    NSArray *account = [SSKeychain accountsForService:_service];
+    NSUserDefaults *eUser = [NSUserDefaults standardUserDefaults];
+    NSString *savedUser = [eUser objectForKey:@"user"];
+    NSLog(@"Usuario %@", savedUser);
+    NSString *account = [SSKeychain passwordForService:_service account:savedUser];
     NSLog(@"Accounts %@", account);
     if ([SSKeychain accountsForService:_service]) {
         [self performSegueWithIdentifier:@"login" sender:(nil)];
@@ -55,6 +58,9 @@ BOOL match;
     
         if (match) {
             [SSKeychain setPassword:_password forService:_service account:_usuario];
+            NSUserDefaults *dUser = [NSUserDefaults standardUserDefaults];
+            [dUser setObject:_usuario forKey:@"user"];
+            [dUser synchronize];
             [self performSegueWithIdentifier:@"login" sender:(nil)];
             
         }else{
