@@ -20,6 +20,11 @@ BOOL match;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _service = @"expreso";
+    NSArray *account = [SSKeychain accountsForService:_service];
+    NSLog(@"Accounts %@", account);
+    if ([SSKeychain accountsForService:_service]) {
+        [self performSegueWithIdentifier:@"login" sender:(nil)];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,15 +48,20 @@ BOOL match;
     _usuario = self.tfUsuario.text;
     _password = self.tfPassword.text;
     NSString *saved = [SSKeychain passwordForService:_service account:_usuario];
-    if(match){
-        if (saved) {
-        
-        
+    if([_usuario isEqualToString:@"admin"] && [_password isEqualToString:@"admin"])
+        match  = YES;
+    else
+        match = NO;
+    
+        if (match) {
+            [SSKeychain setPassword:_password forService:_service account:_usuario];
+            [self performSegueWithIdentifier:@"login" sender:(nil)];
+            
         }else{
             UIAlertView *uhoh = [[UIAlertView alloc] initWithTitle:@"Oops!" message:@"Please enter your username and password." delegate:self cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
             [uhoh show];
         }
-    }
+    
     
 }
 @end

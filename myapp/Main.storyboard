@@ -42,7 +42,6 @@
                                 </state>
                                 <connections>
                                     <action selector="login:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8Kc-0b-W7g"/>
-                                    <segue destination="2b0-SU-12j" kind="show" id="viX-pb-Qgb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -72,6 +71,7 @@
                     <connections>
                         <outlet property="tfPassword" destination="LWg-FD-HMa" id="ygC-n0-L2X"/>
                         <outlet property="tfUsuario" destination="DhU-Cf-YPs" id="6Uh-As-zcl"/>
+                        <segue destination="2b0-SU-12j" kind="show" identifier="login" id="JPh-Z1-2lE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
