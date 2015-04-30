@@ -7,59 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0704E7251AE77C8500C994F6 /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 0704E7241AE77C8500C994F6 /* mapa.png */; };
-		0704E7271AE77CA200C994F6 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0704E7261AE77CA200C994F6 /* calendar.png */; };
 		07352A5D1AE97EED0093AE20 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07352A5C1AE97EED0093AE20 /* GoogleMaps.bundle */; };
 		074F4D151AEAFD86007DF1E7 /* FavoritosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074F4D141AEAFD86007DF1E7 /* FavoritosTableViewController.m */; };
 		07B083121AEED6E00017A7D0 /* RFSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B083111AEED6E00017A7D0 /* RFSegmentView.m */; };
 		07B083151AEED6F40017A7D0 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B083141AEED6F40017A7D0 /* RFViewController.m */; };
-		07B083171AEEF0B40017A7D0 /* lincoln.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B083161AEEF0B40017A7D0 /* lincoln.plist */; };
-		07BB84A01AE9E549007943C9 /* icon-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84971AE9E549007943C9 /* icon-0.png */; };
-		07BB84A11AE9E549007943C9 /* icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84981AE9E549007943C9 /* icon-1.png */; };
-		07BB84A21AE9E549007943C9 /* icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84991AE9E549007943C9 /* icon-2.png */; };
-		07BB84A31AE9E549007943C9 /* icon-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB849A1AE9E549007943C9 /* icon-3.png */; };
-		07BB84A41AE9E549007943C9 /* icon-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB849B1AE9E549007943C9 /* icon-4.png */; };
-		07BB84A51AE9E549007943C9 /* icon-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB849C1AE9E549007943C9 /* icon-5.png */; };
-		07BB84A61AE9E549007943C9 /* icon-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB849D1AE9E549007943C9 /* icon-6.png */; };
-		07BB84A71AE9E549007943C9 /* icon-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB849E1AE9E549007943C9 /* icon-7.png */; };
-		07BB84AD1AE9ECEF007943C9 /* icon-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84AA1AE9ECEF007943C9 /* icon-8.png */; };
-		07BB84AE1AE9ECEF007943C9 /* icon-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84AB1AE9ECEF007943C9 /* icon-9.png */; };
-		07BB84AF1AE9ECEF007943C9 /* icon-tec.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BB84AC1AE9ECEF007943C9 /* icon-tec.png */; };
 		FB3C459D1AF02A9500DE33EA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3C459C1AF02A9500DE33EA /* LoginViewController.m */; };
 		FB3C45A31AF02E9500DE33EA /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3C45A01AF02E9500DE33EA /* SSKeychain.m */; };
 		FB3C45A41AF02E9500DE33EA /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3C45A21AF02E9500DE33EA /* SSKeychainQuery.m */; };
 		FB427B6E1AE9639B00D21149 /* CircuitoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB427B6D1AE9639B00D21149 /* CircuitoTableViewController.m */; };
-		FB427B711AE969EA00D21149 /* garzasada(dia).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B6F1AE969EA00D21149 /* garzasada(dia).kml */; };
-		FB427B761AE96F0000D21149 /* rutaa(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B731AE96F0000D21149 /* rutaa(noche).kml */; };
-		FB427B771AE96F0000D21149 /* rutab(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B741AE96F0000D21149 /* rutab(noche).kml */; };
-		FB427B781AE96F0000D21149 /* rutac(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FB427B751AE96F0000D21149 /* rutac(noche).kml */; };
 		FD315F831ABBA9D600407AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F821ABBA9D600407AD1 /* main.m */; };
 		FD315F861ABBA9D600407AD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F851ABBA9D600407AD1 /* AppDelegate.m */; };
 		FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8D1ABBA9D600407AD1 /* Images.xcassets */; };
 		FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD315F8F1ABBA9D600407AD1 /* LaunchScreen.xib */; };
 		FD315F9D1ABBA9D600407AD1 /* myappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315F9C1ABBA9D600407AD1 /* myappTests.m */; };
-		FD6509351AE02EC60088BC9C /* Star Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6509331AE02EC60088BC9C /* Star Filled-25.png */; };
-		FD6509361AE02EC60088BC9C /* Star-25.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6509341AE02EC60088BC9C /* Star-25.png */; };
-		FD6509381AE02F050088BC9C /* Star Filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6509371AE02F050088BC9C /* Star Filled-32.png */; };
 		FD65093A1AE038340088BC9C /* favoritos.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD6509391AE038340088BC9C /* favoritos.plist */; };
 		FD68A7C11AD720070035E5E3 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FD68A7C01AD720070035E5E3 /* KMLParser.m */; };
 		FD68A7C31AD721250035E5E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68A7C21AD721250035E5E3 /* CoreGraphics.framework */; };
 		FD68A7C51AD7212E0035E5E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68A7C41AD7212E0035E5E3 /* Foundation.framework */; };
 		FD68A7C71AD7213A0035E5E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68A7C61AD7213A0035E5E3 /* UIKit.framework */; };
 		FD68A7C91AD721440035E5E3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68A7C81AD721440035E5E3 /* MapKit.framework */; };
-		FD68A7CB1AD7247B0035E5E3 /* sannicolas.kml in Resources */ = {isa = PBXBuildFile; fileRef = FD68A7CA1AD7247B0035E5E3 /* sannicolas.kml */; };
 		FD68CB161AC332DB009FCD93 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB151AC332DB009FCD93 /* Firebase.framework */; };
 		FD68CB181AC3330A009FCD93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB171AC3330A009FCD93 /* CFNetwork.framework */; };
 		FD68CB1A1AC33314009FCD93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68CB191AC33314009FCD93 /* Security.framework */; };
 		FDBA542D1AD8640300CD1087 /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBA542C1AD8640300CD1087 /* MasterTableViewController.m */; };
-		FDBA54311AD867C700CD1087 /* valle1.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA542E1AD867C700CD1087 /* valle1.kml */; };
-		FDBA54321AD867C700CD1087 /* valle2.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA542F1AD867C700CD1087 /* valle2.kml */; };
-		FDBA54371AD867D000CD1087 /* lincoln.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA54341AD867D000CD1087 /* lincoln.kml */; };
-		FDBA54381AD867D000CD1087 /* lindavista.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA54351AD867D000CD1087 /* lindavista.kml */; };
-		FDBA54391AD867D000CD1087 /* sanjeronimo.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA54361AD867D000CD1087 /* sanjeronimo.kml */; };
-		FDBA543B1AD867D700CD1087 /* cumbres.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA543A1AD867D700CD1087 /* cumbres.kml */; };
 		FDBA543D1AD8680800CD1087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBA543C1AD8680800CD1087 /* Main.storyboard */; };
-		FDBA54411AD86DBB00CD1087 /* valle3.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDBA54401AD86DBB00CD1087 /* valle3.kml */; };
+		FDFE02EB1AF2A05700C06D8F /* icon-0.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02E01AF2A05700C06D8F /* icon-0.png */; };
+		FDFE02EC1AF2A05700C06D8F /* icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02E11AF2A05700C06D8F /* icon-1.png */; };
+		FDFE02ED1AF2A05700C06D8F /* icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02E21AF2A05700C06D8F /* icon-2.png */; };
+		FDFE02EE1AF2A05700C06D8F /* icon-3.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02E31AF2A05700C06D8F /* icon-3.png */; };
+		FDFE02EF1AF2A05700C06D8F /* icon-4.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02E41AF2A05700C06D8F /* icon-4.png */; };
+		FDFE02F01AF2A05700C06D8F /* icon-5.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02E51AF2A05700C06D8F /* icon-5.png */; };
+		FDFE02F11AF2A05700C06D8F /* icon-6.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02E61AF2A05700C06D8F /* icon-6.png */; };
+		FDFE02F21AF2A05700C06D8F /* icon-7.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02E71AF2A05700C06D8F /* icon-7.png */; };
+		FDFE02F31AF2A05700C06D8F /* icon-8.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02E81AF2A05700C06D8F /* icon-8.png */; };
+		FDFE02F41AF2A05700C06D8F /* icon-9.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02E91AF2A05700C06D8F /* icon-9.png */; };
+		FDFE02F51AF2A05700C06D8F /* icon-tec.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02EA1AF2A05700C06D8F /* icon-tec.png */; };
+		FDFE02F81AF2A0BA00C06D8F /* Star Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02F61AF2A0BA00C06D8F /* Star Filled-25.png */; };
+		FDFE02F91AF2A0BA00C06D8F /* Star-25.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02F71AF2A0BA00C06D8F /* Star-25.png */; };
+		FDFE02FB1AF2A0D900C06D8F /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02FA1AF2A0D900C06D8F /* mapa.png */; };
+		FDFE02FD1AF2A0E000C06D8F /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02FC1AF2A0E000C06D8F /* calendar.png */; };
+		FDFE030A1AF2A16C00C06D8F /* cumbres.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02FE1AF2A16C00C06D8F /* cumbres.kml */; };
+		FDFE030B1AF2A16C00C06D8F /* garzasada(dia).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02FF1AF2A16C00C06D8F /* garzasada(dia).kml */; };
+		FDFE030C1AF2A16C00C06D8F /* lincoln.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03001AF2A16C00C06D8F /* lincoln.kml */; };
+		FDFE030D1AF2A16C00C06D8F /* lindavista.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03011AF2A16C00C06D8F /* lindavista.kml */; };
+		FDFE030E1AF2A16C00C06D8F /* rutaa(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03021AF2A16C00C06D8F /* rutaa(noche).kml */; };
+		FDFE030F1AF2A16C00C06D8F /* rutab(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03031AF2A16C00C06D8F /* rutab(noche).kml */; };
+		FDFE03101AF2A16C00C06D8F /* rutac(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03041AF2A16C00C06D8F /* rutac(noche).kml */; };
+		FDFE03111AF2A16C00C06D8F /* sanjeronimo.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03051AF2A16C00C06D8F /* sanjeronimo.kml */; };
+		FDFE03121AF2A16C00C06D8F /* sannicolas.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03061AF2A16C00C06D8F /* sannicolas.kml */; };
+		FDFE03131AF2A16C00C06D8F /* valle1.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03071AF2A16C00C06D8F /* valle1.kml */; };
+		FDFE03141AF2A16C00C06D8F /* valle2.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03081AF2A16C00C06D8F /* valle2.kml */; };
+		FDFE03151AF2A16C00C06D8F /* valle3.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03091AF2A16C00C06D8F /* valle3.kml */; };
+		FDFE03221AF2A22400C06D8F /* cumbres.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03161AF2A22400C06D8F /* cumbres.plist */; };
+		FDFE03231AF2A22400C06D8F /* garzasada(dia).plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03171AF2A22400C06D8F /* garzasada(dia).plist */; };
+		FDFE03241AF2A22400C06D8F /* lincoln.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03181AF2A22400C06D8F /* lincoln.plist */; };
+		FDFE03251AF2A22400C06D8F /* lindavista.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03191AF2A22400C06D8F /* lindavista.plist */; };
+		FDFE03261AF2A22400C06D8F /* rutaa(noche).plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE031A1AF2A22400C06D8F /* rutaa(noche).plist */; };
+		FDFE03271AF2A22400C06D8F /* rutab(noche).plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE031B1AF2A22400C06D8F /* rutab(noche).plist */; };
+		FDFE03281AF2A22400C06D8F /* rutac(noche).plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE031C1AF2A22400C06D8F /* rutac(noche).plist */; };
+		FDFE03291AF2A22400C06D8F /* sanjeronimo.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE031D1AF2A22400C06D8F /* sanjeronimo.plist */; };
+		FDFE032A1AF2A22400C06D8F /* sannicolas.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE031E1AF2A22400C06D8F /* sannicolas.plist */; };
+		FDFE032B1AF2A22400C06D8F /* valle1.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE031F1AF2A22400C06D8F /* valle1.plist */; };
+		FDFE032C1AF2A22400C06D8F /* valle2.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03201AF2A22400C06D8F /* valle2.plist */; };
+		FDFE032D1AF2A22400C06D8F /* valle3.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03211AF2A22400C06D8F /* valle3.plist */; };
 		FDFF752C1AC08D7800A59196 /* RutasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFF752B1AC08D7800A59196 /* RutasViewController.m */; };
 		FDFF752E1AC08E3100A59196 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFF752D1AC08E3100A59196 /* GoogleMaps.framework */; };
 		FDFF75321AC08E7200A59196 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFF75311AC08E7200A59196 /* CoreData.framework */; };
@@ -87,8 +97,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0704E7241AE77C8500C994F6 /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapa.png; sourceTree = "<group>"; };
-		0704E7261AE77CA200C994F6 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
 		07352A5C1AE97EED0093AE20 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = ../../GoogleMaps.bundle; sourceTree = "<group>"; };
 		074F4D131AEAFD86007DF1E7 /* FavoritosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritosTableViewController.h; sourceTree = "<group>"; };
 		074F4D141AEAFD86007DF1E7 /* FavoritosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritosTableViewController.m; sourceTree = "<group>"; };
@@ -96,18 +104,6 @@
 		07B083111AEED6E00017A7D0 /* RFSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFSegmentView.m; sourceTree = "<group>"; };
 		07B083131AEED6F40017A7D0 /* RFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
 		07B083141AEED6F40017A7D0 /* RFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
-		07B083161AEEF0B40017A7D0 /* lincoln.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lincoln.plist; sourceTree = "<group>"; };
-		07BB84971AE9E549007943C9 /* icon-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-0.png"; sourceTree = "<group>"; };
-		07BB84981AE9E549007943C9 /* icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-1.png"; sourceTree = "<group>"; };
-		07BB84991AE9E549007943C9 /* icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-2.png"; sourceTree = "<group>"; };
-		07BB849A1AE9E549007943C9 /* icon-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-3.png"; sourceTree = "<group>"; };
-		07BB849B1AE9E549007943C9 /* icon-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-4.png"; sourceTree = "<group>"; };
-		07BB849C1AE9E549007943C9 /* icon-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-5.png"; sourceTree = "<group>"; };
-		07BB849D1AE9E549007943C9 /* icon-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-6.png"; sourceTree = "<group>"; };
-		07BB849E1AE9E549007943C9 /* icon-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-7.png"; sourceTree = "<group>"; };
-		07BB84AA1AE9ECEF007943C9 /* icon-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-8.png"; sourceTree = "<group>"; };
-		07BB84AB1AE9ECEF007943C9 /* icon-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-9.png"; sourceTree = "<group>"; };
-		07BB84AC1AE9ECEF007943C9 /* icon-tec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-tec.png"; sourceTree = "<group>"; };
 		FB3C459B1AF02A9500DE33EA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		FB3C459C1AF02A9500DE33EA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		FB3C459F1AF02E9500DE33EA /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
@@ -116,10 +112,6 @@
 		FB3C45A21AF02E9500DE33EA /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
 		FB427B6C1AE9639B00D21149 /* CircuitoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircuitoTableViewController.h; sourceTree = "<group>"; };
 		FB427B6D1AE9639B00D21149 /* CircuitoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircuitoTableViewController.m; sourceTree = "<group>"; };
-		FB427B6F1AE969EA00D21149 /* garzasada(dia).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "garzasada(dia).kml"; sourceTree = "<group>"; };
-		FB427B731AE96F0000D21149 /* rutaa(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rutaa(noche).kml"; sourceTree = "<group>"; };
-		FB427B741AE96F0000D21149 /* rutab(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rutab(noche).kml"; sourceTree = "<group>"; };
-		FB427B751AE96F0000D21149 /* rutac(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rutac(noche).kml"; sourceTree = "<group>"; };
 		FD2E74CC1AD6EA300064932D /* RutasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RutasViewController.h; sourceTree = "<group>"; };
 		FD315F7D1ABBA9D600407AD1 /* myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F811ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,9 +123,6 @@
 		FD315F961ABBA9D600407AD1 /* myappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315F9B1ABBA9D600407AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD315F9C1ABBA9D600407AD1 /* myappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myappTests.m; sourceTree = "<group>"; };
-		FD6509331AE02EC60088BC9C /* Star Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star Filled-25.png"; sourceTree = "<group>"; };
-		FD6509341AE02EC60088BC9C /* Star-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-25.png"; sourceTree = "<group>"; };
-		FD6509371AE02F050088BC9C /* Star Filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star Filled-32.png"; sourceTree = "<group>"; };
 		FD6509391AE038340088BC9C /* favoritos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = favoritos.plist; sourceTree = "<group>"; };
 		FD68A7BF1AD720070035E5E3 /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
 		FD68A7C01AD720070035E5E3 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
@@ -141,20 +130,51 @@
 		FD68A7C41AD7212E0035E5E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FD68A7C61AD7213A0035E5E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FD68A7C81AD721440035E5E3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		FD68A7CA1AD7247B0035E5E3 /* sannicolas.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sannicolas.kml; sourceTree = "<group>"; };
 		FD68CB151AC332DB009FCD93 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		FD68CB171AC3330A009FCD93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FD68CB191AC33314009FCD93 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FDBA542B1AD8640300CD1087 /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterTableViewController.h; path = ../MasterTableViewController.h; sourceTree = "<group>"; };
 		FDBA542C1AD8640300CD1087 /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterTableViewController.m; path = ../MasterTableViewController.m; sourceTree = "<group>"; };
-		FDBA542E1AD867C700CD1087 /* valle1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = valle1.kml; sourceTree = "<group>"; };
-		FDBA542F1AD867C700CD1087 /* valle2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = valle2.kml; sourceTree = "<group>"; };
-		FDBA54341AD867D000CD1087 /* lincoln.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lincoln.kml; sourceTree = "<group>"; };
-		FDBA54351AD867D000CD1087 /* lindavista.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lindavista.kml; sourceTree = "<group>"; };
-		FDBA54361AD867D000CD1087 /* sanjeronimo.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sanjeronimo.kml; sourceTree = "<group>"; };
-		FDBA543A1AD867D700CD1087 /* cumbres.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cumbres.kml; sourceTree = "<group>"; };
 		FDBA543C1AD8680800CD1087 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		FDBA54401AD86DBB00CD1087 /* valle3.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = valle3.kml; sourceTree = "<group>"; };
+		FDFE02E01AF2A05700C06D8F /* icon-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-0.png"; path = "imagenes/icon-0.png"; sourceTree = "<group>"; };
+		FDFE02E11AF2A05700C06D8F /* icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-1.png"; path = "imagenes/icon-1.png"; sourceTree = "<group>"; };
+		FDFE02E21AF2A05700C06D8F /* icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-2.png"; path = "imagenes/icon-2.png"; sourceTree = "<group>"; };
+		FDFE02E31AF2A05700C06D8F /* icon-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-3.png"; path = "imagenes/icon-3.png"; sourceTree = "<group>"; };
+		FDFE02E41AF2A05700C06D8F /* icon-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-4.png"; path = "imagenes/icon-4.png"; sourceTree = "<group>"; };
+		FDFE02E51AF2A05700C06D8F /* icon-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-5.png"; path = "imagenes/icon-5.png"; sourceTree = "<group>"; };
+		FDFE02E61AF2A05700C06D8F /* icon-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-6.png"; path = "imagenes/icon-6.png"; sourceTree = "<group>"; };
+		FDFE02E71AF2A05700C06D8F /* icon-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-7.png"; path = "imagenes/icon-7.png"; sourceTree = "<group>"; };
+		FDFE02E81AF2A05700C06D8F /* icon-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-8.png"; path = "imagenes/icon-8.png"; sourceTree = "<group>"; };
+		FDFE02E91AF2A05700C06D8F /* icon-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-9.png"; path = "imagenes/icon-9.png"; sourceTree = "<group>"; };
+		FDFE02EA1AF2A05700C06D8F /* icon-tec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-tec.png"; path = "imagenes/icon-tec.png"; sourceTree = "<group>"; };
+		FDFE02F61AF2A0BA00C06D8F /* Star Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Star Filled-25.png"; path = "imagenes/Star Filled-25.png"; sourceTree = "<group>"; };
+		FDFE02F71AF2A0BA00C06D8F /* Star-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Star-25.png"; path = "imagenes/Star-25.png"; sourceTree = "<group>"; };
+		FDFE02FA1AF2A0D900C06D8F /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapa.png; path = imagenes/mapa.png; sourceTree = "<group>"; };
+		FDFE02FC1AF2A0E000C06D8F /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = imagenes/calendar.png; sourceTree = "<group>"; };
+		FDFE02FE1AF2A16C00C06D8F /* cumbres.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = cumbres.kml; path = kml/cumbres.kml; sourceTree = "<group>"; };
+		FDFE02FF1AF2A16C00C06D8F /* garzasada(dia).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "garzasada(dia).kml"; path = "kml/garzasada(dia).kml"; sourceTree = "<group>"; };
+		FDFE03001AF2A16C00C06D8F /* lincoln.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lincoln.kml; path = kml/lincoln.kml; sourceTree = "<group>"; };
+		FDFE03011AF2A16C00C06D8F /* lindavista.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lindavista.kml; path = kml/lindavista.kml; sourceTree = "<group>"; };
+		FDFE03021AF2A16C00C06D8F /* rutaa(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "rutaa(noche).kml"; path = "kml/rutaa(noche).kml"; sourceTree = "<group>"; };
+		FDFE03031AF2A16C00C06D8F /* rutab(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "rutab(noche).kml"; path = "kml/rutab(noche).kml"; sourceTree = "<group>"; };
+		FDFE03041AF2A16C00C06D8F /* rutac(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "rutac(noche).kml"; path = "kml/rutac(noche).kml"; sourceTree = "<group>"; };
+		FDFE03051AF2A16C00C06D8F /* sanjeronimo.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = sanjeronimo.kml; path = kml/sanjeronimo.kml; sourceTree = "<group>"; };
+		FDFE03061AF2A16C00C06D8F /* sannicolas.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = sannicolas.kml; path = kml/sannicolas.kml; sourceTree = "<group>"; };
+		FDFE03071AF2A16C00C06D8F /* valle1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = valle1.kml; path = kml/valle1.kml; sourceTree = "<group>"; };
+		FDFE03081AF2A16C00C06D8F /* valle2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = valle2.kml; path = kml/valle2.kml; sourceTree = "<group>"; };
+		FDFE03091AF2A16C00C06D8F /* valle3.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = valle3.kml; path = kml/valle3.kml; sourceTree = "<group>"; };
+		FDFE03161AF2A22400C06D8F /* cumbres.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cumbres.plist; path = myapp/horarios/cumbres.plist; sourceTree = "<group>"; };
+		FDFE03171AF2A22400C06D8F /* garzasada(dia).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "garzasada(dia).plist"; path = "myapp/horarios/garzasada(dia).plist"; sourceTree = "<group>"; };
+		FDFE03181AF2A22400C06D8F /* lincoln.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = lincoln.plist; path = myapp/horarios/lincoln.plist; sourceTree = "<group>"; };
+		FDFE03191AF2A22400C06D8F /* lindavista.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = lindavista.plist; path = myapp/horarios/lindavista.plist; sourceTree = "<group>"; };
+		FDFE031A1AF2A22400C06D8F /* rutaa(noche).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "rutaa(noche).plist"; path = "myapp/horarios/rutaa(noche).plist"; sourceTree = "<group>"; };
+		FDFE031B1AF2A22400C06D8F /* rutab(noche).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "rutab(noche).plist"; path = "myapp/horarios/rutab(noche).plist"; sourceTree = "<group>"; };
+		FDFE031C1AF2A22400C06D8F /* rutac(noche).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "rutac(noche).plist"; path = "myapp/horarios/rutac(noche).plist"; sourceTree = "<group>"; };
+		FDFE031D1AF2A22400C06D8F /* sanjeronimo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sanjeronimo.plist; path = myapp/horarios/sanjeronimo.plist; sourceTree = "<group>"; };
+		FDFE031E1AF2A22400C06D8F /* sannicolas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sannicolas.plist; path = myapp/horarios/sannicolas.plist; sourceTree = "<group>"; };
+		FDFE031F1AF2A22400C06D8F /* valle1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = valle1.plist; path = myapp/horarios/valle1.plist; sourceTree = "<group>"; };
+		FDFE03201AF2A22400C06D8F /* valle2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = valle2.plist; path = myapp/horarios/valle2.plist; sourceTree = "<group>"; };
+		FDFE03211AF2A22400C06D8F /* valle3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = valle3.plist; path = myapp/horarios/valle3.plist; sourceTree = "<group>"; };
 		FDFF752B1AC08D7800A59196 /* RutasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RutasViewController.m; sourceTree = "<group>"; };
 		FDFF752D1AC08E3100A59196 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = myapp/GoogleMaps.framework; sourceTree = "<group>"; };
 		FDFF75311AC08E7200A59196 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -213,11 +233,10 @@
 			isa = PBXGroup;
 			children = (
 				07BB84A91AE9E552007943C9 /* markers */,
-				0704E7241AE77C8500C994F6 /* mapa.png */,
-				0704E7261AE77CA200C994F6 /* calendar.png */,
-				FD6509331AE02EC60088BC9C /* Star Filled-25.png */,
-				FD6509371AE02F050088BC9C /* Star Filled-32.png */,
-				FD6509341AE02EC60088BC9C /* Star-25.png */,
+				FDFE02F61AF2A0BA00C06D8F /* Star Filled-25.png */,
+				FDFE02FC1AF2A0E000C06D8F /* calendar.png */,
+				FDFE02FA1AF2A0D900C06D8F /* mapa.png */,
+				FDFE02F71AF2A0BA00C06D8F /* Star-25.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -225,18 +244,18 @@
 		0704E7291AE783D200C994F6 /* kml */ = {
 			isa = PBXGroup;
 			children = (
-				FB427B731AE96F0000D21149 /* rutaa(noche).kml */,
-				FB427B741AE96F0000D21149 /* rutab(noche).kml */,
-				FB427B751AE96F0000D21149 /* rutac(noche).kml */,
-				FB427B6F1AE969EA00D21149 /* garzasada(dia).kml */,
-				FDBA542E1AD867C700CD1087 /* valle1.kml */,
-				FDBA542F1AD867C700CD1087 /* valle2.kml */,
-				FDBA54401AD86DBB00CD1087 /* valle3.kml */,
-				FDBA54341AD867D000CD1087 /* lincoln.kml */,
-				FDBA54351AD867D000CD1087 /* lindavista.kml */,
-				FDBA54361AD867D000CD1087 /* sanjeronimo.kml */,
-				FDBA543A1AD867D700CD1087 /* cumbres.kml */,
-				FD68A7CA1AD7247B0035E5E3 /* sannicolas.kml */,
+				FDFE02FE1AF2A16C00C06D8F /* cumbres.kml */,
+				FDFE02FF1AF2A16C00C06D8F /* garzasada(dia).kml */,
+				FDFE03001AF2A16C00C06D8F /* lincoln.kml */,
+				FDFE03011AF2A16C00C06D8F /* lindavista.kml */,
+				FDFE03021AF2A16C00C06D8F /* rutaa(noche).kml */,
+				FDFE03031AF2A16C00C06D8F /* rutab(noche).kml */,
+				FDFE03041AF2A16C00C06D8F /* rutac(noche).kml */,
+				FDFE03051AF2A16C00C06D8F /* sanjeronimo.kml */,
+				FDFE03061AF2A16C00C06D8F /* sannicolas.kml */,
+				FDFE03071AF2A16C00C06D8F /* valle1.kml */,
+				FDFE03081AF2A16C00C06D8F /* valle2.kml */,
+				FDFE03091AF2A16C00C06D8F /* valle3.kml */,
 			);
 			name = kml;
 			sourceTree = "<group>";
@@ -279,17 +298,17 @@
 		07BB84A91AE9E552007943C9 /* markers */ = {
 			isa = PBXGroup;
 			children = (
-				07BB84AA1AE9ECEF007943C9 /* icon-8.png */,
-				07BB84AB1AE9ECEF007943C9 /* icon-9.png */,
-				07BB84AC1AE9ECEF007943C9 /* icon-tec.png */,
-				07BB84971AE9E549007943C9 /* icon-0.png */,
-				07BB84981AE9E549007943C9 /* icon-1.png */,
-				07BB84991AE9E549007943C9 /* icon-2.png */,
-				07BB849A1AE9E549007943C9 /* icon-3.png */,
-				07BB849B1AE9E549007943C9 /* icon-4.png */,
-				07BB849C1AE9E549007943C9 /* icon-5.png */,
-				07BB849D1AE9E549007943C9 /* icon-6.png */,
-				07BB849E1AE9E549007943C9 /* icon-7.png */,
+				FDFE02E01AF2A05700C06D8F /* icon-0.png */,
+				FDFE02E11AF2A05700C06D8F /* icon-1.png */,
+				FDFE02E21AF2A05700C06D8F /* icon-2.png */,
+				FDFE02E31AF2A05700C06D8F /* icon-3.png */,
+				FDFE02E41AF2A05700C06D8F /* icon-4.png */,
+				FDFE02E51AF2A05700C06D8F /* icon-5.png */,
+				FDFE02E61AF2A05700C06D8F /* icon-6.png */,
+				FDFE02E71AF2A05700C06D8F /* icon-7.png */,
+				FDFE02E81AF2A05700C06D8F /* icon-8.png */,
+				FDFE02E91AF2A05700C06D8F /* icon-9.png */,
+				FDFE02EA1AF2A05700C06D8F /* icon-tec.png */,
 			);
 			name = markers;
 			sourceTree = "<group>";
@@ -297,6 +316,7 @@
 		FD315F741ABBA9D600407AD1 = {
 			isa = PBXGroup;
 			children = (
+				FDFE02DB1AF29E7C00C06D8F /* Horarios */,
 				FD8C3B991AD59E8300C47A02 /* Frameworks */,
 				FD315F7F1ABBA9D600407AD1 /* myapp */,
 				FD315F991ABBA9D600407AD1 /* myappTests */,
@@ -329,7 +349,6 @@
 				FDBA543C1AD8680800CD1087 /* Main.storyboard */,
 				FB3C459B1AF02A9500DE33EA /* LoginViewController.h */,
 				FB3C459C1AF02A9500DE33EA /* LoginViewController.m */,
-				07B083161AEEF0B40017A7D0 /* lincoln.plist */,
 				0704E7281AE783C400C994F6 /* Images */,
 				0704E7291AE783D200C994F6 /* kml */,
 				FD315F8D1ABBA9D600407AD1 /* Images.xcassets */,
@@ -391,6 +410,25 @@
 				FDFF75311AC08E7200A59196 /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDFE02DB1AF29E7C00C06D8F /* Horarios */ = {
+			isa = PBXGroup;
+			children = (
+				FDFE03161AF2A22400C06D8F /* cumbres.plist */,
+				FDFE03171AF2A22400C06D8F /* garzasada(dia).plist */,
+				FDFE03181AF2A22400C06D8F /* lincoln.plist */,
+				FDFE03191AF2A22400C06D8F /* lindavista.plist */,
+				FDFE031A1AF2A22400C06D8F /* rutaa(noche).plist */,
+				FDFE031B1AF2A22400C06D8F /* rutab(noche).plist */,
+				FDFE031C1AF2A22400C06D8F /* rutac(noche).plist */,
+				FDFE031D1AF2A22400C06D8F /* sanjeronimo.plist */,
+				FDFE031E1AF2A22400C06D8F /* sannicolas.plist */,
+				FDFE031F1AF2A22400C06D8F /* valle1.plist */,
+				FDFE03201AF2A22400C06D8F /* valle2.plist */,
+				FDFE03211AF2A22400C06D8F /* valle3.plist */,
+			);
+			name = Horarios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,40 +511,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBA54311AD867C700CD1087 /* valle1.kml in Resources */,
+				FDFE02F11AF2A05700C06D8F /* icon-6.png in Resources */,
+				FDFE03131AF2A16C00C06D8F /* valle1.kml in Resources */,
+				FDFE030B1AF2A16C00C06D8F /* garzasada(dia).kml in Resources */,
+				FDFE03141AF2A16C00C06D8F /* valle2.kml in Resources */,
+				FDFE03261AF2A22400C06D8F /* rutaa(noche).plist in Resources */,
+				FDFE03121AF2A16C00C06D8F /* sannicolas.kml in Resources */,
 				07352A5D1AE97EED0093AE20 /* GoogleMaps.bundle in Resources */,
-				07BB84A41AE9E549007943C9 /* icon-4.png in Resources */,
-				0704E7271AE77CA200C994F6 /* calendar.png in Resources */,
-				FD6509381AE02F050088BC9C /* Star Filled-32.png in Resources */,
-				FB427B781AE96F0000D21149 /* rutac(noche).kml in Resources */,
-				FB427B771AE96F0000D21149 /* rutab(noche).kml in Resources */,
-				FD6509361AE02EC60088BC9C /* Star-25.png in Resources */,
-				07BB84A51AE9E549007943C9 /* icon-5.png in Resources */,
-				FDBA543B1AD867D700CD1087 /* cumbres.kml in Resources */,
-				FDBA54321AD867C700CD1087 /* valle2.kml in Resources */,
-				07BB84AF1AE9ECEF007943C9 /* icon-tec.png in Resources */,
+				FDFE03241AF2A22400C06D8F /* lincoln.plist in Resources */,
+				FDFE02EF1AF2A05700C06D8F /* icon-4.png in Resources */,
+				FDFE03231AF2A22400C06D8F /* garzasada(dia).plist in Resources */,
+				FDFE02F91AF2A0BA00C06D8F /* Star-25.png in Resources */,
+				FDFE02F31AF2A05700C06D8F /* icon-8.png in Resources */,
+				FDFE03111AF2A16C00C06D8F /* sanjeronimo.kml in Resources */,
+				FDFE02F01AF2A05700C06D8F /* icon-5.png in Resources */,
+				FDFE03251AF2A22400C06D8F /* lindavista.plist in Resources */,
+				FDFE030A1AF2A16C00C06D8F /* cumbres.kml in Resources */,
+				FDFE03221AF2A22400C06D8F /* cumbres.plist in Resources */,
+				FDFE02EC1AF2A05700C06D8F /* icon-1.png in Resources */,
+				FDFE03271AF2A22400C06D8F /* rutab(noche).plist in Resources */,
+				FDFE032B1AF2A22400C06D8F /* valle1.plist in Resources */,
+				FDFE03281AF2A22400C06D8F /* rutac(noche).plist in Resources */,
+				FDFE02F21AF2A05700C06D8F /* icon-7.png in Resources */,
+				FDFE030F1AF2A16C00C06D8F /* rutab(noche).kml in Resources */,
+				FDFE030D1AF2A16C00C06D8F /* lindavista.kml in Resources */,
+				FDFE02F81AF2A0BA00C06D8F /* Star Filled-25.png in Resources */,
+				FDFE032D1AF2A22400C06D8F /* valle3.plist in Resources */,
+				FDFE02EE1AF2A05700C06D8F /* icon-3.png in Resources */,
 				FDBA543D1AD8680800CD1087 /* Main.storyboard in Resources */,
-				07BB84AE1AE9ECEF007943C9 /* icon-9.png in Resources */,
 				FD65093A1AE038340088BC9C /* favoritos.plist in Resources */,
 				FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */,
-				07BB84A71AE9E549007943C9 /* icon-7.png in Resources */,
-				FB427B711AE969EA00D21149 /* garzasada(dia).kml in Resources */,
-				0704E7251AE77C8500C994F6 /* mapa.png in Resources */,
-				FDBA54391AD867D000CD1087 /* sanjeronimo.kml in Resources */,
-				FD68A7CB1AD7247B0035E5E3 /* sannicolas.kml in Resources */,
-				07BB84AD1AE9ECEF007943C9 /* icon-8.png in Resources */,
-				07BB84A61AE9E549007943C9 /* icon-6.png in Resources */,
-				07B083171AEEF0B40017A7D0 /* lincoln.plist in Resources */,
-				FDBA54371AD867D000CD1087 /* lincoln.kml in Resources */,
-				FD6509351AE02EC60088BC9C /* Star Filled-25.png in Resources */,
-				07BB84A31AE9E549007943C9 /* icon-3.png in Resources */,
-				07BB84A01AE9E549007943C9 /* icon-0.png in Resources */,
+				FDFE030E1AF2A16C00C06D8F /* rutaa(noche).kml in Resources */,
+				FDFE02FD1AF2A0E000C06D8F /* calendar.png in Resources */,
+				FDFE02ED1AF2A05700C06D8F /* icon-2.png in Resources */,
+				FDFE03101AF2A16C00C06D8F /* rutac(noche).kml in Resources */,
+				FDFE03291AF2A22400C06D8F /* sanjeronimo.plist in Resources */,
 				FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */,
-				07BB84A11AE9E549007943C9 /* icon-1.png in Resources */,
-				FB427B761AE96F0000D21149 /* rutaa(noche).kml in Resources */,
-				FDBA54381AD867D000CD1087 /* lindavista.kml in Resources */,
-				FDBA54411AD86DBB00CD1087 /* valle3.kml in Resources */,
-				07BB84A21AE9E549007943C9 /* icon-2.png in Resources */,
+				FDFE02FB1AF2A0D900C06D8F /* mapa.png in Resources */,
+				FDFE02F51AF2A05700C06D8F /* icon-tec.png in Resources */,
+				FDFE02F41AF2A05700C06D8F /* icon-9.png in Resources */,
+				FDFE032A1AF2A22400C06D8F /* sannicolas.plist in Resources */,
+				FDFE032C1AF2A22400C06D8F /* valle2.plist in Resources */,
+				FDFE03151AF2A16C00C06D8F /* valle3.kml in Resources */,
+				FDFE030C1AF2A16C00C06D8F /* lincoln.kml in Resources */,
+				FDFE02EB1AF2A05700C06D8F /* icon-0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
