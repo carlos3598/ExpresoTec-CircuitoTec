@@ -26,7 +26,6 @@
     NSArray *annotations;
     NSArray *markers;
     BOOL bImagen;
-    BOOL server;
     GMSMutablePath *path;
     NSString *rutaOrig;
     NSString *path1;
@@ -36,6 +35,7 @@
     NSString *documentsDirectory;
     NSString *pathP;
     NSInteger index;
+    Firebase *firebase;
 }
 
 -(IBAction)addFavorite:(UIButton *)sender{
@@ -64,7 +64,6 @@
     NSString *ruta = self.detailItem;
     bImagen = [windowsArray containsObject:ruta];
     //index = [windowsArray   indexOfObject:ruta];
-    NSLog(@"inicia%@", windowsArray);
     self.view = mapView_;
    
     rutaOrig = ruta;
@@ -101,31 +100,32 @@
     
   
     GMSMarker *camion = [[GMSMarker alloc] init];
-    Firebase *firebase= [[Firebase alloc] initWithUrl:@"https://rutastec.firebaseio.com/"];
+    firebase= [[Firebase alloc] initWithUrl:@"https://rutastec.firebaseio.com/"];
     
     [firebase observeSingleEventOfType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-        server = [snapshot hasChild:(ruta)];
+        Boolean server = [snapshot hasChild:rutaOrig];
+        if (server) {
+
+            firebase = [firebase childByAppendingPath:rutaOrig];
+            
+            [firebase observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
+                
+                double latitud,longitud;
+                
+                latitud = [snapshot.value[@"latitude"] doubleValue];
+                longitud = [snapshot.value[@"longitude"] doubleValue];
+                
+                NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
+                NSLog(@"%@",log);
+                
+                camion.position = CLLocationCoordinate2DMake(latitud, longitud);
+                camion.title = @"Camion";
+                camion.map = mapView_;
+                
+            }];
+        }
     }];
-    firebase = [firebase childByAppendingPath:ruta];
-    
-    if (server) {
-        [firebase observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-            
-            double latitud,longitud;
-            
-            latitud = [snapshot.value[@"latitude"] doubleValue];
-            longitud = [snapshot.value[@"longitude"] doubleValue];
-            
-            NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
-            NSLog(@"%@",log);
-            
-            camion.position = CLLocationCoordinate2DMake(latitud, longitud);
-            camion.title = @"Camion";
-            camion.map = mapView_;
-            
-        }];
-        
-    }
+
     
     // Do any additional setup after loading the view.
     
@@ -204,7 +204,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (void)viewDidDisappear:(BOOL)animated {
 
+    [super viewDidDisappear:YES];
+    [firebase removeAllObservers];
+}
 
 
 /*
