@@ -36,6 +36,9 @@
     NSString *pathP;
     NSInteger index;
     Firebase *firebase;
+    FirebaseHandle handle;
+    BOOL server;
+    double latitud,longitud;
 }
 
 -(IBAction)addFavorite:(UIButton *)sender{
@@ -103,26 +106,25 @@
     firebase= [[Firebase alloc] initWithUrl:@"https://rutastec.firebaseio.com/"];
     
     [firebase observeSingleEventOfType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-        Boolean server = [snapshot hasChild:rutaOrig];
+         server = [snapshot hasChild:rutaOrig];
         if (server) {
 
             firebase = [firebase childByAppendingPath:rutaOrig];
             
             [firebase observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-                
-                double latitud,longitud;
+           
                 
                 latitud = [snapshot.value[@"latitude"] doubleValue];
                 longitud = [snapshot.value[@"longitude"] doubleValue];
-                
+                if(latitud != 0 && longitud !=0){
                 NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
                 NSLog(@"%@",log);
                 
                 camion.position = CLLocationCoordinate2DMake(latitud, longitud);
                 camion.title = @"Camion";
                 camion.map = mapView_;
-                
-            }];
+                }
+        }];
         }
     }];
 
