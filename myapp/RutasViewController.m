@@ -26,6 +26,7 @@
     NSArray *annotations;
     NSArray *markers;
     BOOL bImagen;
+    BOOL server;
     GMSMutablePath *path;
     NSString *rutaOrig;
     NSString *path1;
@@ -100,20 +101,31 @@
     
   
     GMSMarker *camion = [[GMSMarker alloc] init];
-    Firebase *valle1 = [[Firebase alloc] initWithUrl:@"https://rutastec.firebaseio.com/Ruta"];
-    [valle1 observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-        double latitud,longitud;
-        latitud = [snapshot.value[@"latitude"] doubleValue];
-        longitud = [snapshot.value[@"longitude"] doubleValue];
-
-        NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
-        NSLog(@"%@",log);
-
-        camion.position = CLLocationCoordinate2DMake(latitud, longitud);
-        camion.title = @"Camion";
-        camion.map = mapView_;
-
+    Firebase *firebase= [[Firebase alloc] initWithUrl:@"https://rutastec.firebaseio.com/"];
+    
+    [firebase observeSingleEventOfType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
+        server = [snapshot hasChild:(ruta)];
     }];
+    firebase = [firebase childByAppendingPath:ruta];
+    
+    if (server) {
+        [firebase observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
+            
+            double latitud,longitud;
+            
+            latitud = [snapshot.value[@"latitude"] doubleValue];
+            longitud = [snapshot.value[@"longitude"] doubleValue];
+            
+            NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
+            NSLog(@"%@",log);
+            
+            camion.position = CLLocationCoordinate2DMake(latitud, longitud);
+            camion.title = @"Camion";
+            camion.map = mapView_;
+            
+        }];
+        
+    }
     
     // Do any additional setup after loading the view.
     
@@ -165,7 +177,6 @@
         polyline.strokeColor = color;
         polyline.strokeWidth = 3.0f;
         polyline.map = mapView_;
-        NSLog(@"User's location: %@", mapView_.myLocation);
 
     }
     else {
