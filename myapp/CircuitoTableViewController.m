@@ -8,6 +8,7 @@
 
 #import "CircuitoTableViewController.h"
 #import "RutasViewController.h"
+#import "RFViewController.h"
 
 @interface CircuitoTableViewController ()
 @property NSArray *objects;
@@ -51,8 +52,10 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     UITableViewCell *cell = (UITableViewCell*) sender;
     UITabBarController *controler = [segue destinationViewController];
-    RutasViewController *contr = [[controler viewControllers] objectAtIndex:0];
-    contr.detailItem = cell.textLabel.text;
+    RutasViewController *mapa = [[controler viewControllers] objectAtIndex:0];
+    RFViewController *horarios = [[controler viewControllers] objectAtIndex:1];
+    mapa.detailItem = cell.textLabel.text;
+    horarios.ruta =cell.textLabel.text;
 }
 
 

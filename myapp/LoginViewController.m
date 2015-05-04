@@ -13,6 +13,7 @@
 
 @end
 BOOL match;
+NSUserDefaults *eUser;
 
 @implementation LoginViewController
 
@@ -20,7 +21,7 @@ BOOL match;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _service = @"expreso";
-    NSUserDefaults *eUser = [NSUserDefaults standardUserDefaults];
+    eUser = [NSUserDefaults standardUserDefaults];
     NSString *savedUser = [eUser objectForKey:@"user"];
     NSLog(@"Usuario %@", savedUser);
     NSString *account = [SSKeychain passwordForService:_service account:savedUser];
@@ -46,6 +47,11 @@ BOOL match;
     // Pass the selected object to the new view controller.
 }
 */
+-(IBAction) quitaTeclado:(id)sender{
+
+    [self.tfPassword resignFirstResponder];
+    [self.tfUsuario resignFirstResponder];
+}
 
 - (IBAction)login:(id)sender {
     _usuario = self.tfUsuario.text;
@@ -58,9 +64,9 @@ BOOL match;
     
         if (match) {
             [SSKeychain setPassword:_password forService:_service account:_usuario];
-            NSUserDefaults *dUser = [NSUserDefaults standardUserDefaults];
-            [dUser setObject:_usuario forKey:@"user"];
-            [dUser synchronize];
+            eUser = [NSUserDefaults standardUserDefaults];
+            [eUser setObject:_usuario forKey:@"user"];
+            [eUser synchronize];
             [self performSegueWithIdentifier:@"login" sender:(nil)];
             
         }else{

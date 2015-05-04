@@ -15,5 +15,6 @@
 @property (strong, nonatomic) NSString *usuario;
 @property (strong, nonatomic) NSString *password;
 @property (strong, nonatomic) NSString *service;
+-(IBAction)quitaTeclado :(id)sender;
 
 @end

@@ -199,6 +199,10 @@
 -(void) viewDidAppear:(BOOL)animated {
     
     [self showAllMarkers];
+    
+    UIEdgeInsets mapInsets = UIEdgeInsetsMake(0.0, 0.0, 50.0, 0.0);
+    mapView_.padding = mapInsets;
+
 }
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -20,18 +20,24 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LWg-FD-HMa">
                                 <rect key="frame" x="88" y="283" width="144" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="QDQ-S8-5Mv"/>
-                                    <constraint firstAttribute="width" constant="144" id="kVh-0K-NJm"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="quitaTeclado:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="Zp7-0V-FMR"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DhU-Cf-YPs">
+                                <rect key="frame" x="88" y="225" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="quitaTeclado:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="Kps-f5-IKX"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuo-m8-JPr">
-                                <rect key="frame" x="113" y="361" width="94" height="28"/>
+                                <rect key="frame" x="113" y="350" width="94" height="28"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="agN-27-nNr"/>
-                                    <constraint firstAttribute="width" constant="94" id="gw9-zC-8UR"/>
+                                    <constraint firstAttribute="height" constant="28" id="cvD-l7-08o"/>
                                 </constraints>
                                 <state key="normal" title="Iniciar Sesión">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -40,24 +46,59 @@
                                     <action selector="login:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8Kc-0b-W7g"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DhU-Cf-YPs">
-                                <rect key="frame" x="88" y="225" width="143" height="30"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3yP-sp-Kkv">
+                                <rect key="frame" x="0.0" y="92" width="160" height="110"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Expreso Tec - Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="HJ0-Ai-Pru">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="110"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="143" id="Oup-iL-lZT"/>
-                                    <constraint firstAttribute="height" constant="30" id="uPv-4I-abq"/>
+                                    <constraint firstAttribute="height" constant="110" id="1De-1a-fLq"/>
+                                    <constraint firstAttribute="width" constant="160" id="6cC-Rx-K0v"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="muc-iD-gGG">
+                                <rect key="frame" x="161" y="92" width="160" height="110"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Circuito Tec - Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="mda-Rr-EIq">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="110"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="AGJ-L8-hXW"/>
+                                    <constraint firstAttribute="width" constant="160" id="gWX-LC-Mpu"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tec - Logo - Horizontal.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Kq-dN-SkM">
+                                <rect key="frame" x="100" y="404" width="120" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="20I-Ia-GIP"/>
+                                    <constraint firstAttribute="height" constant="39" id="KkD-W3-lLI"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wuo-m8-JPr" firstAttribute="top" secondItem="LWg-FD-HMa" secondAttribute="bottom" constant="48" id="4XC-Mi-fPW"/>
-                            <constraint firstItem="LWg-FD-HMa" firstAttribute="top" secondItem="DhU-Cf-YPs" secondAttribute="bottom" constant="28" id="NEh-7Y-uYE"/>
-                            <constraint firstAttribute="centerX" secondItem="wuo-m8-JPr" secondAttribute="centerX" id="aM2-ji-jv9"/>
-                            <constraint firstAttribute="centerY" secondItem="DhU-Cf-YPs" secondAttribute="centerY" id="iTQ-TE-D5Y"/>
-                            <constraint firstAttribute="centerX" secondItem="LWg-FD-HMa" secondAttribute="centerX" id="uE6-7P-LeA"/>
-                            <constraint firstAttribute="centerX" secondItem="DhU-Cf-YPs" secondAttribute="centerX" id="zxL-gG-LMI"/>
+                            <constraint firstItem="wuo-m8-JPr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="97" id="2mc-ae-FF7"/>
+                            <constraint firstItem="LWg-FD-HMa" firstAttribute="top" secondItem="DhU-Cf-YPs" secondAttribute="bottom" constant="28" id="68A-ey-iGH"/>
+                            <constraint firstItem="DhU-Cf-YPs" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="7r3-Tg-Cyh"/>
+                            <constraint firstAttribute="centerX" secondItem="9Kq-dN-SkM" secondAttribute="centerX" id="8g0-Aq-KdA"/>
+                            <constraint firstItem="3yP-sp-Kkv" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="28" id="95j-A7-dg3"/>
+                            <constraint firstItem="muc-iD-gGG" firstAttribute="width" secondItem="3yP-sp-Kkv" secondAttribute="width" id="Hro-1J-i9p"/>
+                            <constraint firstItem="wuo-m8-JPr" firstAttribute="centerX" secondItem="9Kq-dN-SkM" secondAttribute="centerX" id="Ks3-gG-Jq3"/>
+                            <constraint firstItem="wuo-m8-JPr" firstAttribute="top" secondItem="LWg-FD-HMa" secondAttribute="bottom" constant="37" id="S43-b3-iJF"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="9Kq-dN-SkM" secondAttribute="bottom" constant="37" id="TPP-Td-GEV"/>
+                            <constraint firstItem="LWg-FD-HMa" firstAttribute="leading" secondItem="DhU-Cf-YPs" secondAttribute="leading" id="U0A-w9-486"/>
+                            <constraint firstItem="muc-iD-gGG" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="28" id="X17-uo-WzA"/>
+                            <constraint firstItem="wuo-m8-JPr" firstAttribute="centerX" secondItem="LWg-FD-HMa" secondAttribute="centerX" id="XFX-7j-FRB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DhU-Cf-YPs" secondAttribute="trailing" constant="73" id="cDT-un-NZk"/>
+                            <constraint firstItem="LWg-FD-HMa" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="72" id="hU3-5z-hhz"/>
+                            <constraint firstAttribute="centerX" secondItem="3yP-sp-Kkv" secondAttribute="centerX" constant="80" id="hWH-ue-xHJ"/>
+                            <constraint firstAttribute="centerX" secondItem="muc-iD-gGG" secondAttribute="centerX" constant="-81" id="uyp-wK-pEQ"/>
+                            <constraint firstItem="muc-iD-gGG" firstAttribute="height" secondItem="3yP-sp-Kkv" secondAttribute="height" id="zXA-AP-vx2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="NoV-Qt-UgO"/>
@@ -263,7 +304,7 @@
                                 <rect key="frame" x="0.0" y="133" width="320" height="298"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQu-4C-hbK" userLabel="SALIDAS  DEL PUNTO 1">
-                                        <rect key="frame" x="35" y="14" width="110" height="49"/>
+                                        <rect key="frame" x="35" y="14" width="110" height="41"/>
                                         <string key="text">SALIDAS 
 DEL PUNTO 1</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -271,11 +312,7 @@ DEL PUNTO 1</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsO-lH-cjI" userLabel="LLEGADAS AL TEC">
-                                        <rect key="frame" x="173" y="14" width="117" height="49"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="49" id="JU8-np-wyc"/>
-                                            <constraint firstAttribute="width" constant="117" id="lp4-87-EQC"/>
-                                        </constraints>
+                                        <rect key="frame" x="175" y="14" width="114" height="41"/>
                                         <string key="text">LLEGADAS AL
 TEC</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -284,24 +321,19 @@ TEC</string>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="leading" secondItem="eJt-rk-4Hl" secondAttribute="leading" constant="173" id="3g4-cl-zUN"/>
-                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="firstBaseline" secondItem="VQu-4C-hbK" secondAttribute="firstBaseline" id="89P-hn-qxE"/>
-                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="top" secondItem="eJt-rk-4Hl" secondAttribute="top" constant="14" id="ELW-MM-PrY"/>
-                                    <constraint firstAttribute="bottom" secondItem="dsO-lH-cjI" secondAttribute="bottom" constant="235" id="Xq3-vj-AGs"/>
-                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="baseline" secondItem="VQu-4C-hbK" secondAttribute="baseline" id="Z0b-O9-kIO"/>
-                                    <constraint firstAttribute="trailing" secondItem="dsO-lH-cjI" secondAttribute="trailing" constant="30" id="cjm-2K-cQj"/>
-                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="leading" secondItem="VQu-4C-hbK" secondAttribute="trailing" constant="28" id="j0z-vj-x9A"/>
+                                    <constraint firstAttribute="centerX" secondItem="dsO-lH-cjI" secondAttribute="centerX" constant="-71.5" id="Ix1-LL-vNw"/>
+                                    <constraint firstItem="VQu-4C-hbK" firstAttribute="top" secondItem="eJt-rk-4Hl" secondAttribute="top" constant="14" id="UVE-8p-vfZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="dsO-lH-cjI" secondAttribute="trailing" constant="31" id="WMO-ju-J0T"/>
+                                    <constraint firstAttribute="bottom" secondItem="VQu-4C-hbK" secondAttribute="bottom" constant="243" id="Wh0-dR-wpw"/>
+                                    <constraint firstItem="dsO-lH-cjI" firstAttribute="top" secondItem="eJt-rk-4Hl" secondAttribute="top" constant="14" id="z6T-cK-EVW"/>
+                                    <constraint firstAttribute="centerX" secondItem="VQu-4C-hbK" secondAttribute="centerX" constant="70.5" id="zsn-bJ-jXk"/>
                                 </constraints>
                             </scrollView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UfA-YC-fhh" userLabel="Scroll View SALIDAS">
                                 <rect key="frame" x="0.0" y="133" width="320" height="298"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LU4-0J-Y9j" userLabel="SALIDAS DEL TEC">
-                                        <rect key="frame" x="95" y="12" width="124" height="49"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="49" id="5B6-qB-mgI"/>
-                                            <constraint firstAttribute="width" constant="124" id="pZ1-lp-dQ5"/>
-                                        </constraints>
+                                        <rect key="frame" x="106" y="12" width="108" height="41"/>
                                         <string key="text">SALIDAS DEL
 TEC</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -310,10 +342,10 @@ TEC</string>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="LU4-0J-Y9j" secondAttribute="trailing" constant="101" id="H3Z-V1-vwy"/>
-                                    <constraint firstAttribute="bottom" secondItem="LU4-0J-Y9j" secondAttribute="bottom" constant="237" id="d0G-hH-ved"/>
-                                    <constraint firstItem="LU4-0J-Y9j" firstAttribute="top" secondItem="UfA-YC-fhh" secondAttribute="top" constant="12" id="jMi-IB-qHC"/>
-                                    <constraint firstItem="LU4-0J-Y9j" firstAttribute="leading" secondItem="UfA-YC-fhh" secondAttribute="leading" constant="95" id="vST-Iz-lHh"/>
+                                    <constraint firstAttribute="centerX" secondItem="LU4-0J-Y9j" secondAttribute="centerX" id="81y-xi-6ED"/>
+                                    <constraint firstAttribute="trailing" secondItem="LU4-0J-Y9j" secondAttribute="trailing" constant="106" id="DYF-37-t1w"/>
+                                    <constraint firstAttribute="bottom" secondItem="LU4-0J-Y9j" secondAttribute="bottom" constant="245" id="GiP-gp-jji"/>
+                                    <constraint firstItem="LU4-0J-Y9j" firstAttribute="top" secondItem="UfA-YC-fhh" secondAttribute="top" constant="12" id="y2V-qE-rbm"/>
                                 </constraints>
                             </scrollView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1wM-x6-oRL" userLabel="Scroll View TIEMPO">
@@ -347,12 +379,12 @@ INICIANDO PARADA 1</string>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="o8i-NF-keT" firstAttribute="leading" secondItem="1wM-x6-oRL" secondAttribute="leading" constant="57" id="2ER-10-4b5"/>
-                                    <constraint firstAttribute="trailing" secondItem="o8i-NF-keT" secondAttribute="trailing" constant="57" id="2oO-6t-cOs"/>
-                                    <constraint firstItem="o8i-NF-keT" firstAttribute="centerX" secondItem="1wM-x6-oRL" secondAttribute="centerX" id="4wg-4T-OBH"/>
-                                    <constraint firstAttribute="bottom" secondItem="o8i-NF-keT" secondAttribute="bottom" constant="228" id="BQR-E8-tr8"/>
-                                    <constraint firstItem="o8i-NF-keT" firstAttribute="top" secondItem="1wM-x6-oRL" secondAttribute="top" constant="12" id="SHf-TI-vCI"/>
+                                    <constraint firstItem="o8i-NF-keT" firstAttribute="top" secondItem="1wM-x6-oRL" secondAttribute="top" constant="12" id="5tS-ik-dI5"/>
+                                    <constraint firstAttribute="trailing" secondItem="o8i-NF-keT" secondAttribute="trailing" constant="57" id="5vR-7A-Oys"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ba1-ka-B7B" secondAttribute="bottom" constant="189" id="7Ke-Vq-gkq"/>
+                                    <constraint firstItem="o8i-NF-keT" firstAttribute="centerX" secondItem="1wM-x6-oRL" secondAttribute="centerX" id="Q8i-0w-TpU"/>
                                     <constraint firstItem="rRp-zH-LBQ" firstAttribute="top" secondItem="o8i-NF-keT" secondAttribute="bottom" constant="11" id="gqM-Ju-5kS"/>
+                                    <constraint firstItem="rRp-zH-LBQ" firstAttribute="leading" secondItem="Ba1-ka-B7B" secondAttribute="trailing" constant="61" id="hqf-1G-H1i"/>
                                     <constraint firstItem="rRp-zH-LBQ" firstAttribute="firstBaseline" secondItem="Ba1-ka-B7B" secondAttribute="firstBaseline" id="khm-jI-XJo"/>
                                     <constraint firstItem="rRp-zH-LBQ" firstAttribute="trailing" secondItem="o8i-NF-keT" secondAttribute="trailing" id="r0O-jz-etX"/>
                                     <constraint firstItem="rRp-zH-LBQ" firstAttribute="baseline" secondItem="Ba1-ka-B7B" secondAttribute="baseline" id="tvM-of-prr"/>
@@ -362,18 +394,18 @@ INICIANDO PARADA 1</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1wM-x6-oRL" firstAttribute="leading" secondItem="EfL-9W-bLd" secondAttribute="leadingMargin" constant="-16" id="7Wc-6r-fh3"/>
-                            <constraint firstItem="eJt-rk-4Hl" firstAttribute="top" secondItem="EAF-5e-9uS" secondAttribute="bottom" constant="69" id="FXw-XN-5ol"/>
-                            <constraint firstItem="JcA-1u-YTz" firstAttribute="top" secondItem="UfA-YC-fhh" secondAttribute="bottom" id="G9l-dz-BcW"/>
-                            <constraint firstItem="UfA-YC-fhh" firstAttribute="leading" secondItem="EfL-9W-bLd" secondAttribute="leadingMargin" constant="-16" id="Ioe-zS-cjH"/>
-                            <constraint firstItem="JcA-1u-YTz" firstAttribute="top" secondItem="eJt-rk-4Hl" secondAttribute="bottom" id="O3R-vY-tgq"/>
-                            <constraint firstItem="eJt-rk-4Hl" firstAttribute="leading" secondItem="EfL-9W-bLd" secondAttribute="leadingMargin" constant="-16" id="Oga-sE-eLF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="eJt-rk-4Hl" secondAttribute="trailing" constant="-16" id="dZJ-hY-zu1"/>
-                            <constraint firstItem="1wM-x6-oRL" firstAttribute="top" secondItem="EAF-5e-9uS" secondAttribute="bottom" constant="69" id="gRV-WU-nLG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="1wM-x6-oRL" secondAttribute="trailing" constant="-16" id="hQf-Xh-EsA"/>
-                            <constraint firstItem="UfA-YC-fhh" firstAttribute="top" secondItem="EAF-5e-9uS" secondAttribute="bottom" constant="69" id="hxc-HE-qFe"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="UfA-YC-fhh" secondAttribute="trailing" constant="-16" id="jqf-IH-obH"/>
-                            <constraint firstItem="JcA-1u-YTz" firstAttribute="top" secondItem="1wM-x6-oRL" secondAttribute="bottom" id="lcs-5o-fA0"/>
+                            <constraint firstItem="eJt-rk-4Hl" firstAttribute="trailing" secondItem="UfA-YC-fhh" secondAttribute="trailing" id="CEC-hZ-4zX"/>
+                            <constraint firstItem="UfA-YC-fhh" firstAttribute="bottom" secondItem="JcA-1u-YTz" secondAttribute="top" id="FYj-hM-tXU"/>
+                            <constraint firstItem="eJt-rk-4Hl" firstAttribute="leading" secondItem="1wM-x6-oRL" secondAttribute="leading" id="Gv3-4X-nDi"/>
+                            <constraint firstItem="UfA-YC-fhh" firstAttribute="top" secondItem="1wM-x6-oRL" secondAttribute="top" id="MGK-74-5cL"/>
+                            <constraint firstItem="1wM-x6-oRL" firstAttribute="trailing" secondItem="UfA-YC-fhh" secondAttribute="trailing" id="Mb9-1P-Fsy"/>
+                            <constraint firstAttribute="trailing" secondItem="1wM-x6-oRL" secondAttribute="trailing" id="Ndj-F7-Qa3"/>
+                            <constraint firstItem="1wM-x6-oRL" firstAttribute="top" secondItem="eJt-rk-4Hl" secondAttribute="top" id="P4p-s7-bhp"/>
+                            <constraint firstItem="UfA-YC-fhh" firstAttribute="leading" secondItem="1wM-x6-oRL" secondAttribute="leading" id="Zg3-9w-VRO"/>
+                            <constraint firstItem="1wM-x6-oRL" firstAttribute="leading" secondItem="EfL-9W-bLd" secondAttribute="leading" id="mJg-Ke-KlY"/>
+                            <constraint firstItem="1wM-x6-oRL" firstAttribute="bottom" secondItem="JcA-1u-YTz" secondAttribute="top" id="rDK-hs-dX8"/>
+                            <constraint firstItem="eJt-rk-4Hl" firstAttribute="top" secondItem="EAF-5e-9uS" secondAttribute="bottom" constant="69" id="tnr-yU-mRm"/>
+                            <constraint firstItem="eJt-rk-4Hl" firstAttribute="bottom" secondItem="JcA-1u-YTz" secondAttribute="top" id="yc5-ka-VIU"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Horarios" image="calendar.png" id="N4V-CM-oyo"/>
@@ -444,10 +476,13 @@ INICIANDO PARADA 1</string>
         </scene>
     </scenes>
     <resources>
+        <image name="Circuito Tec - Logo.png" width="1063" height="1063"/>
+        <image name="Expreso Tec - Logo.png" width="1063" height="1063"/>
+        <image name="Tec - Logo - Horizontal.png" width="2657" height="886"/>
         <image name="calendar.png" width="25" height="25"/>
         <image name="mapa.png" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yE9-Fb-xPj"/>
+        <segue reference="X7A-cZ-QVn"/>
     </inferredMetricsTieBreakers>
 </document>

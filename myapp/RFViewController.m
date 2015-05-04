@@ -20,8 +20,12 @@
 
 @implementation RFViewController
 
+RFSegmentView* segmentView;
+
+
 -(void) viewDidAppear:(BOOL)animated   {
     [self addScrollViews];
+ 
 }
 
 UIColor *color;
@@ -37,7 +41,7 @@ UIColor *color;
 }
 -(void) addScrollViews{
 
-    NSString *path1 = [[NSBundle mainBundle] pathForResource:@"lincoln" ofType:@"plist"];
+    NSString *path1 = [[NSBundle mainBundle] pathForResource:_ruta ofType:@"plist"];
     
     NSDictionary *dic = [[NSDictionary alloc] initWithContentsOfFile:path1];
     NSArray *salidas = [dic objectForKey:@"salidas"];
@@ -47,6 +51,9 @@ UIColor *color;
     NSArray *regreso = [dic objectForKey:@"regreso"];
     NSArray *regresoM = [dic objectForKey:@"regresoM"];
     NSArray *tiempo = [dic objectForKey:@"tiempo"];
+    
+    
+   
     
     UIView *borderBottom1 = [[UIView alloc] initWithFrame:CGRectMake(0.0, self.lbSal.frame.origin.y + self.lbSal.frame.size.height +10, kScreenWidth, 1.0)];
     borderBottom1.backgroundColor = color;
@@ -59,6 +66,7 @@ UIColor *color;
     
     [_scrollv1 addSubview:borderBottom1];
     [_scrollv2 addSubview:borderBottom2];
+    if([_ruta rangeOfString:@"noche"].location == NSNotFound)
     [_scrollv3 addSubview:borderBottom3];
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, self.lbSal.frame.origin.y + self.lbSal.frame.size.height + 10, kScreenWidth, 30)];
@@ -160,6 +168,7 @@ UIColor *color;
         finalY = label1.frame.origin.y + label1.frame.size.height;
     }
      _scrollv2.contentSize = CGSizeMake(self.scrollv2.frame.size.width,500);
+   
     
     [_scrollv2 addSubview:labelT];
     [_scrollv2 addSubview:labelMier2];
@@ -168,6 +177,7 @@ UIColor *color;
     initY = 10;
     UIView *borderBottomL3 = [[UIView alloc] initWithFrame:CGRectMake(0.0, self.lbParada.frame.origin.y + self.lbParada.frame.size.height, kScreenWidth, 1.0)];
     borderBottomL3.backgroundColor = color;
+    if([_ruta rangeOfString:@"noche"].location == NSNotFound)
     [_scrollv3 addSubview:borderBottomL3];
     
 
@@ -182,8 +192,12 @@ UIColor *color;
         label2.text = tiempo[i];
         label2.textAlignment = NSTextAlignmentCenter;
         initY+=30;
-        [_scrollv3 addSubview:label2];
-        [_scrollv3 addSubview:label1];
+        
+       
+
+            [_scrollv3 addSubview:label2];
+            [_scrollv3 addSubview:label1];
+        
         
     }
     _scrollv3.contentSize = CGSizeMake(self.scrollv3.frame.size.width,500);
@@ -192,22 +206,54 @@ UIColor *color;
     
 }
 -(void) addSegmentedView{
-    RFSegmentView* segmentView = [[RFSegmentView alloc] initWithFrame:CGRectMake(0, 70, kScreenWidth, 60) items:@[@"Ida",@"Regreso",@"Tiempo"]];
+    segmentView = [[RFSegmentView alloc] initWithFrame:CGRectMake(0, 70, kScreenWidth, 60) items:@[@"Ida",@"Regreso",@"Tiempo"]];
     color = [self getRandomColor];
     segmentView.tintColor = color;
     segmentView.delegate = self;
     
     [self.view addSubview:segmentView];
+    
+    
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     [self addSegmentedView];
     self.scrollv2.hidden = YES;
     self.scrollv3.hidden = YES;
     _ruta = [_ruta lowercaseString];
     _ruta = [_ruta stringByReplacingOccurrencesOfString:@" " withString:@""];
+    
+    
+    if([_ruta rangeOfString:@"dia"].location != NSNotFound ){
+        _scrollv3.hidden = NO;
+        _scrollv1.hidden = YES;
+        _scrollv2.hidden = YES;
+        segmentView.hidden = YES;
+    }
+    if([_ruta rangeOfString:@"noche"].location != NSNotFound){
+        
+        UILabel *label3 = [[UILabel alloc] initWithFrame:CGRectMake(0, kScreenHeight/2, kScreenWidth ,50)];
+        label3.text = @"Salidas cada media hora";
+        label3.textAlignment = NSTextAlignmentCenter;
+        [_vistaIda addSubview:label3];
+        
+        UIView *borderBottom1 = [[UIView alloc] initWithFrame:CGRectMake(0, label3.frame.origin.y, kScreenWidth, 1.0)];
+        borderBottom1.backgroundColor = color;
+        [_vistaIda addSubview:borderBottom1];
+        UIView *borderBottom2 = [[UIView alloc] initWithFrame:CGRectMake(0, label3.frame.origin.y + label3.frame.size.height, kScreenWidth, 1.0)];
+        borderBottom2.backgroundColor = color;
+        [_vistaIda addSubview:borderBottom2];
+        self.lbParada.hidden = YES;
+        self.lbHorario.hidden = YES;
+        self.lbTiempo.hidden = YES;
+        _scrollv3.hidden = YES;
+        _scrollv1.hidden = YES;
+        _scrollv2.hidden = YES;
+        segmentView.hidden = YES;
+    }
    NSLog(@"current index is %@",_ruta);
     // Do any additional setup after loading the view.
 }
