@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074503301AF9260C00D1D7E3 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 0745032F1AF9260C00D1D7E3 /* bus.png */; };
 		074F4D151AEAFD86007DF1E7 /* FavoritosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074F4D141AEAFD86007DF1E7 /* FavoritosTableViewController.m */; };
 		07B083121AEED6E00017A7D0 /* RFSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B083111AEED6E00017A7D0 /* RFSegmentView.m */; };
 		07B083151AEED6F40017A7D0 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B083141AEED6F40017A7D0 /* RFViewController.m */; };
+		07C1A1E81AF927CA00FAD82B /* bus2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C1A1E71AF927CA00FAD82B /* bus2.png */; };
 		FB3C459D1AF02A9500DE33EA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3C459C1AF02A9500DE33EA /* LoginViewController.m */; };
 		FB3C45A31AF02E9500DE33EA /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3C45A01AF02E9500DE33EA /* SSKeychain.m */; };
 		FB3C45A41AF02E9500DE33EA /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3C45A21AF02E9500DE33EA /* SSKeychainQuery.m */; };
@@ -101,12 +103,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0745032F1AF9260C00D1D7E3 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
 		074F4D131AEAFD86007DF1E7 /* FavoritosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritosTableViewController.h; sourceTree = "<group>"; };
 		074F4D141AEAFD86007DF1E7 /* FavoritosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritosTableViewController.m; sourceTree = "<group>"; };
 		07B083101AEED6E00017A7D0 /* RFSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFSegmentView.h; sourceTree = "<group>"; };
 		07B083111AEED6E00017A7D0 /* RFSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFSegmentView.m; sourceTree = "<group>"; };
 		07B083131AEED6F40017A7D0 /* RFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
 		07B083141AEED6F40017A7D0 /* RFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
+		07C1A1E71AF927CA00FAD82B /* bus2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus2.png; sourceTree = "<group>"; };
 		FB3C459B1AF02A9500DE33EA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		FB3C459C1AF02A9500DE33EA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		FB3C459F1AF02E9500DE33EA /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
@@ -240,6 +244,8 @@
 		0704E7281AE783C400C994F6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				07C1A1E71AF927CA00FAD82B /* bus2.png */,
+				0745032F1AF9260C00D1D7E3 /* bus.png */,
 				FBCDE4331AF7E02100A26F1C /* Circuito Tec - Logo.png */,
 				FBCDE4341AF7E02100A26F1C /* Expreso Tec - Logo.png */,
 				FBCDE4351AF7E02100A26F1C /* Tec - Logo - Horizontal.png */,
@@ -534,6 +540,7 @@
 				FDFE03231AF2A22400C06D8F /* garzasada(dia).plist in Resources */,
 				FDFE02F91AF2A0BA00C06D8F /* Star-25.png in Resources */,
 				FDFE02F31AF2A05700C06D8F /* icon-8.png in Resources */,
+				07C1A1E81AF927CA00FAD82B /* bus2.png in Resources */,
 				FDFE03111AF2A16C00C06D8F /* sanjeronimo.kml in Resources */,
 				FBCDE4371AF7E02100A26F1C /* Circuito Tec - Logo.png in Resources */,
 				FDFE02F01AF2A05700C06D8F /* icon-5.png in Resources */,
@@ -566,6 +573,7 @@
 				FDFE02FB1AF2A0D900C06D8F /* mapa.png in Resources */,
 				FDFE02F51AF2A05700C06D8F /* icon-tec.png in Resources */,
 				FDFE02F41AF2A05700C06D8F /* icon-9.png in Resources */,
+				074503301AF9260C00D1D7E3 /* bus.png in Resources */,
 				FDFE032A1AF2A22400C06D8F /* sannicolas.plist in Resources */,
 				FDFE032C1AF2A22400C06D8F /* valle2.plist in Resources */,
 				FDFE03151AF2A16C00C06D8F /* valle3.kml in Resources */,
