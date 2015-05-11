@@ -12,6 +12,7 @@
 		07B083121AEED6E00017A7D0 /* RFSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B083111AEED6E00017A7D0 /* RFSegmentView.m */; };
 		07B083151AEED6F40017A7D0 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B083141AEED6F40017A7D0 /* RFViewController.m */; };
 		07C1A1E81AF927CA00FAD82B /* bus2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C1A1E71AF927CA00FAD82B /* bus2.png */; };
+		07DF955C1B0022B100526228 /* aboutus.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DF955B1B0022B100526228 /* aboutus.png */; };
 		FB3C459D1AF02A9500DE33EA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3C459C1AF02A9500DE33EA /* LoginViewController.m */; };
 		FB3C45A31AF02E9500DE33EA /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3C45A01AF02E9500DE33EA /* SSKeychain.m */; };
 		FB3C45A41AF02E9500DE33EA /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3C45A21AF02E9500DE33EA /* SSKeychainQuery.m */; };
@@ -53,12 +54,12 @@
 		FDFE02FB1AF2A0D900C06D8F /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02FA1AF2A0D900C06D8F /* mapa.png */; };
 		FDFE02FD1AF2A0E000C06D8F /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02FC1AF2A0E000C06D8F /* calendar.png */; };
 		FDFE030A1AF2A16C00C06D8F /* cumbres.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02FE1AF2A16C00C06D8F /* cumbres.kml */; };
-		FDFE030B1AF2A16C00C06D8F /* garzasada(dia).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02FF1AF2A16C00C06D8F /* garzasada(dia).kml */; };
+		FDFE030B1AF2A16C00C06D8F /* circuitogarzasada(dia).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE02FF1AF2A16C00C06D8F /* circuitogarzasada(dia).kml */; };
 		FDFE030C1AF2A16C00C06D8F /* lincoln.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03001AF2A16C00C06D8F /* lincoln.kml */; };
 		FDFE030D1AF2A16C00C06D8F /* lindavista.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03011AF2A16C00C06D8F /* lindavista.kml */; };
-		FDFE030E1AF2A16C00C06D8F /* rutaa(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03021AF2A16C00C06D8F /* rutaa(noche).kml */; };
-		FDFE030F1AF2A16C00C06D8F /* rutab(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03031AF2A16C00C06D8F /* rutab(noche).kml */; };
-		FDFE03101AF2A16C00C06D8F /* rutac(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03041AF2A16C00C06D8F /* rutac(noche).kml */; };
+		FDFE030E1AF2A16C00C06D8F /* circuitoa(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03021AF2A16C00C06D8F /* circuitoa(noche).kml */; };
+		FDFE030F1AF2A16C00C06D8F /* circuitob(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03031AF2A16C00C06D8F /* circuitob(noche).kml */; };
+		FDFE03101AF2A16C00C06D8F /* circuitoc(noche).kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03041AF2A16C00C06D8F /* circuitoc(noche).kml */; };
 		FDFE03111AF2A16C00C06D8F /* sanjeronimo.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03051AF2A16C00C06D8F /* sanjeronimo.kml */; };
 		FDFE03121AF2A16C00C06D8F /* sannicolas.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03061AF2A16C00C06D8F /* sannicolas.kml */; };
 		FDFE03131AF2A16C00C06D8F /* valle1.kml in Resources */ = {isa = PBXBuildFile; fileRef = FDFE03071AF2A16C00C06D8F /* valle1.kml */; };
@@ -111,6 +112,7 @@
 		07B083131AEED6F40017A7D0 /* RFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
 		07B083141AEED6F40017A7D0 /* RFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
 		07C1A1E71AF927CA00FAD82B /* bus2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus2.png; sourceTree = "<group>"; };
+		07DF955B1B0022B100526228 /* aboutus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus.png; sourceTree = "<group>"; };
 		FB3C459B1AF02A9500DE33EA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		FB3C459C1AF02A9500DE33EA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		FB3C459F1AF02E9500DE33EA /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
@@ -164,12 +166,12 @@
 		FDFE02FA1AF2A0D900C06D8F /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapa.png; path = imagenes/mapa.png; sourceTree = "<group>"; };
 		FDFE02FC1AF2A0E000C06D8F /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = imagenes/calendar.png; sourceTree = "<group>"; };
 		FDFE02FE1AF2A16C00C06D8F /* cumbres.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = cumbres.kml; path = kml/cumbres.kml; sourceTree = "<group>"; };
-		FDFE02FF1AF2A16C00C06D8F /* garzasada(dia).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "garzasada(dia).kml"; path = "kml/garzasada(dia).kml"; sourceTree = "<group>"; };
+		FDFE02FF1AF2A16C00C06D8F /* circuitogarzasada(dia).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "circuitogarzasada(dia).kml"; path = "kml/circuitogarzasada(dia).kml"; sourceTree = "<group>"; };
 		FDFE03001AF2A16C00C06D8F /* lincoln.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lincoln.kml; path = kml/lincoln.kml; sourceTree = "<group>"; };
 		FDFE03011AF2A16C00C06D8F /* lindavista.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lindavista.kml; path = kml/lindavista.kml; sourceTree = "<group>"; };
-		FDFE03021AF2A16C00C06D8F /* rutaa(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "rutaa(noche).kml"; path = "kml/rutaa(noche).kml"; sourceTree = "<group>"; };
-		FDFE03031AF2A16C00C06D8F /* rutab(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "rutab(noche).kml"; path = "kml/rutab(noche).kml"; sourceTree = "<group>"; };
-		FDFE03041AF2A16C00C06D8F /* rutac(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "rutac(noche).kml"; path = "kml/rutac(noche).kml"; sourceTree = "<group>"; };
+		FDFE03021AF2A16C00C06D8F /* circuitoa(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "circuitoa(noche).kml"; path = "kml/circuitoa(noche).kml"; sourceTree = "<group>"; };
+		FDFE03031AF2A16C00C06D8F /* circuitob(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "circuitob(noche).kml"; path = "kml/circuitob(noche).kml"; sourceTree = "<group>"; };
+		FDFE03041AF2A16C00C06D8F /* circuitoc(noche).kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "circuitoc(noche).kml"; path = "kml/circuitoc(noche).kml"; sourceTree = "<group>"; };
 		FDFE03051AF2A16C00C06D8F /* sanjeronimo.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = sanjeronimo.kml; path = kml/sanjeronimo.kml; sourceTree = "<group>"; };
 		FDFE03061AF2A16C00C06D8F /* sannicolas.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = sannicolas.kml; path = kml/sannicolas.kml; sourceTree = "<group>"; };
 		FDFE03071AF2A16C00C06D8F /* valle1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = valle1.kml; path = kml/valle1.kml; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 		0704E7281AE783C400C994F6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				07DF955B1B0022B100526228 /* aboutus.png */,
 				07C1A1E71AF927CA00FAD82B /* bus2.png */,
 				0745032F1AF9260C00D1D7E3 /* bus.png */,
 				FBCDE4331AF7E02100A26F1C /* Circuito Tec - Logo.png */,
@@ -263,12 +266,12 @@
 			isa = PBXGroup;
 			children = (
 				FDFE02FE1AF2A16C00C06D8F /* cumbres.kml */,
-				FDFE02FF1AF2A16C00C06D8F /* garzasada(dia).kml */,
+				FDFE02FF1AF2A16C00C06D8F /* circuitogarzasada(dia).kml */,
 				FDFE03001AF2A16C00C06D8F /* lincoln.kml */,
 				FDFE03011AF2A16C00C06D8F /* lindavista.kml */,
-				FDFE03021AF2A16C00C06D8F /* rutaa(noche).kml */,
-				FDFE03031AF2A16C00C06D8F /* rutab(noche).kml */,
-				FDFE03041AF2A16C00C06D8F /* rutac(noche).kml */,
+				FDFE03021AF2A16C00C06D8F /* circuitoa(noche).kml */,
+				FDFE03031AF2A16C00C06D8F /* circuitob(noche).kml */,
+				FDFE03041AF2A16C00C06D8F /* circuitoc(noche).kml */,
 				FDFE03051AF2A16C00C06D8F /* sanjeronimo.kml */,
 				FDFE03061AF2A16C00C06D8F /* sannicolas.kml */,
 				FDFE03071AF2A16C00C06D8F /* valle1.kml */,
@@ -531,7 +534,7 @@
 			files = (
 				FDFE02F11AF2A05700C06D8F /* icon-6.png in Resources */,
 				FDFE03131AF2A16C00C06D8F /* valle1.kml in Resources */,
-				FDFE030B1AF2A16C00C06D8F /* garzasada(dia).kml in Resources */,
+				FDFE030B1AF2A16C00C06D8F /* circuitogarzasada(dia).kml in Resources */,
 				FDFE03141AF2A16C00C06D8F /* valle2.kml in Resources */,
 				FDFE03261AF2A22400C06D8F /* rutaa(noche).plist in Resources */,
 				FDFE03121AF2A16C00C06D8F /* sannicolas.kml in Resources */,
@@ -552,7 +555,8 @@
 				FDFE032B1AF2A22400C06D8F /* valle1.plist in Resources */,
 				FDFE03281AF2A22400C06D8F /* rutac(noche).plist in Resources */,
 				FDFE02F21AF2A05700C06D8F /* icon-7.png in Resources */,
-				FDFE030F1AF2A16C00C06D8F /* rutab(noche).kml in Resources */,
+				07DF955C1B0022B100526228 /* aboutus.png in Resources */,
+				FDFE030F1AF2A16C00C06D8F /* circuitob(noche).kml in Resources */,
 				FDFE030D1AF2A16C00C06D8F /* lindavista.kml in Resources */,
 				FBCDE4321AF7DFD700A26F1C /* GoogleMaps.bundle in Resources */,
 				FBCDE4381AF7E02100A26F1C /* Expreso Tec - Logo.png in Resources */,
@@ -564,10 +568,10 @@
 				FDBA543D1AD8680800CD1087 /* Main.storyboard in Resources */,
 				FD65093A1AE038340088BC9C /* favoritos.plist in Resources */,
 				FD315F911ABBA9D600407AD1 /* LaunchScreen.xib in Resources */,
-				FDFE030E1AF2A16C00C06D8F /* rutaa(noche).kml in Resources */,
+				FDFE030E1AF2A16C00C06D8F /* circuitoa(noche).kml in Resources */,
 				FDFE02FD1AF2A0E000C06D8F /* calendar.png in Resources */,
 				FDFE02ED1AF2A05700C06D8F /* icon-2.png in Resources */,
-				FDFE03101AF2A16C00C06D8F /* rutac(noche).kml in Resources */,
+				FDFE03101AF2A16C00C06D8F /* circuitoc(noche).kml in Resources */,
 				FDFE03291AF2A22400C06D8F /* sanjeronimo.plist in Resources */,
 				FD315F8E1ABBA9D600407AD1 /* Images.xcassets in Resources */,
 				FDFE02FB1AF2A0D900C06D8F /* mapa.png in Resources */,

@@ -39,6 +39,7 @@
     FirebaseHandle handle;
     BOOL server;
     double latitud,longitud,latitud2,longitud2;
+    NSString *ruta;
 }
 
 -(IBAction)addFavorite:(UIButton *)sender{
@@ -64,11 +65,11 @@
     [super viewDidLoad];
     path1 = [[NSBundle mainBundle] pathForResource:@"favoritos" ofType:@"plist"];
     windowsArray =[[NSMutableArray alloc] initWithContentsOfFile:path1];
-    NSString *ruta = self.detailItem;
+    ruta = self.detailItem;
     bImagen = [windowsArray containsObject:ruta];
     //index = [windowsArray   indexOfObject:ruta];
     self.view = mapView_;
-   
+    
     rutaOrig = ruta;
     self.tabBarController.navigationItem.title = ruta;
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];

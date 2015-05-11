@@ -123,7 +123,7 @@
                         <sections>
                             <tableViewSection id="hd5-t8-2wl">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="dCH-St-QlQ" style="IBUITableViewCellStyleDefault" id="jjA-eH-Dfo">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="dCH-St-QlQ" imageView="zi6-ZY-e6U" rowHeight="80" style="IBUITableViewCellStyleDefault" id="jjA-eH-Dfo">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jjA-eH-Dfo" id="8bz-On-5j6">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -131,16 +131,19 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Expreso" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dCH-St-QlQ">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Expreso Tec - Logo.png" id="zi6-ZY-e6U">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="ezU-7e-FIH" kind="show" id="cdS-PN-kKQ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="mcn-Dv-kYN" style="IBUITableViewCellStyleDefault" id="Q6i-uf-5ut">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="mcn-Dv-kYN" imageView="iwr-GS-jOM" rowHeight="80" style="IBUITableViewCellStyleDefault" id="Q6i-uf-5ut">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q6i-uf-5ut" id="Rtk-Wn-WVy">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -151,13 +154,16 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Circuito Tec - Logo.png" id="iwr-GS-jOM">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="0Xp-qr-lW0" kind="show" id="d3w-SB-Yan"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="DX3-X0-sAU" style="IBUITableViewCellStyleDefault" id="I4H-MK-HW8">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="DX3-X0-sAU" imageView="fOi-BV-SiF" rowHeight="80" style="IBUITableViewCellStyleDefault" id="I4H-MK-HW8">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="I4H-MK-HW8" id="96C-25-xjt">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -168,13 +174,16 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Star Filled-25.png" id="fOi-BV-SiF">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="GxI-zU-9IC" kind="show" id="Aio-WV-Wkj"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="ygF-yE-vKF" style="IBUITableViewCellStyleDefault" id="abp-YS-Ahn">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="ygF-yE-vKF" imageView="auD-Dy-LOg" rowHeight="50" style="IBUITableViewCellStyleDefault" id="abp-YS-Ahn">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="abp-YS-Ahn" id="GfB-Xq-PXs">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -185,6 +194,9 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="aboutus.png" id="auD-Dy-LOg">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -203,7 +215,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TvF-e7-p9A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="583" y="281"/>
+            <point key="canvasLocation" x="583" y="280"/>
         </scene>
         <!--Circuito Tec-->
         <scene sceneID="BUF-Hp-Mhm">
@@ -525,7 +537,9 @@ INICIANDO PARADA 1</string>
     <resources>
         <image name="Circuito Tec - Logo.png" width="1063" height="1063"/>
         <image name="Expreso Tec - Logo.png" width="1063" height="1063"/>
+        <image name="Star Filled-25.png" width="25" height="25"/>
         <image name="Tec - Logo - Horizontal.png" width="2657" height="886"/>
+        <image name="aboutus.png" width="256" height="256"/>
         <image name="calendar.png" width="25" height="25"/>
         <image name="mapa.png" width="25" height="25"/>
     </resources>
