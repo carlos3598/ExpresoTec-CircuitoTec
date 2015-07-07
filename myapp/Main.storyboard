@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fmH-v1-cv0">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -110,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125" y="737"/>
+            <point key="canvasLocation" x="141" y="281"/>
         </scene>
         <!--Menu-->
         <scene sceneID="A9N-fx-CCQ">
@@ -266,7 +266,7 @@
             </objects>
             <point key="canvasLocation" x="-284" y="281"/>
         </scene>
-        <!--View Controller-->
+        <!--Acerca de-->
         <scene sceneID="YuO-us-z6o">
             <objects>
                 <viewController id="hM5-CV-uPS" sceneMemberID="viewController">
@@ -291,10 +291,11 @@
                             <constraint firstAttribute="centerX" secondItem="flZ-Ur-s3y" secondAttribute="centerX" id="rbt-J7-dDc"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Acerca de" id="pWw-x6-RaB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UPi-GH-F5g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="859" y="251"/>
+            <point key="canvasLocation" x="1101" y="-397"/>
         </scene>
         <!--Expreso-->
         <scene sceneID="9WT-aO-uLC">
@@ -504,7 +505,7 @@ INICIANDO PARADA 1</string>
             </objects>
             <point key="canvasLocation" x="1579" y="274"/>
         </scene>
-        <!--Favoritos Table View Controller-->
+        <!--Favoritos-->
         <scene sceneID="qxa-BX-9ic">
             <objects>
                 <tableViewController id="GxI-zU-9IC" customClass="FavoritosTableViewController" sceneMemberID="viewController">
@@ -528,10 +529,11 @@ INICIANDO PARADA 1</string>
                             <outlet property="delegate" destination="GxI-zU-9IC" id="b5n-Gl-z51"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Favoritos" id="qis-D9-uEF"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kmd-M2-4Ql" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1212" y="996"/>
+            <point key="canvasLocation" x="1101" y="1036"/>
         </scene>
     </scenes>
     <resources>
@@ -544,6 +546,6 @@ INICIANDO PARADA 1</string>
         <image name="mapa.png" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yE9-Fb-xPj"/>
+        <segue reference="X7A-cZ-QVn"/>
     </inferredMetricsTieBreakers>
 </document>

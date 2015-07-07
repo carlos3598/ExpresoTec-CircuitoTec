@@ -92,7 +92,6 @@
     
     }
     
-    
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:25.649998
                                                             longitude:-100.289899
                                                                  zoom:14];
@@ -148,11 +147,12 @@
         }
     }];
 
-    
+    [self addRoute];
     // Do any additional setup after loading the view.
     
     
-    
+}
+-(void) addRoute{
     NSString *pathKml = [[NSBundle mainBundle] pathForResource:ruta ofType:@"kml"];
     NSURL *url = [NSURL fileURLWithPath:pathKml];
     kmlParser = [[KMLParser alloc] initWithURL:url];
@@ -183,12 +183,12 @@
         if(i == [annotations count]-1){
             imagen = @"icon-tec";
         }
-            GMSMarker *marker = [[GMSMarker alloc]init];
-            marker.position = annotation.coordinate;
-            marker.title = annotation.title;
-            marker.icon = [UIImage imageNamed:imagen];
-            marker.map = mapView_;
-            i++;
+        GMSMarker *marker = [[GMSMarker alloc]init];
+        marker.position = annotation.coordinate;
+        marker.title = annotation.title;
+        marker.icon = [UIImage imageNamed:imagen];
+        marker.map = mapView_;
+        i++;
     }
     
     
@@ -199,7 +199,7 @@
         polyline.strokeColor = color;
         polyline.strokeWidth = 3.0f;
         polyline.map = mapView_;
-
+        
     }
     else {
         
@@ -208,8 +208,8 @@
         polygon.strokeColor = color;
         polygon.map = mapView_;
     }
-    
 }
+
 -(void) showAllMarkers{
     
     GMSCoordinateBounds *bounds = [[GMSCoordinateBounds alloc] initWithPath:path];
