@@ -38,7 +38,7 @@
     Firebase *firebase;
     FirebaseHandle handle;
     BOOL server;
-    double latitud,longitud,latitud2,longitud2;
+    double latitud,longitud;
     NSString *ruta;
 }
 
@@ -100,11 +100,9 @@
     self.view = mapView_;
     mapView_.settings.myLocationButton = YES;
     
-    
-  
-    GMSMarker *camion = [[GMSMarker alloc] init];
-    GMSMarker *camion2 = [[GMSMarker alloc] init];
     firebase= [[Firebase alloc] initWithUrl:@"https://rutastec.firebaseio.com/"];
+    
+    NSMutableArray *arrMarkers = [[NSMutableArray alloc] init];
     
     [firebase observeSingleEventOfType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
          server = [snapshot hasChild:rutaOrig];
@@ -113,35 +111,29 @@
             firebase = [firebase childByAppendingPath:rutaOrig];
             
             [firebase observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-           
                 
-                latitud = [snapshot.value[@"latitude"] doubleValue];
-                longitud = [snapshot.value[@"longitude"] doubleValue];
-                latitud2 = [snapshot.value[@"latitude2"] doubleValue];
-                longitud2 = [snapshot.value[@"longitude2"] doubleValue];
-                if(latitud != 0 && longitud !=0){
-                NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude"],snapshot.value[@"longitude"]];
-                NSLog(@"%@",log);
-                
-                camion.position = CLLocationCoordinate2DMake(latitud, longitud);
-                camion.title = @"Camion Ida";
-                camion.icon = [UIImage imageNamed:@"bus.png"];
-                camion.map = mapView_;
-                }
-                else{
+                //Delete all markers
+                for (GMSMarker *camion in arrMarkers) {
                     camion.map = nil;
                 }
-                if(latitud2 != 0 && longitud2 !=0){
-                    NSString *log = [NSString stringWithFormat:@" latitude -%@ longitud-- %@"  , snapshot.value[@"latitude2"],snapshot.value[@"longitude2"]];
-                    NSLog(@"%@",log);
+                [arrMarkers removeAllObjects];
+           
+                //Retrieves all markers from the server
+                for (FDataSnapshot *child in snapshot.children) {
                     
-                    camion2.position = CLLocationCoordinate2DMake(latitud2, longitud2);
-                    camion2.title = @"Camion Regreso";
-                    camion2.icon = [UIImage imageNamed:@"bus2.png"];
-                    camion2.map = mapView_;
+                    GMSMarker *camion = [[GMSMarker alloc] init];
+                    latitud = [child.value[@"Latitud"] doubleValue];
+                    longitud = [child.value[@"Longitud"] doubleValue];
+                    camion.position = CLLocationCoordinate2DMake(latitud, longitud);
+                    camion.title = @"";
+                    camion.icon = [UIImage imageNamed:@"bus.png"];
+
+                    [arrMarkers addObject:camion];
+                    
                 }
-                else{
-                    camion2.map = nil;
+                
+                for (GMSMarker *camion in arrMarkers) {
+                    camion.map = mapView_;
                 }
         }];
         }
